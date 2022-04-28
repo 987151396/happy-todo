@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+apply from: 'MobSDK.gradle'
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        androidTest.setRoot('tests')
+
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+
+    api 'cn.sharesdk:ShareSDK:3.8.3@aar'
+    api 'cn.sharesdk:ShareSDK-Line:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-SinaWeiboX:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-Facebook:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-Wechat:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-Wechat-Moments:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-WhatsApp:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-Twitter:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-ShortMessage:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-QQ:3.8.3@jar'
+    api 'cn.sharesdk:ShareSDK-Wechat-Core:3.8.3@jar'
+}

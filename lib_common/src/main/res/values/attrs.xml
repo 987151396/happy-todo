@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 优惠券 -->
+    <declare-styleable name="CouponView">
+        <attr name="couponBackgroundColor" format="color" />
+        <attr name="couponValue" format="string" />
+        <attr name="couponDescription" format="string" />
+        <attr name="couponTimeLimitFrom" format="string" />
+        <attr name="couponTimeLimitTo" format="string" />
+        <attr name="couponActionName" format="string" /> <!-- 使用描述：马上使用/已过期 -->
+    </declare-styleable>
+
+    <!--个人资料输入控件 -->
+    <declare-styleable name="InfoInputView">
+        <attr name="inputName" format="string" />
+        <attr name="inputValue" format="string" />
+        <attr name="inputNameColor" format="color" />
+        <attr name="inputValueColor" format="color" />
+        <attr name="inputHint" format="string" />
+        <attr name="inputEnable" format="boolean" /> <!-- 可输入，默认可输入 -->
+        <attr name="inputShowRightArrow" format="boolean" /> <!--是否显示右转箭头, 默认否-->
+        <attr name="inoutShowBottomLine" format="boolean" /> <!-- 是否显示底部分割线，默认是 -->
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomRatingBar" tools:ignore="ResourceName">
+        <attr name="starImageWidth" format="dimension" />
+        <attr name="starImageHeight" format="dimension" />
+        <attr name="starImagePadding" format="dimension" />
+        <attr name="starCount" format="integer" />
+        <attr name="startLightCount" format="float" />
+        <attr name="starEmptyDrawable" format="reference" />
+        <attr name="starFillDrawable" format="reference" />
+        <attr name="starHalfDrawable" format="reference" />
+        <attr name="clickable" format="boolean" />
+        <attr name="halfStart" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="DataLoadingLayout">
+        <attr name="loadingLayout" format="reference" />
+        <attr name="errorLayout" format="reference" />
+        <attr name="netLayout" format="reference" />
+        <attr name="emptyLayout" format="reference" />
+        <attr name="errorText" format="string" /> <!--默认布局下有效-->
+        <attr name="netText" format="string" /> <!--默认布局下有效-->
+        <attr name="emptyText" format="string" /> <!--默认布局下有效-->
+        <attr name="isLoadingText" format="boolean" /> <!--默认布局下有效-->
+        <attr name="loadingLayoutColor" format="color" /> <!--loading布局的背景色-->
+
+    </declare-styleable>
+
+
+    <declare-styleable name="commonEditText">
+        <!--选择显示那种状态0为正常 1为带清除按钮 2为密码 3为带有区域码 4为带有验证码-->
+        <attr name="show_type" format="enum">
+            <enum name="defalut" value="0" />
+            <enum name="clear" value="1" />
+            <enum name="password" value="2" />
+            <enum name="area_code" value="3" />
+            <enum name="msg_code" value="4" />
+        </attr>
+        <!--错误显示-->
+        <attr name="error_text" format="string" />
+        <!--提示-->
+        <attr name="hint" format="string" />
+        <!--输入框文字-->
+        <attr name="text" format="string" />
+
+        <attr name="min_line" format="integer" />
+        <attr name="max_line" format="integer" />
+        <attr name="max_length" format="integer" />
+        <attr name="is_error" format="boolean"></attr>
+        <attr name="is_signline" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <!-- 闪光布局 -->
+    <declare-styleable name="ShimmerLayout">
+        <attr name="shimmer_color" format="color|reference" />
+        <attr name="shimmer_animation_duration" format="integer|reference" />
+        <attr name="shimmer_auto_start" format="boolean|reference" />
+        <attr name="shimmer_angle" format="integer|reference" />
+        <attr name="shimmer_mask_width" format="float|reference" />
+        <attr name="shimmer_gradient_center_color_width" format="float|reference" />
+        <attr name="shimmer_reverse_animation" format="boolean|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DashView">
+        <attr name="dashWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineFromColor" format="color" />
+        <attr name="lineToColor" format="color" />
+        <attr name="dashViewIsGradient" format="boolean" />
+        <attr name="dashOrientation" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="OrderBgView">
+        <attr name="fromColor" format="color" />
+        <attr name="toColor" format="color" />
+        <attr name="percentRect" format="float" />
+        <attr name="bottomRect" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientTv">
+        <attr name="gtv_fromColor" format="color" />
+        <attr name="gtv_toColor" format="color" />
+        <attr name="gtv_is_vertical" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TravelerInfoView">
+        <attr name="info_title" format="reference" />
+        <attr name="info_content" format="string" />
+        <attr name="info_content_hint" format="string" />
+        <attr name="info_is_chose" format="boolean" />
+        <attr name="info_chose_icon" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerLayout">
+        <!--轮播时间间隔-->
+        <attr name="interval" format="integer" />
+        <!--是否显示下方指示器-->
+        <attr name="showIndicator" format="boolean" />
+        <!--轮播方向-->
+        <attr name="orientation" format="integer" />
+        <!--是否开启自动轮播-->
+        <attr name="autoPlaying" format="boolean" />
+        <!--item 之间的分割宽度-->
+        <attr name="itemSpace" format="integer" />
+        <!--当前 item 的缩放度-->
+        <attr name="centerScale" format="float" />
+        <!--切换的速度-->
+        <attr name="moveSpeed" format="float" />
+        <!--可视范围内显示的个数-->
+        <attr name="showItemCount" format="enum">
+            <enum name="TWO" value="2" />
+            <enum name="THREE" value="3" />
+        </attr>
+        <!--第一个 item 的左边距，showItemCount=TWO 时才生效的属性-->
+        <attr name="firstItemMarginLeft" format="dimension" />
+    </declare-styleable>
+
+    <!--仿QQ侧滑删除-->
+    <declare-styleable name="EasySwipeMenuLayout">
+        <attr name="leftMenuView" format="reference" />
+        <attr name="rightMenuView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="canRightSwipe" format="boolean" />
+        <attr name="canLeftSwipe" format="boolean" />
+        <attr name="fraction" format="float" />
+    </declare-styleable>
+
+
+    <!--圆角ImageView控件-->
+    <declare-styleable name="ShapedImageView">
+        <attr name="shape_mode" format="enum">
+            <enum name="round_rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+        <attr name="round_radius" format="dimension" />
+
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_color" format="color|reference" />
+
+        <attr name="round_mode" format="enum">
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomContainer">
+        <attr name="mColor" format="color" />
+        <attr name="mGap" format="dimension" />
+        <attr name="mHalfRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <!--阴影的圆角大小-->
+        <attr name="yc_cornerRadius" format="dimension" />
+        <!--阴影的扩散范围(也可以理解为扩散程度)-->
+        <attr name="yc_shadowLimit" format="dimension" />
+        <!--阴影颜色-->
+        <attr name="yc_shadowColor" format="color" />
+        <!--x轴的偏移量-->
+        <attr name="yc_dx" format="dimension" />
+        <!--y轴的偏移量-->
+        <attr name="yc_dy" format="dimension" />
+        <!--左边是否显示阴影-->
+        <attr name="yc_leftShow" format="boolean" />
+        <!--右边是否显示阴影-->
+        <attr name="yc_rightShow" format="boolean" />
+        <!--上边是否显示阴影-->
+        <attr name="yc_topShow" format="boolean" />
+        <!--下面是否显示阴影-->
+        <attr name="yc_bottomShow" format="boolean" />
+    </declare-styleable>
+
+</resources>

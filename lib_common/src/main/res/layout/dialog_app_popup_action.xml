@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a000000">
+
+    <LinearLayout
+        android:id="@+id/popup_content"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_radius_2_white"
+        android:clickable="false"
+        android:elevation="@dimen/dp_8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/dp_16"
+        android:paddingStart="@dimen/dp_16"
+        android:paddingTop="@dimen/dp_20">
+
+        <ImageView
+            android:id="@+id/iv_action"
+            android:padding="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="16dp"
+            tools:src="@mipmap/img_action_ok" />
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black_484848"
+            android:textSize="@dimen/sp_16"
+            tools:text="居中了么居中了么居。" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="180dp"
+            android:layout_height="@dimen/button_height_dp_40"
+            android:layout_marginBottom="26dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/bg_btn_radius_full"
+            android:elevation="@dimen/dp_12"
+            android:text="@string/user_feedback_enter"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

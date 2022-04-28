@@ -1,0 +1,1443 @@
+<resources>
+    <string name="app_name" translatable="false">MyToDoDemo</string>
+    <string name="loading_text" translatable="false">Loading…</string>
+    <string name="please_input" translatable="false">Please enter %1$s</string>
+
+    <!--日历相关-->
+    <string name="day_name_format" translatable="false">EEE</string>
+    <string name="invalid_date" translatable="false">Date must be between %1$s and %2$s.</string>
+    <string name="month_name_format" translatable="false">MMMM yyyy</string>
+    <string name="month_only_name_format" translatable="false">MMMM</string>
+    <string name="year_only_format" translatable="false">yyyy</string>
+    <string name="month_title1" translatable="false">January</string>
+    <string name="month_title2" translatable="false">February</string>
+    <string name="month_title3" translatable="false">March</string>
+    <string name="month_title4" translatable="false">April</string>
+    <string name="month_title5" translatable="false">May</string>
+    <string name="month_title6" translatable="false">June</string>
+    <string name="month_title7" translatable="false">July</string>
+    <string name="month_title8" translatable="false">August</string>
+    <string name="month_title9" translatable="false">September</string>
+    <string name="month_title10" translatable="false">October</string>
+    <string name="month_title11" translatable="false">November</string>
+    <string name="month_title12" translatable="false">December</string>
+
+    <string name="week_title1" translatable="false">Sunday</string>
+    <string name="week_title2" translatable="false">Monday</string>
+    <string name="week_title3" translatable="false">Tuesday</string>
+    <string name="week_title4" translatable="false">Wednesday</string>
+    <string name="week_title5" translatable="false">Thursday</string>
+    <string name="week_title6" translatable="false">Friday</string>
+    <string name="week_title7" translatable="false">Saturday</string>
+
+    <string name="user_text_comments" translatable="false">Comment</string>
+    <string name="user_text_comments_placeholder" translatable="false">Share your experience with people</string>
+    <string name="user_text_comments_limit" translatable="false">No less than 30 words</string>
+    <string name="user_btn_comments_submit" translatable="false">Submit</string>
+
+    <string name="currency_usd" translatable="false">USD</string>
+    <string name="currency_hkd" translatable="false">HKD</string>
+
+    <!-- 信息填写 -->
+    <string name="tar_search" translatable="false">Home</string>
+    <string name="tar_booking" translatable="false">More</string>
+    <string name="home_search_text" translatable="false">City, hotel or destination</string>
+    <string name="home_check_in_date" translatable="false">Check in</string>
+    <string name="home_check_out_date" translatable="false">Check out</string>
+    <string name="home_check_in_customer" translatable="false">%1$s Guest(s)</string>
+    <string name="home_check_in_room" translatable="false">%1$s Room(s)</string>
+    <string name="home_recommended" translatable="false">Recommendation</string>
+    <string name="home_btn_search" translatable="false">Search</string>
+    <string name="home_money_night" translatable="false">%1$s Night(s)</string>
+    <string name="home_search_title" translatable="false">City,hotel name or destination</string>
+    <string name="home_search_near_hotel" translatable="false">Hotels nearby</string>
+    <string name="home_search_nearly" translatable="false">Recent</string>
+    <string name="home_search_next" translatable="false">Next</string>
+    <!--<string name="home_date_picker">Calendar</string>-->
+    <!--<string name="home_days">%1$s Night(s)</string>-->
+    <string name="home_choose_guests" translatable="false">Guest details</string>
+    <string name="home_room" translatable="false">Rooms</string>
+    <string name="home_adult" translatable="false">Adults</string>
+    <string name="home_children" translatable="false">Children (Age 2-12)</string>
+    <!--<string name="home_check_in">Check-in</string>-->
+    <!--<string name="home_check_out">Check-out</string>-->
+    <string name="home_sorting" translatable="false">Sort</string>
+    <string name="home_screening" translatable="false">Filter</string>
+    <!--<string name="home_more_than_money">From </string>-->
+    <string name="home_sorting_comprehensive">Recommendation</string>
+    <string name="home_sorting_lowest">Price(low to high)</string>
+    <string name="home_sorting_highest">Price(high to low)</string>
+    <string name="home_filter">Filter</string>
+    <string name="home_prices_range">Price </string>
+    <string name="home_hot_equipment">Facilities</string>
+    <string name="home_hotel_equipment">Hotel Equipments</string>
+    <string name="home_room_equipment">Room Equipments</string>
+    <string name="home_show_all">Read more</string>
+    <string name="home_pick_up">Close</string>
+    <string name="home_reset">Reset</string>
+    <string name="home_show_result">Show Results</string>
+    <string name="home_hotel_Introduction">Overview</string>
+    <string name="home_hotel_infrastructure">Amenities</string>
+    <string name="home_hotel_location">Location</string>
+    <string name="home_base_Introduction">Introduction</string>
+    <string name="home_contact">Contact</string>
+    <string name="home_hotel_detail_more">More...</string>
+    <string name="home_hotel_detail_phone">Tel:</string>
+    <!--<string name="home_hotel_detail_phone_not_port">Tel</string>-->
+    <string name="home_hotel_detail_fax">Fax:</string>
+    <!--<string name="home_hotel_detail_fax_not_port">Fax</string>-->
+    <string name="home_hotel_detail_email">Email:</string>
+    <string name="home_hotel_detail_email_no_port">Email</string>
+    <string name="home_check_in_info">Contact information</string>
+    <string name="home_Important_reminder">Notification</string>
+    <string name="home_hotel_policy">Booking Conditions</string>
+    <string name="home_questions_and_answers">FAQ</string>
+    <string name="home_look_room_list">Check availability</string>
+    <string name="home_choose_room">Select room</string>
+    <string name="home_refundable">Refundable</string>
+    <string name="home_nonrefundable">Non-refundable</string>
+    <string name="home_refundable_policy">Refund Policy</string>
+    <string name="home_total_days">%d Nights</string>
+    <string name="home_total_price">Total</string>
+    <string name="home_room_choose">Select</string>
+    <!--<string name="home_share">Share</string>-->
+    <string name="home_share_cancle">No</string>
+    <string name="home_share_facebook">Facebook</string>
+    <string name="home_share_wechat">WeChat</string>
+    <string name="home_share_line">Line</string>
+    <string name="home_share_weibo">Weibo</string>
+    <string name="home_share_twitter">Twitter</string>
+    <string name="home_share_whatsapp">WhatsApp</string>
+    <string name="home_share_moments">Moment</string>
+    <string name="home_share_qq">QQ</string>
+    <string name="home_share_not_app">%1$s not installed. Please select the one you have installed.</string>
+    <string name="home_enter_key_words">Enter the keywords</string>
+    <string name="home_steps_first">Booking details</string>
+    <string name="home_check_in_person_info">Guest information</string>
+    <!--根据中英文显示位置不一样-->
+    <string name="home_last_name">Last Name</string>
+    <string name="home_first_name">First name</string>
+    <string name="home_age">Age</string>
+    <string name="home_contact_info">Contact information</string>
+    <string name="home_used_coupons"> Vouchers</string>
+    <string name="home_coupons">My voucher</string>
+    <string name="home_deadline">Expiry: %s</string>
+    <string name="home_using_range">Apply to: %s</string>
+    <string name="home_steps_second">Select Pay</string>
+    <string name="home_order_detail">Booking details</string>
+    <string name="home_pay_type">Pay method</string>
+    <string name="home_payment">Pay</string>
+    <string name="home_visa_card_info">Card details</string>
+    <string name="home_visa_pay_price">Total</string>
+    <string name="home_visa_card_num">Card No.</string>
+    <string name="home_visa_month">MM</string>
+    <string name="home_visa_year">YY</string>
+    <string name="home_visa_safe_num">CVV</string>
+    <string name="home_visa_pay_for">Yes</string>
+    <string name="home_pay_success">Payment successful</string>
+    <string name="home_pay_success_order">You have successfully made your pay. Confirmation email will be sent to you shortly.</string>
+    <string name="home_go_back_home">Home</string>
+    <string name="home_pay_failure">Reservation Failure</string>
+    <string name="home_pay_failure_order">Oops! Reservation failed</string>
+    <string name="home_pay_failure_intro">You will receive a full refund within 3 days.</string>
+    <string name="personal_edit">Edit</string>
+    <string name="personal_order_manger">Bookings</string>
+    <string name="personal_order_manger_info">%1$d Guest(s)/ %2$d Night(s)</string>
+    <string name="personal_coupons">Vouchers</string>
+    <string name="personal_collection">Favourites</string>
+    <string name="personal_setting">Settings</string>
+    <string name="personal_feedback">Feedback</string>
+    <string name="personal_customer_service_center">Customer Support</string>
+    <string name="personal_unlogin">Login</string>
+    <string name="personal_login_btn">Login</string>
+    <string name="personal_save_btn">Save</string>
+    <string name="personal_change_icon">Profile</string>
+    <!--<string name="personal_come_from">Country</string>-->
+    <string name="personal_sex">Gender</string>
+    <string name="personal_sex_woman">Female</string>
+    <string name="personal_sex_man">Male</string>
+    <string name="personal_sex_other">Others</string>
+    <!--<string name="personal_choose_sure">Yes</string>-->
+    <string name="personal_birth">Birthday</string>
+    <string name="personal_phone">Mobile</string>
+    <string name="personal_email">Email</string>
+    <string name="personal_rset_password">Reset Password</string>
+    <string name="personal_third_bing">Third-party account</string>
+    <string name="personal_bing_btn">Bind</string>
+    <string name="personal_cancle_bing">Unbind</string>
+    <!--<string name="pesonal_icon_taking">Take photo</string>-->
+    <!--<string name="personal_choose_photo">Choose from Album</string>-->
+    <!--<string name="personal_retaking_photo">Retake</string>-->
+    <!--<string name="personal_used_photo">Apply</string>-->
+    <string name="personal_input_orgin_pass">Original password</string>
+    <string name="personal_input_new_pass">New password</string>
+    <string name="personal_sure_new_pass">Re-enter new password</string>
+    <string name="personal_pass_sure">Yes</string>
+    <string name="personal_coupons_null">No vouchers available at this time.</string>
+    <string name="personal_coupons_unusing">VALID</string>
+    <string name="personal_coupons_used">HISTORY</string>
+    <string name="personal_coupons_overdue">EXPIRED</string>
+    <string name="personal_collection_null">No Favourites</string>
+    <string name="personal_collection_look">Start a new search</string>
+    <string name="personal_setting_language">Language</string>
+    <string name="personal_setting_currency">CURRENCIES</string>
+    <string name="personal_setting_terms_service">Terms and Conditions</string>
+    <string name="registration_policy">Registration policy</string>
+    <string name="personal_setting_privacy">Privacy Terms</string>
+    <string name="personal_setting_version">%1$s version</string>
+    <string name="personal_quit">Log out</string>
+    <string name="personal_quit_make_sure">Are you sure to leave ebbly?</string>
+    <string name="personal_quit_sure">Yes</string>
+    <string name="personal_feedback_question_type">Question Types</string>
+    <string name="personal_feedback_share_experience">What\'s on your mind?</string>
+    <string name="personal_feedback_upload_photos">Photo</string>
+    <!--<string name="personal_feedback_upload_photos_limit">Select a maximum of 4 photos</string>-->
+    <string name="personal_feedback_submit">Submit</string>
+    <string name="personal_feedback_submit_success">Thanks for your feedback!</string>
+    <string name="personal_feedback_go_back">My Profile</string>
+    <string name="personal_order_manger_uncheckin">Pending</string>
+    <string name="personal_order_manger_has_checkin">Departed</string>
+    <string name="personal_order_manger_has_cancle">Cancelled</string>
+    <string name="personal_order_manger_null">You have no bookings here.</string>
+    <string name="personal_order_manger_checkining">Upcoming</string>
+    <string name="personal_order_manger_booking_again">Reserve again</string>
+    <string name="personal_order_manger_check_out_date">Check out</string>
+    <string name="personal_order_detail_contact_hotel">Hotel Contact</string>
+    <string name="personal_order_detail_order_sn">Booking No.</string>
+    <string name="personal_order_detail_airline_pnr">Airline PNR</string>
+    <string name="personal_order_detail_room_info">Booking details</string>
+    <string name="personal_order_detail_check_in_person">Full guest name</string>
+    <string name="personal_order_detail_contact_name">Contact details</string>
+    <string name="personal_order_detail_coupons">Save %1$s when up to %2$s (voucher code: %3$s)</string>
+    <string name="personal_order_detail_payment">Paid via %1$s</string>
+    <string name="personal_order_detail_hotel_datail">Hotel Details</string>
+    <string name="personal_order_detail_cancle_booking">Cancel </string>
+    <string name="personal_order_detail_cancle_booking_text">Do you want to cancel the booking? You are not charged a cancellation fee.</string>
+    <string name="network_null">Sorry. Something went wrong. Please check your network connection and try again.</string>
+    <string name="network_null_reload">OK</string>
+    <string name="user_text_login_tip">Enjoy discounted prices and benefits!</string>
+    <string name="user_account_setup">Create an account</string>
+    <string name="user_account_login_by">Login with Email or Mobile</string>
+    <string name="user_account_login_by_third">Or login with </string>
+    <string name="user_account_your_name">What’s your name?</string>
+    <string name="user_account_first_name">First Name</string>
+    <string name="user_account_last_name">Last Name</string>
+    <string name="user_account_setup_err">First name required.</string>
+    <string name="user_account_register_by_phone">Sign up with Mobile</string>
+    <string name="user_account_register_by_email">Sign up with Email</string>
+    <string name="user_account_register_phone">Mobile</string>
+    <!--<string name="user_account_register_code">Verification Code</string>-->
+    <string name="user_account_register_send_code">Send</string>
+    <!--<string name="user_account_register_password">Password</string>-->
+    <string name="user_account_register_choose_area">Area Code</string>
+    <string name="user_account_register_send_code_success">A verification code sent. Please check.</string>
+    <!--<string name="user_account_register_input_code_err">Incorrect code</string>-->
+    <string name="user_account_register_phone_notnull">Please enter your mobile.</string>
+    <string name="user_account_register_email_notnull">Please enter an email. </string>
+    <string name="user_account_register_email_err">Invalid email, please try again.</string>
+    <string name="user_account_register_input_code_notnull">Verification code required</string>
+    <!--<string name="user_account_register_password_notnull">Password required</string>-->
+    <!--<string name="user_account_register_password_length_err">Password should be at least 6 digits</string>-->
+    <string name="user_account_login_by_phone">Login with Mobile</string>
+    <string name="user_account_login_by_email">Login with Email</string>
+    <!--<string name="user_account_login_in">Login</string>-->
+    <string name="user_account_login_forget_password">Forget Password?</string>
+    <string name="user_account_forget_text">Please enter your email below. We will send you a link to reset your password. </string>
+    <string name="user_account_forget_input">Mobile or Email</string>
+    <!--<string name="user_account_forget_input_notnull">Mobile or Email required</string>-->
+    <string name="user_account_forget_get_validation">Submit</string>
+    <string name="user_account_reset_password">Please enter your new password. </string>
+    <string name="user_account_reset_password_new">New password</string>
+    <string name="user_account_reset_password_resure">Repeat new password</string>
+    <!--<string name="user_account_password_sure_reset">Yes</string>-->
+    <string name="search_result_filter_star">Star Rating</string>
+    <!--<string name="detail_room_btn_navigation">GO</string>-->
+    <!--<string name="home_coupons_used">Save %1$s</string>-->
+    <string name="personal_info_choose_area">Please select country or region.</string>
+    <string name="personal_order_detail_booking_policy">Reservation Policies</string>
+    <string name="user_tip_name_cant_be_empty">Last name required</string>
+    <string name="user_tip_invalid_phone_number">Incorrect mobile number format</string>
+    <string name="user_text_login_with_email">Login with Email</string>
+    <string name="user_text_login_with_phone">Login with Mobile </string>
+    <string name="user_text_bing_email">Bind Email </string>
+    <string name="user_text_bing_email_tip">Please enter your Email.</string>
+    <string name="user_tip_bing_email">A link for binding has sent to your mailbox. Please check.</string>
+    <string name="user_text_bing_phone">Mobile number binding</string>
+    <string name="user_text_bing_phone_tip">Please enter your mobile number</string>
+    <!--<string name="user_text_second_again">Please try again in %1$s seconds.</string>-->
+    <string name="user_text_reset_password">Reset password</string>
+    <string name="user_text_password_err_lenght">Password should be 6-20 characters. </string>
+    <string name="user_tip_password_mismatch">Passwords do not match</string>
+    <string name="user_password_textfield_cant_be_empty">Password required</string>
+    <!--<string name="user_bing_third_cancle">Are you sure to unbind %1$s#?</string>-->
+    <string name="user_text_password">Password</string>
+    <string name="home_coupons_can_use">Any Purchase over %1$s</string>
+    <string name="home_coupons_fillorder_not_use">No vouchers applied</string>
+    <!--<string name="home_hotel_detail_num_photo">More</string>-->
+    <string name="personal_faq">FAQ</string>
+    <string name="personal_con_us">Contact us</string>
+    <!--<string name="home_clear_history">Clear Search History</string>-->
+    <!--<string name="home_clear_history_sure">Are you sure you want to clear history?</string>-->
+    <string name="home_order_success_send_email">Booking details has sent to your mailbox. Please check.</string>
+    <string name="user_reset_account_notnull">Email or Mobile required.</string>
+    <string name="user_reset_account_unformat">Incorrect Email or Mobile format</string>
+    <string name="user_reset_account_unmatching">Please make sure the mobile you enter is consistent.</string>
+    <string name="home_detail_check_in">Check-in</string>
+    <string name="home_detail_check_out">Check-out</string>
+    <string name="home_booking_again">Try again</string>
+    <string name="home_detail_pas_or_dni">Please enter passport number</string>
+    <string name="home_detail_certificate_type">ID Type</string>
+    <string name="home_detail_certificate_num">ID Number</string>
+    <string name="home_detail_address_opt">Address (Optional)</string>
+    <string name="home_detail_country">Country/Region</string>
+    <string name="home_detail_province">State</string>
+    <string name="home_detail_address_detail">Address</string>
+    <string name="home_detail_zip_code">Postal Code</string>
+    <string name="home_detail_pas">Passport</string>
+    <string name="home_detail_dni">ID Card</string>
+    <string name="home_detail_check_in_sorting">Guest %d(%s)</string>
+    <!--<string name="order_datail_cancle_policy">You\'re charged a cancellation fee of %3$s of the schedule service ordered from %1$s to %2$s.</string>-->
+    <string name="order_datail_cancle_policy">You  will  be  charged  a  cancellation  fee  of  %3$s  if  you  cancel  Booking  from  %1$s  to  %2$s.</string>
+    <string name="order_datail_cancle_sure">A cancellation fee of xx% of the schedule service will be required if you confirm the cancellation.</string>
+    <string name="home_room_not">Fully booked ! </string>
+    <string name="login_third_iapp_not">Please install iAPP first</string>
+    <string name="home_pay_visa_null">Incomplete Visa card information</string>
+    <string name="network_failure_tip">Request failed. Please try again.</string>
+    <string name="home_pay_visa_err">Incorrect Visa card information</string>
+    <string name="home_pay_visa_failure">Payment failed</string>
+    <string name="home_pay_choose_pay_type">Please try a different pay method.</string>
+    <string name="personal_password_limit">New password cannot be the same as the old one.</string>
+    <string name="personal_go_back">My Profile</string>
+    <string name="personal_feedback_text_notnull">Your feedback is most welcome! </string>
+    <string name="home_history_empty">Clear Search History</string>
+    <string name="home_history_empty_makesure">Are you sure you want to clear history?</string>
+    <string name="home_choose_country">Your country or region ? </string>
+    <string name="home_search_keyword_null">Please enter your keywords</string>
+    <string name="order_first_total_money_not_port">Total</string>
+    <!--第二次翻译-->
+    <string name="flight_cabin_type_economy">Economy</string>
+    <string name="flight_cabin_type_luxury_economy">Premium Economy</string>
+    <string name="flight_cabin_type_business">Business class</string>
+    <string name="flight_cabin_type_first">First class</string>
+    <string name="flight_depart_date">Depart</string>
+    <string name="flight_return_date">Return</string>
+    <string name="flight_choose_date">Select date</string>
+    <string name="flight_current_city">Current location</string>
+    <string name="flight_depart_flage">DEP</string>
+    <string name="flight_return_flage">RTN</string>
+    <string name="flight_sorting_time_ascending">Departure time (Early flights first)</string>
+    <string name="flight_sorting_time_descending">Departure time (Late flights first)</string>
+    <string name="flight_sorting_fly_time_min">Fastest first</string>
+    <string name="flight_fly_time">%1$s h %2$s m</string>
+    <string name="flight_cabin_title">Cabin</string>
+    <string name="flight_operating_airlineName">Airlines</string>
+    <string name="flight_lowcost_yes">LCC included</string>
+    <string name="flight_lowcost_no">LCC excluded</string>
+    <string name="flight_search_depart_equal_desitination">Departure city and arrival city can not be same.</string>
+    <string name="flight_depart_line">Departure Flight</string>
+    <string name="flight_desitination_line">Return Flight</string>
+    <!--<string name="flight_order_flight_policy">Ticket policy and Flight information</string>-->
+    <string name="flight_order_flight_base">Information</string>
+    <string name="flight_order_first_person">Booking person</string>
+    <!--<string name="flight_person_check_info">Passenger details</string>-->
+    <!--<string name="flight_contact_emergency">Urgent contact</string>-->
+    <!--<string name="flight_order_pay_btn">Check out</string>-->
+    <string name="flight_contact_warming">A uniuqe contact when applying for a ticket refund. Please provide accurate information for us.</string>
+    <string name="flight_order_appellation">Gender</string>
+    <!--<string name="flight_appellation_Mr">Mr</string>-->
+    <!--<string name="flight_appellation_Miss">Ms</string>-->
+    <string name="flight_order_birth">Date of Birth/Birth</string>
+    <string name="personal_order_child_one">Processing</string>
+    <string name="personal_order_child_two">Upcoming</string>
+    <string name="personal_order_child_three">Completed</string>
+    <string name="personal_order_child_four">Cancelled</string>
+    <string name="flight_order_flight_details">Flight details</string>
+    <string name="flight_order_flight_policy_info">Ticket policy and Flight information</string>
+    <string name="hotel_search_rule_baby">Infants</string>
+    <!--<string name="order_flight_back_policy">Return Policy</string>-->
+    <string name="order_state">Booking status</string>
+    <!--<string name="flight_back_to_sign_apply_for">Ticket refund submited.</string>-->
+    <string name="flight_back_to_sign_success" translatable="false">Ticket refund completed.</string>
+    <string name="flight_back_to_sign_prompt">The refund will be credited into the same account used for making the payment in the next %1$s days. </string>
+    <string name="flight_order_booking_date">Reservation date</string>
+    <string name="flight_back_to_sign_date">Ticket refund date </string>
+    <string name="order_details_pay_price">Amount paid</string>
+    <string name="flight_back_to_sign_or_cancle">Cancel booking</string>
+    <string name="customer_service_back_to_sign">Contact us</string>
+    <string name="order_restore_booking">Retrieve booking</string>
+    <string name="flight_back_to_sign">Ticket refund</string>
+    <string name="flight_back_to_sign_line">Flight cancellation</string>
+    <string name="flight_back_to_sign_passenger">Guest details</string>
+    <string name="flight_back_to_sign_warming">IMPORTANT NOTICES</string>
+    <string name="order_flight_back_to_sign">Apply a ticket refund</string>
+    <string name="order_flight_back_to_sign_success">Ticket refund submited successfully</string>
+    <string name="order_flight_back_to_sign_contene">Ticket refund submited. We\'ll keep you updated about the refund status via a call to %1$s or via Email %2$s</string>
+    <string name="order_flight_back_to_sign_failure">Fail to submit a ticket refund request</string>
+    <string name="order_flight_back_to_sign_failure_content">Please contat our 24X7 customer service center. We\'re here to help.</string>
+    <string name="filght_order_details_ticket_num">Air ticket No.</string>
+    <string name="hotel_room_breakfas">Breakfast included</string>
+    <string name="hotel_room_breakfas_no">No breakfast</string>
+    <string name="flight_order_person_info_complete">Please enter the information required.</string>
+    <string name="flight_order_passenger">Passenger</string>
+    <string name="flight_order_call_Mr">Mr %1$s</string>
+    <string name="flight_order_call_Miss">Ms %1$s</string>
+    <string name="personal_order_check_in_out">Check-in/Check-out date</string>
+    <string name="personal_order_pay_price">Totals</string>
+    <string name="personal_order_price_back">Refund successfully</string>
+    <string name="personal_order_booking_failure">Failure</string>
+    <string name="home_type_hotel">Hotel</string>
+    <string name="home_type_plane">Flight</string>
+    <string name="home_choose_nationality">Country or region ?</string>
+    <string name="home_nationalityView_placeholder">Enter your country or region</string>
+    <string name="home_fill_order_email">Email (Send or Receive emails)</string>
+    <string name="home_flight_city_or_airport">City or Airport</string>
+    <string name="home_flight_all_airport">All airports</string>
+    <string name="personal_order_details_cancle_no_cost">You\'ll not be charged a cancellation fee.</string>
+    <string name="home_location_allow">Turn on Location service </string>
+    <string name="home_location_allow_open_in_setting">Please go to settings to allow location service</string>
+    <string name="home_location_open">Settings</string>
+    <string name="home_location_get_hotel">Your location will be used to find the hotels near you</string>
+    <string name="home_hotel_cancle_no_cost">You\'re not charged a cancellation fee of the schedule service ordered before %s</string>
+    <string name="home_adult_num">%d Adults</string>
+    <string name="home_children_num">%d Childs</string>
+    <string name="home_baby_num">%d Infants</string>
+    <string name="user_text_your_phone">Sign up with mobile</string>
+
+    <string name="home_hotel_photo_source_intro"> All property images displayed on our applications are from VFM Leonardo, Inc</string>
+    <string name="home_fliht_coming_soon">Flight reservation will be available in mid-August.</string>
+    <string name="user_account_login_err">Your account logged in somewhere else</string>
+    <string name="user_account_login_again">Please Login again.</string>
+    <string name="user_regist_hint">
+        ebbly welcomes you (the “Customer” or “you”) to its website. The terms "ebbly" “ebbly.com” or "we" refer to ebbly ( operated by iFREE GROUP (HK) Limited ).
+References to the website are deemed to include derivatives thereof, including but not necessarily limited to websites and applications, whether accessed by mobile phone, tablet or other device. The Terms of Use –as defined below- apply to our services, directly or indirectly made available to you through whatever means, including online reservations, customer service requests or otherwise. By accessing, browsing and using the website and/or by making a reservation through ebbly, you acknowledge and agree having read, understood and agreed to the Terms of Use. Our different policies and guidelines, which can be found throughout the website, including but not limited to, the Privacy Policy, , Reservation Guarantee, Cancellation Policy, Refund Policy, FAQs, etc. (collectively the “Policies”), should be read in conjunction with and are an integral part of these terms and conditions and are hereby included by reference. BY USING ebbly, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE IT.\n
+ebbly reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the ebbly following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, ebbly grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the Site.\n\n
+
+Scope of our Services\n\n
+1. Accommodations Reservation\n
+Through the website, ebbly provides an online platform through which you can browse different types of accommodations. By making a booking through the ebbly, you make an offer to book a reservation at the price listed for such reservation and such other terms and conditions stated on the website. This shall become a binding contract formed in Hong Kong pursuant to the Terms of Use when accepted by ebbly. You will receive proof of the confirm e-mail. When your request has been received and is complete for final processing, no further action is required by you. We reserve the right to reject bookings as set out below.\n
+When rendering our services, the information that we disclose about accommodations is based on the information provided to us by our suppliers or providers. Changes in market conditions or circumstances may occur on short notice which may make information displayed on the website inaccurate or outdated. Please note that ebbly is one of many channels accommodations use to make their inventory available for reservation. When a search result indicates that a particular accommodations has no more rooms available, that means the room type is not available for reservation through ebbly.\n
+The website does not constitute and should not be regarded as a recommendation or endorsement of (the quality, service level or rating of) any accommodations listed on the website. We hereby expressly disclaim any representation, warranty or undertaking in relation to the quality, status or adequacy of any accommodations listed on the website.
+The default ranking is based on an automated algorithm which may be updated or amended from time to time, and which takes into account different factors including but not necessarily limited to availability, promotions and rates, historical popularity, margin and revenue, conversion (the ratio of reservations made to website visits), sales of room nights, cancellations, quality of content, guest review scores, star ratings etc.\n
+We reserve the right not to accept customers or bookings (or in exceptional cases to cancel confirmed ones) at our discretion and for whatever (legal) reason without the need to justify such refusal. Typical reasons for rejecting a customer or booking include, but are not limited to: accommodations request(s), reselling of accommodations booked through the website on an individual or mass basis without our prior written approval (“Reselling”), breach of the Terms of Use, force majeure events, trade or economic sanctions, embargoes, legal restrictions, (suspicions of) fraud or theft, suspected criminal activity, suspicious bookings, submission by customer of misleading or erroneous information, credit card problems, inappropriate behavior, threats, insults, violence, refusal to supply information, practical obstacles, communication problems, obvious errors (see below), history, blacklisting by governments or international organizations, etc. In case a booking is rejected or cancelled by ebbly and a payment has already been made, you will receive a refund of the total booking value, except in the case of unauthorized Reselling or in any other appropriate case that we determine in our sole and absolute discretion where we reserve the right not to refund the total booking value or any part thereof. Refunds will not be issued in the event of unauthorized Reselling due to many negative factors including the disadvantage such practice imposes on our authorized and contracted affiliate partners, accommodations who provide ebbly with inventory on a contracted and trusted basis and the loss and negative brand impact caused to ebbly due to unauthorized Resellers attempting to undercut ebbly’s business which may include placing the resold inventory on websites run by competitors of ebbly without our knowledge. We also reserve the right to bar (“blacklist”) users from the website, on a permanent or temporary basis, at our discretion. Any such blacklisted user must not attempt to use the website under any other name or through any other user. See also below for our fraud prevention mechanisms.\n
+Please note that suspected group bookings can also be rejected or cancelled by ebbly or the accommodations as most accommodations have specific procedures for group bookings. Contact our customer service team for more information: ask@ebbly.com.\n\n
+
+2.Flight Reservation\n
+All flight availability and using rules are provided to us by the relevant suppliers. We have no control over seat availability or using rules and has no authority to waive any airline conditions or relevant rules. In the event of an error by these suppliers we reserve the right to amend your booking as required and any additional fare charges may need to be paid by you so as to comply with the relevant airline regulations. If you do not understand any fare rule or need assistance, please feel free to contact our customer service team before purchasing your tickets.\n\n
+3.Other Ancillary Services\n
+ebbly provides an online platform through which you can browse other services, including but not necessarily limited to rental cars and global insurance, (“Ancillary Services”) and make reservations for such Ancillary Services. Although the ebbly provides the platform for which you can browse and make reservations for these Ancillary Services, the Ancillary Services are provided by ebbly associated companies or partners (“Partners”), which have been carefully selected by ebbly. \n
+By making a booking through the ebbly for the Ancillary Services, you make an offer to book a reservation at the price listed for such reservation on the Site, and on such other terms and conditions notified to you by the Partner from time to time, which shall become a binding contract when your reservation is accepted by the Partner. \n\n
+
+Use of the website\n\n
+
+You must comply with relevant laws and regulations of applicable laws when using ebbly services and shall agree not to use the services for any illegal or improper activities, including but not limited to the following: \n
+1. information that’s restricted or prohibited by laws, rules, regulations, ordinances and any other specifications with legal force；\n
+2. information that spreads obscenity, pornography, gambling, violence, murder, terrorism or abets crimes;\n
+3. information that insults or defames others and infringes the legal rights of others;
+4. Information that contains false, harmful, coercive, privacy-infringing, harrasing, aggressive, slanderous, vulgar, obscene content or other morally objectionable content;\n\n
+
+Using the Internet service system for any unlawful purpose. Using ebbly’s Internet services for the following activities:\n
+1. accessing the computer information network or using the computer information network resources without permission; deleting, modifying or adding functions of the computer information network without permission; deleting, modifying or adding without permission the data and applications that are stored, processed or transmitted in the computer information network; intentional production, dissemination of computer viruses and other destructive procedures; other behaviors that endanger security of the computer information network. \n
+2. Commercial use of any data on ebbly, including but not limited to the use of resources displayed on ebbly in any way such as duplication or distribution without the prior written consent of ebbly.\n
+3. Interfering or attempting to interfere with the normal operation of ebbly or any transaction, activity that is conducted on ebbly, or taking any action that would result in unreasonable huge data load on ebbly’s network equipment by using any devices, software, routine program or other measures. \n
+4. Acts of unfair competition in violation of the principle of good faith, or maliciously placing orders or engaging in fictitious transactions and other malicious acts that disrupt ebbly’s transaction order. \n
+5. Other activities not related to online transactions.\n\n
+
+Liability Disclaimer \n
+Nothing in this agreement shall, nor shall be deemed, to limit or exclude our liability for our fraud nor for personal injury or death caused by our negligence.\n
+The information, software, products, and services published on this website may include inaccuracies or typographical errors. In particular, ebbly do not guarantee the accuracy of, and disclaim liability for inaccuracies relating to hotel and other supplier photographs, hotel property, cruise, automobile and other product descriptions and lists of hotel amenities and other product descriptions displayed on this website, much of which information is provided by the respective suppliers. Hotel ratings displayed on this website are intended as only general guidelines, and ebbly and its affiliates do not guarantee the accuracy of the ratings. Changes are periodically added to the information herein. We may make improvements and/or changes on this website at any time.\n
+Ebbly make no representations about the suitability of the information, software, products, and services contained on this website for any purpose, and the inclusion or offering for sale of any products or services on this website does not constitute any endorsement or recommendation of such products or services by ebbly. All such information, software, products, and services are provided "as is" without any warranty. Ebbly hereby disclaim all warranties, and conditions with regard to this information, software, products, and services, including all implied warranties and conditions of promotion, fitness for a particular purpose, title, and noninfringement.\n
+The carriers, hotels and other supliers providing travel or other services for ebbly are independent contractors and not agents or employees of ebbly or its affiliates. Ebbly will not be liable for the acts, errors, omissions, representations, warranties, breaches or negligence of any such suppliers or for any personal injuries, death, property damage, or other damages or expenses resulting therefrom. Ebbly has no liability and will make no refund in the event of any delay, cancellation, overbooking, strike, force majeure or other causes beyond their direct control, and has no responsibility for any additional expense, omissions, delays, re-routing or acts of any government or authority.\n
+In no event shall ebbly be liable for any direct, indirect, punitive, incidental, special, or consequential damages arising out of, or in any way connected with, the use of this website or with the delay or inability to use this website, or for any information, software, products, and services obtained through this website, or otherwise arising out of the use of this website, whether based on contract, tort, strict liability, or otherwise, even if ebbly has been advised of the possibility of damages. Because some areas do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.\n\n
+
+General Terms of Use\n
+1.Reservation and cancellation\n\n
+
+By making a reservation, you accept and agree to the relevant reservation, cancellation and no-show policy of that service provider, and to any additional (delivery) terms and conditions of the service provider that may apply to your trip, including for services rendered and/or products offered by the service provider. The relevant (delivery/purchase/use/carrier) terms and conditions of a suppliers can be obtained with the relevant service provider. The general reservation, cancellation and no-show policy of each service provider is made available on ebbly on the service provider information pages, during the reservation procedure and in the confirmation email. \n\n
+Please note that certain rates, fees or special offers are not eligible for cancellation, refund or change. Applicable fees may still be charged by the service provider in the event of a no-show or charged cancellation. Please check the (reservation) details of your product or service of choice thoroughly prior to making your reservation. \n\n
+Please note that your reservation which requires down payment or (wholly or partly) prepayment may be cancelled (without a prior notice of default or warning) insofar the relevant (remaining) amount(s) cannot be collected in full on the relevant due or payment date in accordance with the relevant pay policy of the service provider and the reservation. Cancellation and prepayment policies may vary per segment, product or service of each Trip. Please carefully read the fine print (which are marked on the page) and important information in your reservation confirmation for additional policies as may be applied by the service provider (e.g. in respect of age requirement, security deposit, non-cancellation/additional supplements for group bookings, extra beds/no free breakfast, pets/cards accepted). Late payment, wrong bank, debit or credit card details, invalid credit/debit cards or insufficient funds are for your own risk and account and you shall not be entitled to any refund of any (non-refundable) prepaid amount unless the suppliers agrees or allows otherwise under its (pre)payment and cancellation policy.\n\n
+If you wish to review, adjust or cancel your reservation, please revert to the confirmation email and follow the instructions therein or by the website. You may be charged for your cancellation in accordance with the service provider\'s cancellation, (pre)payment and no-show policy. We recommend that you read the cancellation, (pre)payment and no-show policy of the service provider carefully prior to making your reservation and remember to make further payments on time as may be required for the relevant reservation.\n\n
+If you have a late or delayed arrival on the check-in date or only arrive the next day, make sure to timely/promptly communicate this with the service provider so they know when to expect you to avoid cancellation of your Trip (Reservation) or charge of the no-show fee. In addition, please make sure the information of your reservation you have provided are true and correct. Ebbly not accept any liability or responsibility for the consequences of your delayed arrival, any cancellation, incorrect personal information charged no-show fee or refusal by the service provider.\n\n
+2.Tax\n\n
+The tax charge on ebbly is a recovery of all applicable transaction taxes (e.g. sales and use, occupancy, room tax, excise tax, value added tax, etc.) that ebbly pays to the suppliers in connection with your travel arrangements.Taxability and the appropriate tax rate vary greatly by location. In relation to Ancillary Services, calculation of applicable taxes and fees will be set out in suppliers’ terms and conditions.\n\n
+
+3.Star Ratings\n\n
+The accommodation star or other denoted ratings (“star ratings”) are provided for your information only. The star ratings are based on information we have received from our suppliers, including the accommodations, and may take into account the accommodation’s facilities, rates, reviews, and services. Star ratings may be unrelated to any other ratings assigned by government tourism authorities. We do not independently verify star ratings. A star rating is only indicative of the level of comfort you can expect to find in a particular accommodation. For more detailed information, please check the detailed description on the website. Please be aware that star ratings can vary greatly on the basis of location, available alternatives, local market conditions, practices or other circumstances. Thus, it is possible that a star rating in one particular country or city is not comparable to the same star rating in another country or city due to such circumstances. Star ratings do not necessarily reflect all the amenities or services that might be available at an accommodation, and some amenities and features may not be available in every room or at every property with a particular star rating. If there are particular amenities or features that are important to you, please contact relevant suppliers and inquire as to the availability of such amenities or features.\n\n
+4. Credit Card or Bank Transfer\n\n
+If applicable and available, certain suppliers offer the opportunity for reservation to be paid (wholly or partly and as required under the payment policy of the suppliers) to the suppliers during the reservation process by means of secure online payment (all to the extent offered and supported by your bank). For certain products and services, ebbly facilitates (through third party payment processors) the payment of the relevant product or service (i.e. the payment facilitation service) for and on behalf of the suppliers (ebbly never acts nor operates as the merchant of record). Payment is safely processed from your credit/debit card or bank account to the bank account of the accommodation provider through a third party payment processor. Any payment facilitated by us for and on behalf of, and transferred to the suppliers will in each case constitute a payment of (part of) the booking price by you of the relevant product or service in final settlement of such (partial) due and payable price and you cannot reclaim such paid monies.\n
+For certain (non-refundable) rates or special offers, please note that suppliers may require that payment is made upfront by wire transfer (if available) or by credit card, and therefore your credit card may be pre-authorised or charged (sometimes without any option for refund) upon making the Trip Reservation. Please check the (reservation) details of your product or service of choice thoroughly for any such conditions prior to making your Trip Reservation. You will not hold ebbly liable or responsible for any (authorized, (allegedly) unauthorized or wrong) charge by the suppliers and not (re)claim any amount for any valid or authorized charge by the suppliers (including for pre-paid rates, no-show and chargeable cancellation) of your credit card.\n
+In the event of credit card fraud or unauthorised use of your credit card by third parties, most banks and credit card companies bear the risk and cover all the charges resulting from such fraud or misuse, which may sometimes be subject to a deductible. In the event that your credit card company or bank charges the deductible from you because of unauthorised transactions resulting from a reservation made on our Platform, we will pay you this deductible, up to an aggregate amount of EUR 50 (or the equivalent in your local currency). In order to indemnify you, please make sure that you report this fraud to your credit card provider (in accordance with its reporting rules and procedures) and contact us immediately by email (ask@ebbly.com). Please state ‘credit card fraud’ in the subject line of your email and provide us with evidence of the charged deductible (e.g. policy of the credit card company). This indemnification only applies to credit card reservations made using ebbly’s secure server and the unauthorised use of your credit card resulted through our default or negligence and through no fault of your own while using the secure server.\n\n
+Intellectual Property Rights\n\n
+Copyright Statement\n
+All contents on this Website are copyrighted by ebbly unless otherwise stated. Without prior written consent of ebbly or other parties, any content on the Website shall not be reproduced, distributed, photocopied, played, linked or transmitted with super-links,stored in information retrieval system, or otherwise used for any commercial purpose by any person by any means, unless otherwise downloaded or reproduced for private and non-commercial purposes (provided however, that such use shall not include any revision to the content and the copyright notices and other proprietary notices shall be retained in the same form and manner as on the original).\n\n
+
+Trademark\n
+All trademarks and logos displayed, mentioned or otherwise used in this Website are property of ebbly or other third parties as stated if applicable. You are not permitted to use any of these trademarks or logos in any way without explicit prior written permission of ebbly or such third party as applicable.\n\n
+
+Contact Us\n
+If you have any questions about the ebbly terms of use, please feel free to contact our customer service team vie e-mail: ask@ebbly.com\n\n
+    </string>
+    <string name="user_regist_hint1">
+        Introduction\n
+This Privacy Policy describes how ebbly("ebbly.com," "we," "us," "our") collects, uses, and shares information about you when you visit and interact on our website (mobile and desktop) and mobile app (collectively, "Site"). Below is a summary of our privacy practices. Our full Privacy Policy is available below.\n\n
+
+1. Collection\n
+2. Use\n
+3. Mobile Devices\n
+4. Sharing\n
+5. Privacy Rights\n
+6. Cookies\n
+7. Opting out of Marketing Emails\n
+8. International Transfers\n
+9. Information from Other Partners\n
+10. Security\n
+11. Access Rights\n
+12. Updates to Privacy Policy\n
+13. Third Party Links\n
+14. Additional Considerations\n
+15. Contacting Us\n\n
+
+1. Information We Collect\n
+We collect Information about you that you provide to us when using the Site, such as your name, address, phone number, e-mail address, accommodation name, accommodation location and/or length of stay, and your ebbly account password.\n
+By visiting our Site, we may also automatically collect certain usage information, such as your IP address, geographic data, country, search preferences related to specific searches, browser, and information about your device’s operating system, application version, language settings, and pages that have been shown to you. If you are using a mobile device to access our mobile app or mobile optimized Site, we might also collect information that identifies your mobile device, such as the device ID, location of the device (with your consent), and device-specific settings and characteristics.\n
+When you make a reservation, our system registers through which means and from which websites you have made your reservation. We may also collect certain information through cookies, tags, and similar technologies as detailed below.\n
+Where required by law, we rely on the following legal bases to process information about you:\n\n
+·Necessity of Performing Contract with You \n\n
+We need to process your information in order to provide our travel reservation services to you, answer questions and requests from you, and provide customer support;\n\n
+·Our Legitimate Interests\n\n
+We process your information for security and safety; to detect and prevent fraud; to protect and defend the rights or property of others, or our own rights and interests; to customize and provide our reservation travel services to you; and to respond to lawful requests, court orders, and legal process;\n\n
+·Compliance with Legal Obligations \n\n
+We need to process your information to comply with relevant laws and regulatory requirements;\n\n
+·Consent for Direct Marketing Communications and Non-Essential Cookies \n\n
+We rely on your consent to send direct marketing and to use/allow non-essential cookies. You can unsubscribe from direct marketing at any time by following the instructions set out in this Privacy Policy; \n\n
+·Protect Vital Interest \n\n
+We may need to process your information in case of emergency involving an individual’s life or health.\n\n
+2. How We Use the Information We Collect\n
+We may use information collected through the Site to:\n
+·Provide you with the requested services, such as creating a user account, processing and confirming your reservation, and communicating with you about services requested (e.g., pre-reservation or post booking chat support (excluding credit card number), special request, cancellations, rewards;\n\n
+·Send you email marketing communications about products and services that may be relevant to you;\n\n
+·Conduct surveys or provide you with information about our services on our Site or on other websites you may visit;\n\n
+·Maintain and improve the Site, tailor the user experience, and for internal training;\n\n
+·Protect the security of you and the Site;\n\n
+·Exercising a right or obligation conferred or imposed by law, including responding to request and legal demands;\n\n
+When you make a reservation on one of our business partners’ websites or apps, we may also receive certain information such as your name and reservation information, including the accommodation reserved, in order to process your reservation and identify which channel your reservation has originated from.\n
+If you have not finalized a reservation online, we may send you a reminder to continue with your reservation. We believe that this additional service is useful to you because it allows you to carry on with a reservation without having to search for the accommodation again or fill in all the reservation details from scratch. You may opt-out of receiving these reminders.\n
+Please note that the confirmation emails sent after your booking, as well as the guest review emails sent after your departure, are not marketing messages. These messages are part of your accommodation reservation process. Respectively, they contain information for you to check in at your booked accommodation, and tools to optionally rate that accommodation after your stay. You will continue to receive them, even if you have opted out of our marketing messages. \n
+Moreover, and as further described in the Terms of Use, if you are completing the booking for another person who will stay at the reserved accommodation, you also have the option to insert the guest’s email address for the purpose that the guest will receive the reservation confirmation and a separate invitation to complete a guest review. You are required to ensure that you are permitted to share the guest’s email address with ebbly for this purpose.[TBC]\n
+Communications on the Site\n
+We offer you and accommodation partners various means to communicate about accommodations and existing reservations, directing the communications through the Site. You can contact us with questions about your reservation or about your accommodation via the Site, and via other channels that we may make available.\n
+We may access communications and may use automated systems to review, scan, and analyze communications for security purposes; fraud prevention; compliance with legal and regulatory requirements; investigations of potential misconduct; product development and improvement; research; customer engagement, including to provide you with information and offers that we believe may be of interest to you; and customer or technical support. We reserve the right to block the delivery of or review communications that we, in our sole discretion, believe may contain malicious content, spam, or may pose a risk to you or, accommodation partners, us, or others. Note, all communications sent or received using the Site’s communication tools will be received and stored by us.\n\n
+3. Mobile Devices\n
+With your consent, we may send you push notifications with information about your reservation, potential future stays, or as part of any ebbly programs that you participate in, including coupons. You may grant us access to your location information or contact details in order to provide services requested by you. When you upload a picture from your mobile device, your picture may also be tagged with your location information. Please read the instructions of your mobile device to understand how to change the settings and enable the sharing of such information or the receipt of (or opt out of receiving) push notifications (including Software Development Kit ("SDK") and push token data). Different device operating systems may have different default settings, so please familiarize yourself with such settings governing push notifications.\n
+4. Sharing Your Information\n
+In connection with your visit to our Site and use of our services, we may share your information as follows:\n\n
+·Suppliers \n\n
+Such as accommodation properties (e.g., the specific accommodation that you have requested us to reserve) and/or third party accommodation suppliers in order to finalize your reservation. Suppliers also include transportation providers that you have booked through our Site in order to confirm your transportation booking.\n\n
+·Third Party Service Providers\n\n
+Such as third party loyalty programs, web hosting, data analysis, marketing (also on websites of such third parties), customer care, credit card and payment services, and other add-on service providers we appoint to perform services on our behalf.\n\n
+·Our Affiliated Group Companies \n\n
+Our affiliated (group) companies’ employees who have access to this information with our permission and who need to know or have access to this information to perform the service requested by you (including customer services) and internal (audit/compliance) investigations.\n\n
+·Where Required or Permitted by Law \n\n
+Such as to protect ourselves against liability, to respond to subpoenas, judicial processes, legitimate requests, warrants or equivalent by law enforcement officials or authorities, to investigate fraud or other wrongdoing or as otherwise required or necessary in order to comply with applicable law, protect our legitimate interests or to the purchasers in connection with any sale, assignment, or other transfer of all or a part of our business or company. We may also, in compliance with applicable law, disclose your information to enforce or apply the terms and conditions applicable to our services or to protect the rights, property, or safety of ebbly, our users, or others.\n\n
+·Business Reorganization \n
+Such as part of any sale, assignment or other transfer of our business, or transition of service to another provider. We will ask for your consent if required by applicable law.\n\n
+We provide appropriate protections for such sharing as required by applicable law to prohibit third parties from using your information for their own purposes, and to address the security and confidentiality of your information. Except as disclosed in this Privacy Policy or as required or permitted by applicable law, we will not disclose your information to third parties without your consent.\n
+5. Cookies\n
+Our Site uses and allows third parties to place cookies (session and persistent), pixels/tags, SDKs, application program interfaces ("APIs"), and other technologies (collectively, "Cookies") on our Site that collect and store certain information about you. Some of these Cookies are necessary to provide, secure, and maintain the Site to you, such as to keep you logged in while your visit our Site, while other Cookies are used to provide you with a better user experience, such as:\n\n
+· To personalize the Site by remembering information about your activities on the Site (e.g., the language you selected or your log-in details);\n\n
+· Perform website analytics, such as impression reporting, demographic reporting and interest reporting to improve our Site and services; and\n\n
+· To provided you advertising tailored to your interest (see below for details)\n\n
+Interest Based Advertising\n
+We may also allow certain third parties to place Cookies on our Site in order to collect information about your online activities on our Site (e.g., pages visited on the Site and searches you performed) and over time and across different websites you may visit. This information is used to provide advertising tailored to your interests from us (via email, on our Site, and on other websites) and by third parties on other websites you may visit, also known as interest based advertising, and to analyze the effectiveness of such interest based advertising. We may also share one-way hashed information with third party partners (e.g., Facebook) who may combine hashed information with other identifiers in order to serve custom ebbly advertisements on other websites or mobile apps based on your prior visits to the Site. ebbly neither supports nor endorses the goals, causes, or statements of any websites or mobile apps that display our advertisements.\n
+Cross-Device Tracking\n
+We may also combine information collected through Cookies and certain usage information from a particular browser or mobile device with another computer or device that may be linked to you (cross-device tracking) in order to optimize our services and provide tailored ebbly communications and advertisements to you. If you do not want ebbly to combine such information for its optimization of communications to you please unsubscribe from the ebbly communications i.e. the newsletter.\n
+Your Choices\n
+Please review your Internet browser settings, typically under the sections "Help" or "Internet Options," to exercise choices you have for certain Cookies. If you disable or delete certain Cookies in your Internet browser settings, you might not be able to access or use important functions or features of this Site, and you may be required to re-enter your log-in details.\n
+By exercising such choice regarding interest based advertising, you may still receive advertisements, but the network from which you opted out will no longer deliver ads tailored to your interests. You should also know that logging out of your user account will not actually mean that you opt out of personalized advertisements.\n
+You may need to make such choices on each browser and device you may use to exercise choice regarding certain Cookies\n
+6. Opting Out of Marketing Communications from Us\n
+You can opt out of receiving marketing communications from us at any time by using the "Unsubscribe" link in each newsletter or communication, or through your ebbly account (if you’ve created one) - the email subscriptions settings is under "Profile".\n
+7. International Transfers\n
+In connection with the purposes described above, your information may be stored in locations outside of your home country, which may have different standards of data protection than your home country. We provide appropriate protections for cross-border transfers as required by law for international data transfers, including information transferred to third parties. With respect to such transfers from the European Economic Area ("EEA") to the United States and other non-EEA jurisdictions, we may rely on the EU Model Clauses and/or the need to process your information in order to provide the requested services (performance of a contract) to transfer your information. As permitted by applicable law, you may request details about the suitable safeguards we have in place by contacting us as detailed below. \n
+8. Information from Other Partners\n
+On occasion, affiliated entities, business partners, or other third party providers may share information with us. One example is if you access or Login to our Site through social media, such as Facebook Connect, we may collect information from you such as your username, and other information made available to us via such services. In general, your ability to provide such information is through the service provider themselves and you can change those settings in your account settings of the relevant service provider. In general, we may work with our partners to improve and personalize your use of our website in accordance with this policy.\n
+9. Protecting Your Information\n
+We maintain reasonable physical, electronic, and organizational security measures to protect your information against accidental or unlawful destruction or accidental loss, alteration, or unauthorized disclosure or access. We use technology to encrypt credit card information during transit.\n
+Data Retention\n
+We will retain your information for the period necessary to fulfil the purposes outlined in this Privacy Policy and internal company policies. When ebbly no longer needs to use your information, we will – unless we need to keep your information to comply with applicable legal or regulatory obligations or the information is required to carry out corporate tasks and achieve our business objectives – remove it from our systems and records and/or take steps to properly anonymize it so that you can no longer be identified from it.\n
+10. How To Access or Change Your Information\n
+If you wish to update your information, or in certain circumstances exercise rights to access, correct, delete, restrict, or object to processing of your information, as well as the right to revoke consent for certain processing or to exercise the right to data portability, please contact us via our customer support, email address: ask@ebbly.com.\n
+To protect your privacy and security, we will verify your identity before responding to such request, and your request will be answered within a reasonable time frame. To the extent permitted by applicable law, we reserve the right to charge a reasonable fee for such access. We may need to retain certain information for record keeping purposes, to complete any transactions that you began prior to your request, or for other purposes as required or permitted by applicable law.\n
+You can easily correct your name of your account, the booking holder name (subject to cancellation policy attached to the booking) and contact number at any time by signing in to your account on the website.\n
+11. Updates to Privacy Policy\n
+On occasion, ebbly may revise this Privacy Policy to reflect changes in the law, our information collection and use practices, the features of our Site, or advances in technology. If we make revisions that change the way we collect or use your information, those changes will be posted in this Privacy Policy and the effective date will be noted at the beginning of this Privacy Policy. Therefore, you should review this Privacy Policy periodically so that you are up to date on our most current policies and practices. \n
+12. Links to Third Party Websites\n
+We may provide links to other websites that are not owned or operated by us ("Third Party Websites"). When you use a link online to visit a Third Party Website, you will be subject to that website’s privacy and security practices, which may differ from ours. You should familiarize yourself with the privacy policy, terms of use and security practices of the linked Third Party Website before providing any information on that website.\n
+13. Additional Considerations\n
+A Special Note About Minors\n
+Our Site is not directed to minors under the age of 18. However, minors can normally accompany their parent(s) or legal custodian(s) who have booked an accommodation, unless prohibited by an accommodation property’s policies.\n
+Language\n
+This Privacy Policy has originally been drawn up in the English language. Translations in other languages are available for your convenience. In case of conflict between the English language version and a translated version, the English language version shall prevail.\n
+Terms of Use\n
+Please review the ebbly Terms of Use for more details on using our Site. This Privacy Policy forms an integral part of our Terms of Use.\n
+14. Contacting Us\n
+If you have any questions, please contact our customer support: ask@ebbly.com.\n\n\n
+    </string>
+    <string name="user_regist_ebbly_hint">I agree to ebbly’s Terms of Service, Privacy Policy and Terms of Law.</string>
+    <string name="user_share_title">Come and join ebbly！</string>
+    <string name="user_share_content">ebbly search for the best deals to cater to your interests. Free international data is available here!</string>
+
+    <string name="user_regist_not_agress">No</string>
+    <string name="user_regist_agress">I agree</string>
+    <string name="order_txt_get_flux_finish">Received</string>
+
+    <!-- 授权登录相关 -->
+    <string name="authorization_allow_remind">Allow iAPP to access:</string>
+    <string name="authorization_remind1">1. Your public information (Nickname, image, etc)</string>
+    <string name="authorization_remind2">2. Your mobile and email</string>
+    <string name="authorization_remind3">3. Create an iAPP account</string>
+    <string name="authorization_intorduce">iAPP is an application developed by iFREE group which is helpful to manage your MOGO S SIM card and allows you to purchase a package and reload directly. In iAPP, you are able to:\n1. Manage your SIM cards; Purchase and reload package anytime\n2. FREE international calls\n3. Instant Message\n4. Excellent Operation team support and 24/7 online customer service support"</string>
+    <string name="authorization_hasiAPP">My iAPP account</string>
+    <string name="authorization_forget_password">Please reset your password on iAPP if you forget it.</string>
+    <string name="authorization_confirm">Yes</string>
+    <string name="authorization_title">Authorization</string>
+    <string name="user_auth_fail">Authorization failed</string>
+
+    <!-- todo 以上为与ios统一key的语言包 -->
+
+    <!--酒店-->
+    <string name="home_baby">Infants (Age &lt;2)</string>
+    <string name="order_hint_room">Room %d</string>
+    <string name="order_hint_adult">Adult</string>
+    <string name="order_hint_child">Children</string>
+    <string name="detail_collect_enter">Added to favourites</string>
+    <string name="detail_collect_cancel">Favourites removed</string>
+    <string name="home_order_price_instructions">included taxes &amp; charges</string>
+    <!--引导页-->
+    <string name="splash_title1">Do you want to turn on location services now?</string>
+    <string name="splash_title2">Turn On Notifications?</string>
+    <string name="splash_title3">Get FREE Global Internet Data</string>
+    <string name="splash_content1">Allowing ebbly access to your location will make searching for things nearby much easier.</string>
+    <string name="splash_content2">ebbly will send you emails for promotion and your upcoming trips.</string>
+    <string name="splash_content3">Enjoy FREE data with every successful purchase.</string>
+    <string name="splash_bottom_hint" translatable="false">Protection of your personal data is ebbly\'s priority.</string>
+
+    <!--用户模块-->
+    <string name="user_text_info_complete_progress">Complete %1$d%%</string>
+    <string name="user_text_info_complete_progress_0">Complete 0%</string>
+    <string name="user_text_register">Sign up</string>
+    <string name="user_tip_save_successful">Save Success</string>
+    <string name="user_success_password_modify">Password modified successfully</string>
+    <string name="personal_mogos_manage">MOGO S Global data SIM card</string>
+    <string name="order_txt_get_flux_free">Click to receive</string>
+
+    <string name="loading_emptey_hint_default">No match found</string>
+    <string name="loading_emptey_hint_hotel">No availability found. Please change the date</string>
+    <string name="share_title">Share</string>
+    <string name="user_tip_modify_pass_success">Successful password modification</string>
+    <string name="user_tip_empty_oldLoginPwd">The old login password cannot be empty</string>
+    <string name="user_text_password_err2">Repeat new password cannot be empty</string>
+
+    <string name="user_tip_please_input_correct_email_or_phone">Please enter the correct email address and phone number</string>
+    <string name="user_text_get_reset_pass_code_by_phone">Please enter your mobile number. You will get a verification code to reset your password.</string>
+    <string name="user_tip_register_success">Registration successful</string>
+
+    <string name="free_package_noreceived">Questions regarding your booking ? </string>
+    <string name="order_bottom_hint2">Support</string>
+
+    <!--机票-->
+    <string name="calendar_total_nights">night</string>
+    <string name="home_plane_time_title">Calendar</string>
+    <string name="main_plane_one">One way</string>
+    <string name="main_plane_two">Round trip</string>
+    <string name="main_plane_begin">Depart</string>
+    <string name="main_plane_end">Arrive</string>
+
+
+    <string name="main_plane_base_book_info">Travelers</string>
+    <string name="main_plane_base_contact">Emergency contact</string>
+    <string name="main_plane_base_normal_contact">Contact</string>
+    <string name="plane_search_pause_time">Stop</string>
+    <string name="plane_search_pause_hour">&#160;h&#160;</string>
+    <string name="plane_search_pause_minute">&#160;m&#160;</string>
+    <string name="plane_search_pause_second">&#160;s&#160;</string>
+
+    <string name="plane_fare_policy">Baggage allowance policy | T&amp;C</string>
+    <string name="plane_fare_fill_out_booking">Fill in details</string>
+    <string name="plane_fare_fill_out_contract_booking">Fill in details</string>
+    <string name="plane_dialog_price_hint">included taxes &amp; fees</string>
+    <string name="plane_fare_price_hint">（Total for one）</string>
+    <string name="plane_fare_price_all_hint">Total for</string>
+
+    <string name="plane_search_result_hint">Departure and arrival times are local</string>
+
+    <string name="plane_time_out_hint">Please refresh your search to see the latest price.</string>
+    <string name="plane_dialog_title">Departure airline</string>
+
+
+    <string name="plane_fare_booking_name_hint">Traveler %s</string>
+
+    <string name="plane_passenger_information_empty">Fill out a traveler information</string>
+    <string name="plane_cancel">No</string>
+    <string name="plane_confirm">Yes</string>
+    <string name="plane_add_passenger">Add traveler</string>
+    <string name="plane_name">Name</string>
+    <string name="save_as_default_passenger">Save as a Frequent Traveler</string>
+    <string name="plane_contact_receive_notifications">Contact(receive notifications)</string>
+    <string name="personal_mobile_number">Mobile number</string>
+    <string name="plane_order_dept">DEPT</string>
+    <string name="plane_order_rtn">RTN</string>
+    <string name="plane_order_child">Child</string>
+    <string name="plane_order_infant">Infant</string>
+    <string name="plane_order_baggage_policies">Baggage &amp; Policies</string>
+    <string name="plane_order_pay">Pay</string>
+
+    <string name="order_first_total_money">Total:</string>
+
+
+    <string name="room_count">%d Rooms</string>
+    <string name="room_count_lower" translatable="false">%d rooms</string>
+    <string name="day_count">%d Nights</string>
+    <string name="day_count_lower" translatable="false">%d nights</string>
+    <string name="room_time_begin_to_end">Check-in/check-out date：%s</string>
+    <string name="room_pay_all_money">Total pay：%s</string>
+    <string name="main_update_enter">Go</string>
+    <string name="main_update_title">New version of  ebbly released</string>
+
+    <string name="common_day">day</string>
+    <string name="common_days">days</string>
+
+    <string name="user_tip_please_send_verify_code">Please click to get a verification code first.</string>
+    <string name="user_tip_please_input_verify_code">Please enter the verification code.</string>
+    <string name="user_tip_bind_mobile_success">Mobile number bound successfully</string>
+    <string name="user_tip_no_match_app">No application available. Please install first.Fail to verify</string>
+    <string name="user_tip_auth_app_fail">Fail to verify</string>
+    <string name="user_action_failed">Operation error</string>
+    <string name="user_success_bind_3rd_part_account">Third-party account bound successful</string>
+    <string name="user_fail_bind_3rd_part_account">Fail to bind the third-party account</string>
+
+    <string name="detail_open_map">Open map</string>
+    <string name="detail_cancel">No</string>
+    <string name="detail_map_hint">Please check open the GPS</string>
+    <string name="order_hotel_phone">Tel</string>
+    <string name="user_text_country_from">from</string>
+    <string name="user_other_login_hint">Login with iAPP, get roma package by booking hotels.</string>
+    <string name="user_country">Country or region</string>
+    <string name="personal_setting_quit">Log out</string>
+
+
+    <string name="e_notification">Notification</string>
+    <string name="e_pay_cancel">Cancel pay?</string>
+
+
+    <string name="personal_order_child_one_ticket">Waiting to comfirm</string>
+
+
+    <string name="personal_email_hint">Email to remind</string>
+    <string name="user_tip_reset_pass_success">Reset Success</string>
+    <string name="user_text_password_err1">The new password cannot be empty</string>
+    <string name="pay_hint_card">The card number cannot be empty</string>
+    <string name="user_collect_hint_content">Are you sure to remove it?</string>
+    <string name="pay_hint_code">The security code cannot be empty</string>
+    <string name="user_collect_hint_title">Remove Favourites</string>
+
+
+    <string name="user_get_right_after_login">Sign up to ebbly! Enjoy discounted prices and benefits!</string>
+
+    <string name="user_3part_name_iapp">MOGO</string>
+    <string name="user_account_and_safe">Security</string>
+    <string name="user_3part_account_no_bind">Not bound</string>
+
+    <string name="dialog_flight_price_title">Pay detail</string>
+    <string name="dialog_flight_time_out_enter">Refresh</string>
+    <string name="dialog_flight_prire_obsolete">Please refresh your search to see the latest price.</string>
+    <string name="plane_age">age</string>
+    <string name="plane_search_filter_position">Cabin</string>
+    <string name="plane_search_filter_airport">Airlines</string>
+    <string name="personal_order_child_all">All</string>
+    <string name="order_first_coupon_hint">Apply a vouchers</string>
+    <string name="personal_order_child_dealing">Processing</string>
+    <string name="personal_order_child_upcoming">Upcoming</string>
+    <string name="main_plane_passengers">Guest</string>
+    <string name="main_plane_location">Location</string>
+    <string name="plane_fare_validity">Expiry Date</string>
+    <string name="plane_fare_hint_info">Document*<!--Certification--></string>
+    <string name="plane_pay_success">Payment successful! Please check the confirmation email at:%s</string>
+    <string name="plane_fare_hint_base">Basic information*<!--Details--></string>
+    <string name="home_room_not_hint">Sold out on your dates!</string>
+    <string name="home_room_not_chose_date">Change dates</string>
+    <string name="main_date_chain">China</string>
+    <string name="plane_finish_document">Certification</string>
+    <string name="e_visa_validity_period">Expiry date</string>
+
+    <string name="user_confirm_unbind_3part_account">Are you sure to unbind %1$s?</string>
+    <string name="room_custom_title">guests</string>
+
+    <string name="flight_cabin_type_all">Unlimited</string>
+    <string name="plane_dialog_policy_kg_hint">%s - %s\nAdult is allowed to carry %s. </string>
+    <string name="plane_dialog_policy_kg_hint3">%s - %s</string>
+    <string name="plane_dialog_policy_kg_hint1">%sBaggage allowance is %s.</string>
+    <string name="plane_dialog_policy_kg_hint2">More detail information please check with the airline official website.</string>
+    <string name="plane_dialog_policy_hint1">1.ebbly service is unable to provide you with the airline latest update. For more information you will have to contact the airline about anything schedule related.</string>
+    <string name="plane_dialog_policy_hint2">2.ebbly will display your flight related information. However flight price and availability may be subject to change.We will notify you regarding any change via email.</string>
+    <string name="plane_dialog_policy_hint3">3.It is recommended to check in at the airport 3 hours in advance. When you check in, you must show the valid document you have used to register during your ticket purchase.</string>
+    <string name="plane_dialog_policy_hint4">4.Please contact ebbly customer support immediately if you have any problems. </string>
+    <string name="plane_dialog_policy_hint5">In addition to special note, please understand and agree to the %s before you buy your flight ticket. </string>
+    <string name="plane_dialog_terms_conditions">terms and conditions</string>
+    <string name="plane_book_success">Booking successful</string>
+    <string name="order_success_cancel_book">Cancelled successful</string>
+    <string name="order_failed_cancel_book">Cancelled failure</string>
+    <string name="order_cancel_book_policy">%1$s ～ %2$s If you cancel will be charged %3$s.</string>
+    <string name="main_permission_apply">Failed to apply permission, some features will not be available.</string>
+    <string name="plane_stop_direct">Nonstop</string>
+    <string name="plane_stop_transfer">Stop</string>
+    <string name="order_first_age_last_null">Please enter your age.</string>
+    <string name="order_first_email_null">Please enter your Email.</string>
+    <string name="order_checkin_room">Room details</string>
+    <string name="plane_order_list_5">Processing</string>
+    <string name="plane_order_list_6">Refunded</string>
+
+    <!--整理后添加-->
+    <string name="plane_check_price_hint">Price has been updated to %s.\nwould you like to proceed?</string>
+    <string name="plane_check_price_hint_enter">Continue</string>
+    <string name="request_timed_out">Session time out</string>
+    <string name="request_timed_more">Request too frequently</string>
+    <string name="plane_baggage_title">Baggage allowance:</string>
+    <string name="plane_return_rule"> Important Notice</string>
+    <string name="user_forget_password_hint">Email/Mobile</string>
+    <string name="user_feedback_enter">My profile</string>
+
+    <!--自定义http提示-->
+    <string name="http_error_hint1">Parsing error</string>
+    <string name="http_error_hint2">Type conversion error</string>
+    <string name="http_error_hint3">Connection failed</string>
+    <string name="http_error_hint4">ssl verification failed</string>
+    <string name="http_error_hint5">domain name error</string>
+    <string name="order_room_count">Number of Room(s)</string>
+    <string name="order_day_count">Night(s)</string>
+    <string name="main_tip_new_version">Update Available</string>
+    <string name="main_tip_update2">New version detected. Please update.</string>
+    <string name="main_tip_update_content">Whats new?</string>
+    <string name="main_tip_ignore">Ignore</string>
+    <string name="main_tip_update">Update Now</string>
+    <string name="tip_update_hot_fix_bug">Fixed some bugs.</string>
+
+    <string name="refresh_no_more_data">No More Data</string>
+    <string name="forget_password_hint">An email has been sent. Please check.</string>
+    <string name="chose_country_hint">Select your country or region to get precise results.</string>
+    <string name="special_hotel_change">Change</string>
+    <string name="hotel_room" translatable="false">Room (s)</string>
+    <string name="plane_price_change">Flight status has been updated, please refresh search.</string>
+
+
+    <!--TODO 2.0语言包-->
+    <!--整理完成-->
+    <string name="hotel_price_hint">(included taxes &amp; charges)</string>
+    <string name="main_speclial_offer_start">From %s</string>
+    <string name="main_speclial_offer_start1">From</string>
+    <string name="home_recommend_city">Popular destinations</string>
+    <string name="home_recommend_hotel">Recommendations</string>
+    <string name="home_recommend_special_price">Top deals</string>
+    <string name="main_speclial_offer_time">Promotion from %s to %s</string>
+    <string name="main_speclial_offer_pecent">Save %s</string>
+    <string name="hotel_detail_overview">Overview</string>
+    <string name="main_nearby">Nearby</string>
+    <string name="home_order_guest_not_same">Guest information is not the same</string>
+    <string name="hotel_order_email_hint">Enter to receive itinerary </string>
+    <string name="hotel_chose_room_book">Book</string>
+    <string name="hotel_detail_room_hint">per room / night</string>
+    <string name="user_coupon_coupon">Booking vouchers</string>
+    <string name="plane_fare_coupon">Voucher</string>
+    <string name="user_coupon_voucher">Data Vouchers</string>
+    <!--分割线-->
+    <string name="hotel_detail_room_unit_price_hint">%s / night per room</string>
+    <string name="hotel_chose_room_hint">Guests per room ( children under 12 years old )</string>
+    <string name="hotel_order_special_hint">Please wirte your requests in English</string>
+    <string name="hotel_order_special_title">Special Request</string>
+    <string name="hotel_order_guest_info_title">Guest Information</string>
+    <string name="hotel_order_special_title_hint">Please write your requests in English.
+Special requests cannot be guaranteed–but the accommodation will do its best to meet your needs. </string>
+    <string name="hotel_order_special_activity_title">Special request</string>
+    <string name="hotel_room_night" translatable="false">/night</string>
+
+    <string name="user_coupon_reedom">Redeem</string>
+    <string name="user_coupon_dialog_mogos_title">Do you have a MOGO S card?</string>
+    <string name="plane_fliter_all_stop">All</string>
+    <string name="plane_fliter_non_stop">Non-stop</string>
+    <string name="plane_fliter_one_stop">1 Stop</string>
+    <string name="plane_fliter_more_stop">2+ Stops</string>
+    <string name="plane_fliter_two_stop">2 Stops</string>
+    <string name="plane_fliter_all_airline">All airlines</string>
+    <string name="order_detail_non_policy">Non-refundable</string>
+    <string name="user_coupon_dialog_mogos_content">You need to bind a MOGO S (Global Data SIM Card) to get free data.</string>
+    <string name="user_coupon_dialog_mogos_no">I don’t have a MOGO S</string>
+    <string name="user_coupon_dialog_mogos_yes">I have MOGO S</string>
+    <string name="hotel_room_non_breakfast">None-breakfast</string>
+    <string name="order_detail_coupon_data">FREE Data Package</string>
+    <string name="hotel_more_detail">MORE DETAILS</string>
+    <string name="order_detail_coupon_free"></string>
+    <string name="order_detail_coupon_data_hint">MOGOS</string>
+    <!--逗号-->
+    <string name="common_comma"></string>
+    <!--通知模块-->
+    <string name="notification_notifications">Notifications</string>
+    <string name="notification_schedule">Schedule</string>
+    <string name="notification_promotion">Promotion</string>
+
+    <string name="notification_more_details">More Details >></string>
+    <string name="notification_list_empty">You don\'t have any reservations!\nBook your next trip now!</string>
+    <string name="notification_empty_btn_text">Book Now</string>
+    <string name="hint_error_network">Please check if the network is connected.</string>
+
+    <!--TODO 1.4语言包-->
+    <string name="register_hint_welcome">Welcome to join ebbly.</string>
+    <string name="register_verification_code">Verification code</string>
+    <string name="register_promotion_hint">Send me exclusive promotion from ebbly </string>
+    <string name="register_server_title">By registering you agree with our Terms &amp; Conditions, and Privacy Policy.</string>
+    <string name="register_server_title1">ebbly Terms Of Use</string>
+    <string name="register_server_title2">ebbly Privacy Policy</string>
+    <string name="register_user_exist_hint"> This account has been registered. \n Please login.</string>
+    <string name="register_user_un_exist_hint"> This account hasn’t been \n registered yet.</string>
+    <string name="register_user_enter"> Sign Up</string>
+    <string name="hotel_room_limit">The total number of guests cannot exceed %s</string>
+    <string name="home_discover">Discover</string>
+    <string name="login_iapp_title">Link to MOGO</string>
+    <string name="login_iapp_hint">Login MOGO to access ebbly</string>
+    <string name="plane_retrun_hint_title">\n Your Round-trip Economy Class Ticket</string>
+    <string name="plane_retrun_hint_content">1. Including Airport Fee and Fuel Surcharge\n2. The Round-trip ticket includes taxes and fees already. Once the ticket is issued, it cannot be changed, signed or refunded.\n3. Please note that your return ticket will be void and no refund will be given if you are unable to take the flight.</string>
+    <string name="discover_main_destination">Destinations</string>
+    <string name="discover_detail_recommendations">Recommendations</string>
+    <string name="discover_location_hongkong">Hong Kong</string>
+    <string name="discover_location_taipei">Taipei</string>
+    <string name="discover_location_bangkok">Bangkok</string>
+    <string name="discover_location_kuala_lumpur">Kuala Lumpur</string>
+    <string name="discover_location_kyoto">Kyoto</string>
+    <string name="discover_location_london"> London</string>
+    <string name="discover_location_newyurk"> New York</string>
+    <string name="discover_location_orlando"> Orlando</string>
+    <string name="discover_location_paris"> Paris</string>
+    <string name="discover_location_singapore"> Singapore</string>
+    <string name="discover_location_tab1" translatable="false">Dim Sum</string>
+    <string name="discover_location_tab2" translatable="false">Milk Tea</string>
+    <string name="discover_location_tab3" translatable="false">Chinese barbecue</string>
+    <string name="discover_detail_descriptions">Description</string>
+    <string name="discover_detail_location">Location</string>
+    <string name="discover_detail_open_time">Opening hours</string>
+    <string name="discover_detail_website">Website</string>
+    <string name="discover_detail_phone">Phone number</string>
+    <string name="discover_detail_write_reciews">Write a Review</string>
+    <string name="discover_detail_suggestion">Suggestion</string>
+    <string name="discover_main_landmarks">Landmarks</string>
+    <string name="discover_main_more_attrations">Show More</string>
+    <string name="discover_review_give_a_rate">Rate me</string>
+    <string name="discover_review_edit_hint">Please leave a review to help other travelers.</string>
+    <string name="discover_review_upload_photos_optional">Upload photos (Optional)</string>
+    <string name="discover_review">Review</string>
+    <string name="discover_main_hotel" translatable="false">Hotels</string>
+    <string name="discover_detail_dial">Dial</string>
+    <string name="discover_list_hint">Data from Veea and ebbly</string>
+    <string name="discover_detail_image_hint">Image Source :</string>
+    <string name="discover_submit">Submit</string>
+    <string name="home_back">Go Back</string>
+    <string name="home_thank_you">Thank you</string>
+
+    <string name="faq_suggestion_hint">Please clearly describe your issue, and we will take your suggestions into consideration, thank you.</string>
+
+    <string name="plane_retrun_hint_title1">Ticket cannot be refunded or transferred. Name amendment is not permitted.</string>
+    <string name="plane_retrun_hint_title2">Airlines may change flight schedules and terminals at any time. </string>
+    <string name="plane_retrun_hint_title3">Valid travel documents are required. for your flight. Please double check before leaving. </string>
+    <string name="plane_retrun_hint_title4">Round-trip policy: If you failed to use the first leg of your trip, return trip will be deemed invalid and is non-refundable.</string>
+
+    <!--TODO 1.5语言包-->
+    <string name="user_count_traveler_info">Traveler info</string>
+    <string name="user_count_invite">Invite &#38; Earn</string>
+    <string name="coupon_my_coupon">My vouchers</string>
+    <string name="coupon_my_redeem">Redeem</string>
+    <string name="coupon_my_redeem_hint">Enter Invitation Code to Rredeem</string>
+    <string name="coupon_redeem_get_title">How to get a reward?</string>
+    <string name="coupon_redeem_get_team">Terms &#38; Conditions</string>
+    <string name="coupon_redeem_get_team1">Terms &#38; Conditions</string>
+    <string name="coupon_redeem_get_title2">Your Data Rewards</string>
+    <string name="coupon_my_redeem_copy">Copied to clipboard </string>
+    <string name="coupon_redeem_bottom_hint">The more you invite, the more you earn.\nShare to get up to 1GB data!</string>
+    <string name="coupon_list_unvalid">Invalid</string>
+    <string name="coupon_redeem_code">Invitation Code:%s</string>
+    <string name="coupon_redeem_friend_count">%s friend(s)</string>
+    <string name="coupon_redeem_friend">Invite my Friend</string>
+    <string name="coupon_redeem_title">Reward</string>
+    <string name="coupon_redeem_copy" translatable="false">Copied to clipboard </string>
+    <string name="active_bottom_hint">Discover %s</string>
+    <string name="active_pop_book">Book Now</string>
+    <string name="active_pop_reward_content1">has successfully book a trip . </string>
+    <string name="active_pop_reward_content2"> have successfully book the first trip.    </string>
+    <string name="active_pop_reward_hint1"> You have been rewarded</string>
+    <string name="active_pop_reward_hint2"> Your reward can be found in Vouchers    </string>
+    <string name="active_pop_reward_vaild"> Expired date: %s  </string>
+    <string name="coupon_redeem_data_hint"> Rewarded Data </string>
+    <string name="coupon_redeem_people_hint"> Successfully invited </string>
+    <string name="discover_main_more_location">More destinations are coming....</string>
+
+    <string name="coupon_redeem_share_content">【ebbly】 Sign up to be an ebbly member via the shared link and get 1-day 100MB Asia data! You can earn up to 1GB roaming data. Sign up now: %s</string>
+    <string name="coupon_redeem_share_hint1">Share your invitation code/link with friends</string>
+    <string name="coupon_redeem_share_hint2">   By signing up ebbly, both of you can get a Asia 100MB 1-day data.</string>
+    <string name="coupon_redeem_share_hint3">  If your friend successfully book their first trip, you will get rewarded with Asia 1GB 3-days free data.</string>
+    <string name="coupon_redeem_rule"> 1. User who has successfully sign up in ebbly will receive an exclusive invitation link and invitation code.\n\n
+
+2. User invites ( hereafter called "inviter") his friends (hereafter called "invitee") to join ebbly via the invitation link or invitation code.\n\n
+
+3.  After invitees sign up successfully via the invitation link, both of them can get the Asia 100MB 1-day high speed data coupon. ebbly will treat inviter and his invitees the rewards in 24 hours after the information verification.\n\n
+
+4.Invitees also can login to ebbly, enter the invitation code within 15 days on [Profile-Coupons] to redeem a Asia 100MB 1-day high speed data coupon. \n\n
+
+5. Every user can get up to 10 vouchers and use them one after another within their validity period. Voucher is valid for one month prior to redemption. For example: if a user book on March 2, 2020 for its stay in Tokyo for November 22,2020, user will get a Japan 1Day 300MB/Day package voucher that you can redeem before 23:59 PM on April 2,2020. The voucher Japan can only be activated and used in Japan. If your next trip is South Korea, please make a booking on ebbly and a new voucher for the new destination will be free to claim. Once the package has been redeemed within its one month validity period, it will move to the MOGO app that you can access in ebbly More > MOGO S Global data SIM card. The package will activte once your reach your destination and insert your active MOGO S sim.\n\n
+
+6. To use the redeemed high speed data package, user needs to link his account with the MOGO S SIM card ( global data SIM card). Please follow the prompt to link the card or apply for it.\n\n
+
+7. Each account can only bind with one MOGO S sim, user should use the SIM card base on the MOGO S SIM card instructions.\n\n
+
+8.If the Asia 1GB 3-day high speed data coupons are not redeemed within the specified time limit, it is deemed to waive the activity rights.\n\n
+
+9.The reward of a Asia 1GB 3-day high speed data coupon is non-transferable.\n\n
+
+10. Ebbly reserves the right of final interpretation.\n\n</string>
+
+    <!--TODO 1.6.0语言包-->
+    <string name="user_info_expire"> Expiry Date </string>
+    <string name="order_review_dialog_hint"> Thanks for your reviews. </string>
+    <string name="user_info_title_hint"> Please enter information exactly as it appears on ID/passport </string>
+    <string name="user_info_level"> Traveler information has not been saved.\nAre you sure to leave? </string>
+    <string name="user_info_level_cancel"> Leave </string>
+    <string name="user_info_level_stay"> Stay </string>
+    <string name="user_info_delete_enter"> Delete </string>
+    <string name="user_info_delete"> Do you want to delete this traveler information now? </string>
+    <string name="plane_zip_code">PostCode </string>
+    <string name="plane_passenge_edit_hint">This account hasn’t been registered yet. </string>
+    <string name="order_list_review">Review your stay </string>
+    <string name="order_list_book_again">Book again</string>
+    <string name="order_review_title_hint">How was your stay?</string>
+    <string name="order_review_hint">Your Review   </string>
+    <string name="order_price_detail">Price Details</string>
+    <string name="user_info_corss_hint">Passport should be least 6 months after the date of departure.</string>
+    <string name="order_finish_back">Back to search</string>
+    <string name="user_info_english_hint">Please review your stay in English</string>
+
+    <!--时间格式-->
+    <string name="date_type_hotel" translatable="false">dd MMM</string>
+    <string name="date_type_hotel1" translatable="false">dd MMM yyyy</string>
+    <string name="date_type_hotel2" translatable="false">HH:mm E , dd MMM yyyy</string>
+    <string name="date_type_hotel3" translatable="false">HH:mm E , dd MMM</string>
+    <string name="date_type_hotel4" translatable="false">E , dd MMM</string>
+    <string name="date_type_hotel5" translatable="false">E , dd MMM yyyy</string>
+    <string name="date_type_hotel6" translatable="false">HH:mm , dd MMM</string>
+    <string name="date_type_hotel7" translatable="false">HH:mm E,dd MM</string>
+    <string name="date_type_plane" translatable="false">yyyy-MM-dd\'T\'HH:mm:ss</string>
+    <string name="date_type_plane1" translatable="false">HH:mm</string>
+    <string name="date_type_plane2" translatable="false">E,dd MMM</string>
+    <!--medium字体-->
+    <string name="font_fontFamily_medium" translatable="false">sans-serif-medium</string>
+    <!--重复/弃用布局-->
+    <string name="plane_finish_ticket" translatable="false">E-ticket no.</string>
+
+    <string name="i_permission_success" translatable="false">Authorization successful</string>
+    <string name="i_permission_failed" translatable="false">Authorization failed. iAPP doesn\'t have any access.</string>
+    <string name="i_permission_prompt" translatable="false">Apply for Access</string>
+    <string name="i_permission_cancel" translatable="false">Decline</string>
+    <string name="i_permission_agree" translatable="false">Retry</string>
+    <string name="i_permission_rejected_hint" translatable="false">We are unable to serve you without authorization. Please grant the access permissions.</string>
+    <string name="i_permission_rejected_hint_2" translatable="false">iAPP does not have access to your camera. To enable access, please go to Settings to authorize manually.</string>
+    <string name="i_permission_rejected_hint_4" translatable="false">iAPP does not have access to your contacts. To enable access, please go to Settings to authorize manually.</string>
+    <string name="i_permission_rejected_hint_3" translatable="false">iAPP does not have access to phone applications. To enable access, please go to Settings to authorize manually.</string>
+    <string name="i_permission_go_setting" translatable="false">Go to Settings</string>
+
+    <string name="profile_setting" translatable="false">Setting</string>
+
+    <!--TODO 1.7语言包-->
+    <string name="order_send_itinerary" translatable="false">Send itinerary</string>
+    <string name="order_share_property" translatable="false">Share property</string>
+    <string name="splash_btn_content1" translatable="false">Turn on</string>
+    <string name="splash_btn_content2" translatable="false">Not now</string>
+    <string name="splash_bottom_text" translatable="false">ebbly takes the protection of your personal data very seriously.</string>
+    <string name="faq_email_us" translatable="false">Email Us</string>
+    <string name="faq_service_chat" translatable="false">Customer Support</string>
+    <string name="faq_flight" translatable="false">Flights</string>
+    <string name="faq_hotel_problem" translatable="false">Hotels</string>
+    <string name="faq_email_us_booking_number_title" translatable="false">Booking number (recommened)</string>
+    <string name="faq_email_us_booking_number" translatable="false">Booking no.</string>
+    <string name="faq_email_us_name" translatable="false">Name</string>
+    <string name="faq_email_us_content_hint" translatable="false">Please explain the problem in detail and we will respond you as soon as possible</string>
+    <string name="faq_email_us_send" translatable="false">Send</string>
+    <string name="faq_email_us_send_itinerary" translatable="false">Send itinerary</string>
+    <string name="faq_email_us_send_itinerary_hint" translatable="false">Please enter your email address.</string>
+    <string name="code_error" translatable="false">Verification code error</string>
+    <string name="order_sn_copy" translatable="false">Copied</string>
+    <string name="faq_email_us_hint" translatable="false">Sent successfully</string>
+    <string name="faq_email_hint" translatable="false">Sent Successfully\nPlease check your email.</string>
+    <string name="faq_other_problem" translatable="false">Others</string>
+    <string name="faq_email_us_content_toast" translatable="false">Please explain the problem more than 50 characters</string>
+
+    <string name="share_order_detail_title" translatable="false">More about %s （hotel）</string>
+    <!--<string name="share_order_detail_content" translatable="false">Sign up for ebbly with a link to get member-only prices &amp; benefits</string>-->
+    <string name="share_order_detail_content" translatable="false">Sign up to ebbly with a link to get discount and benefits!</string>
+    <string name="faq_email_us_null_hint" translatable="false">Name required</string>
+    <string name="faq_email_us_optional" translatable="false">(Optional)</string>
+
+    <!--TODO 1.8语言包-->
+    <string name="home_login_hint" translatable="false"> Join ebbly !</string>
+    <string name="home_login_hint1" translatable="false"> Book Now to Get up to 1GB FREE Data</string>
+    <string name="home_login_btn" translatable="false"> Sign Up or Login</string>
+    <string name="home_bottom_hint" translatable="false"> Support anytime, anywhere</string>
+    <string name="home_bottom_hint1" translatable="false"> Wide selections of hotels and flights</string>
+    <string name="home_bottom_hint2" translatable="false"> Free international mobile data</string>
+    <string name="hotel_detail_data_hint" translatable="false">Book Now &#38; Get FREE Local Data!</string>
+    <string name="hotel_list_top_tab1" translatable="false">Top Choices</string>
+    <string name="hotel_list_top_tab2" translatable="false">Budget Options</string>
+    <string name="hotel_list_top_tab3" translatable="false">Luxury Stars</string>
+
+    <string name="hotel_list_filter1" translatable="false">Top Choices(All Stars)</string>
+    <string name="hotel_list_filter2" translatable="false">Budget Options(2-3 Stars) </string>
+    <string name="hotel_list_filter3" translatable="false">Luxury Stars(4-5 Stars)</string>
+
+    <string name="home_pending_list_enter" translatable="false"> （Remain %s）</string>
+    <string name="home_pending_hint" translatable="false"> Do you want to continue with your booking?</string>
+    <string name="hotel_list_distance" translatable="false">%s km from you</string>
+    <string name="pay_visa_hint" translatable="false"> You will be charged in USD</string>
+
+    <!--TODO 1.8.2语言包-->
+    <string name="hotel_room_add_people" translatable="false"> Add guest</string>
+    <string name="hotel_room_add_people_hint" translatable="false"> Please fill in the necessary information as shown on ID/passport (over 18 year old). Please make sure to fill in information for all guests that will be staying.</string>
+    <string name="plane_differnt_airpot_hint" translatable="false">Different airport</string>
+    <string name="plane_differnt_terminal_hint" translatable="false">Different terminal</string>
+    <string name="hotel_room_question" translatable="false">Do you have any questions?</string>
+    <string name="hotel_room_cancel_hint" translatable="false">Free cancellation before %s Local Time.</string>
+    <string name="hotel_room_price_unit" translatable="false">1 room per night</string>
+    <string name="hotel_room_price_all" translatable="false">Price for %s rooms %s nights</string>
+    <!--<string name="hotel_room_price_tax" translatable="false">Taxes and fees</string>-->
+    <string name="hotel_room_price_tax" translatable="false">VAT</string>
+    <string name="hotel_room_price_extra_vat" translatable="false">excluded %s VAT</string>
+    <string name="country_dialog_suffix" translatable="false">, China</string>
+    <string name="order_confirmation_number" translatable="false">Confirmation number:%s</string>
+    <string name="hotel_detail_location" translatable="false">%s km to %s</string>
+    <string name="hotel_detail_location1" translatable="false">%s m to %s</string>
+    <string name="hotel_info_guests" translatable="false">Guests</string>
+    <string name="hotel_room_area_hint" translatable="false">Room Size : %s m²</string>
+    <string name="hotel_room_guests_hint" translatable="false">Max %s adults</string>
+    <string name="hotel_info_guests_hint" translatable="false">(%s years old)</string>
+    <string name="hotel_info_guests_hint1" translatable="false"> and </string>
+    <string name="hotel_order_bottom_hint" translatable="false"> Contact  us to cancel the booking. </string>
+    <string name="hotel_distance_center_location" translatable="false">%s km from center</string>
+    <string name="hotel_find_null" translatable="false">Sorry, we couldn’t find what you are looking for. Please try to be more specific, such as a city or a state.</string>
+    <string name="plane_pay_success_tip" translatable="false">Booking confirmation may take up to 10 minutes. </string>
+    <string name="hotel_order_info_remark" translatable="false">Remark: </string>
+    <string name="share_copy" translatable="false">Copy</string>
+    <string name="hotel_order_first_name_hint" translatable="false">First Name</string>
+    <string name="hotel_order_last_name_hint" translatable="false">Last name</string>
+
+    <!--TODO 1.9.0语言包-->
+    <string name="hotel_list_reviews_count" translatable="false">(%s reviews)</string>
+    <string name="hotel_detail_reviews_count" translatable="false">%s Reviews</string>
+    <!--V1.8.2.2-->
+    <string name="hotel_searchresult_excellent" translatable="false">Excellent</string>
+    <string name="hotel_searchresult_verygood" translatable="false">Very good</string>
+    <string name="hotel_searchresult_average" translatable="false">Average</string>
+    <string name="hotel_searchresult_poor" translatable="false">Poor</string>
+    <string name="hotel_searchresult_terrible" translatable="false">Terrible</string>
+
+    <!--<string name="home_bottom_hint" translatable="false"> Quick answer</string>
+    <string name="home_bottom_hint1" translatable="false"> Our team of experts available round the clock to encure convenience</string>
+    <string name="home_bottom_hint2" translatable="false"> 100% Secure</string>
+    <string name="home_bottom_hint3" translatable="false"> Guest reviews and secure payment ensure you hava a great time</string>
+    <string name="home_bottom_hint4" translatable="false"> Curated Deals</string>
+    <string name="home_bottom_hint5" translatable="false"> 300,000 global hotels and flights resource</string>
+    <string name="home_bottom_hint6" translatable="false"> FREE global data</string>
+    <string name="home_bottom_hint7" translatable="false"> Travel service with global data sim card</string>-->
+
+    <string name="hotel_accommodation" translatable="false"> Accommodation Type</string>
+    <string name="hotel_all_types" translatable="false"> All Types</string>
+    <string name="hotel_hotel" translatable="false"> Hotel</string>
+    <string name="hotel_apartment" translatable="false"> Apartment</string>
+    <string name="hotel_villa" translatable="false"> Villa</string>
+    <string name="hotel_hostel" translatable="false"> Hostel</string>
+    <string name="hotel_resort" translatable="false"> Resort</string>
+    <string name="hotel_location" translatable="false"> Location</string>
+    <string name="hotel_all_places" translatable="false"> All Places</string>
+
+    <!--V1.8.3-->
+    <string name="hotel_order_cancel_book" translatable="false"> Cancel my booking</string>
+    <string name="hotel_order_book_again" translatable="false"> Book Again</string>
+    <string name="hotel_order_cancel_dec" translatable="false"> This reservation is non-refundable. If you choose to change or cancel this booking you will not be refunded.</string>
+    <string name="hotel_order_cancel_result1" translatable="false"> Unable to make it or itinerary changed</string>
+    <string name="hotel_order_cancel_result2" translatable="false"> Made the wrong booking</string>
+    <string name="hotel_order_cancel_result3" translatable="false"> Issue with travel documents</string>
+    <string name="hotel_order_cancel_result4" translatable="false"> Cancelled by hotel</string>
+    <string name="hotel_order_cancel_result5" translatable="false"> Unable to check-in</string>
+    <string name="hotel_order_choose_reason" translatable="false"> Select cancellation reason</string>
+
+    <!--v1.8.5-->
+    <string name="home_map" translatable="false">Map</string>
+    <string name="hotel_from" translatable="false">From</string>
+    <string name="hotel_from_dec" translatable="false">Airport,hotel or landmark</string>
+    <string name="hotel_to" translatable="false">To</string>
+    <string name="hotel_to_dec" translatable="false">Airport,hotel or landmark</string>
+    <string name="hotel_pickup_date" translatable="false">Pick-up time</string>
+    <string name="hotel_lets_ride" translatable="false">Let’t ride</string>
+    <string name="hotel_car_bottom_des1" translatable="false">10% Off, up to USD10 discount</string>
+    <string name="hotel_car_bottom_des3" translatable="false">No Extra Fees</string>
+    <string name="hotel_car_transfers" translatable="false">Transfers</string>
+    <string name="hotel_car_time_des" translatable="false">Please select a date at least 48 hours from now</string>
+    <string name="book" translatable="false">Book</string>
+
+    <string name="hotel_car_item_des1" translatable="false">Meet &#038; Greet service</string>
+    <string name="hotel_car_item_des2" translatable="false">Choose the place where you want the driver to meet you</string>
+    <string name="hotel_car_pick_up_tiem" translatable="false">Pick up time</string>
+    <string name="hotel_car_refering" translatable="false">Refering</string>
+
+    <string name="hotel_car_orger_free" translatable="false">Driver will wait up to %s minutes for you.</string>
+    <string name="hotel_car_orger_free2" translatable="false">International flight complimentatry waiting time: %s.</string>
+    <string name="hotel_car_orger_customer_service" translatable="false">English-speaking customer service</string>
+    <string name="hotel_car_orger_flight_number" translatable="false">Flight No</string>
+    <string name="hotel_car_orger_train_number" translatable="false">Train No</string>
+    <string name="hotel_car_orger_boat_number" translatable="false">Boat No</string>
+    <string name="please_enter_the_flight_no" translatable="false">Please enter the flight no.</string>
+    <string name="please_enter_the_train_no" translatable="false">Please enter the train no.</string>
+    <string name="please_enter_the_boat_no" translatable="false">Please enter the Boat no.</string>
+    <string name="successful_to_email" translatable="false">A confirmation email will be sent to</string>
+    <string name="meet_up_details" translatable="false">Pick-up information</string>
+    <string name="free_cancellation_before" translatable="false">Free cancellation before %s local Time</string>
+
+    <string name="car_order_cancel_result1" translatable="false"> I no longer need transfer service</string>
+    <string name="car_order_cancel_result2" translatable="false"> I need to make change to my booking</string>
+    <string name="car_order_cancel_result3" translatable="false"> My flight has been cancelled or delayed</string>
+    <string name="car_order_cancel_result4" translatable="false"> Other</string>
+    <string name="car_pickup_time" translatable="false"> %s (local time)</string>
+    <string name="car_search_from" translatable="false"> From: %s</string>
+    <string name="car_search_to" translatable="false"> To: %s</string>
+    <string name="car_transfer" translatable="false"> Transfer</string>
+    <string name="search_in_this_area" translatable="false"> Search area</string>
+    <string name="recently" translatable="false">Recently</string>
+    <string name="car_book_no" translatable="false">Your booking is processing., please refresh to update status.</string>
+    <string name="flight_number_cannot_be_empty" translatable="false">The %s cannot be empty</string>
+    <string name="car_search_no_find" translatable="false"> Sorry, we couldn\'t find you a driver. Please try a different destination or pick-up time (at least 48 hours in advance).</string>
+    <string name="hotel_discount_off" translatable="false">%s Off</string>
+    <string name="car_faq_transfers" translatable="false">Transfers</string>
+    <string name="car_reminder_information" translatable="false">Reminder information</string>
+    <string name="car_free_cancellation" translatable="false">Free cancellation</string>
+    <string name="car_hours_before_trip" translatable="false">Up to 24 hours before trip</string>
+    <string name="car_info_guests" translatable="false">Guests</string>
+    <string name="main_car_base_normal_contact" translatable="false">Contact</string>
+    <string name="car_search_des" translatable="false">Airport,hotel or landmark</string>
+    <string name="meet_up_des" translatable="false">Driver and pick-up information will update 12 hours before transfer time. If you have any questions, please contact ebbly customer support.</string>
+    <string name="car_cancellation_des1" translatable="false">If you want to cancel this booking,  you will be charged (%s) according to the refund policy.</string>
+    <string name="car_cancellation_des2" translatable="false">Please tell us the reason for your cancellation. This will help us improve our service.</string>
+    <string name="car_cancellation_des3" translatable="false">Your booking can be cancelled for free now.</string>
+    <string name="car_adults_limit" translatable="false">The total number of adults cannot exceed %s</string>
+    <string name="car_children_limit" translatable="false">The total number of children cannot exceed %s</string>
+    <string name="car_pay_successful" translatable="false">It may takes about 10 minutes to confirm your booking.</string>
+    <string name="map_no_data" translatable="false">Please select a destination from  the preset or enter a specific city name</string>
+
+    <!--v1.8.6-->
+    <string name="use_now" translatable="false">Use Now</string>
+    <string name="coupon" translatable="false">Coupon</string>
+    <string name="coupon_off" translatable="false">%s Off</string>
+    <string name="no_vouchers_applied" translatable="false">No Vouchers applied</string>
+    <string name="home_choose_coupons" translatable="false">Apply a Vouchers</string>
+
+    <!--v1.8.7-->
+    <string name="hotel_area" translatable="false">Area</string>
+    <string name="hotel_price_service" translatable="false">Price</string>
+    <string name="hotel_amenities" translatable="false">Amenities</string>
+    <string name="hotel_breakfast" translatable="false">Breakfast</string>
+    <string name="hotel_cancellation" translatable="false">Cancellation</string>
+
+    <string name="hotel_amennities_text1" translatable="false">Airport pickup service</string>
+    <string name="hotel_amennities_text2" translatable="false">Wi-Fi in public areas</string>
+    <string name="hotel_amennities_text3" translatable="false">Outdoor swimming pool</string>
+    <string name="hotel_amennities_text4" translatable="false">Non-smoking rooms</string>
+    <string name="hotel_amennities_text5" translatable="false">High-speed internet</string>
+    <string name="hotel_amennities_text6" translatable="false">Multi-type outlets</string>
+    <string name="hotel_amennities_text7" translatable="false">Blackouot curtains</string>
+
+    <string name="home_sorting_score" translatable="false">Review Score (high to low)</string>
+    <string name="text_clear" translatable="false">Clear</string>
+    <string name="text_recent_searches" translatable="false">Recent Searches</string>
+    <string name="text_popular_destinations" translatable="false">Popular Destinations</string>
+    <string name="text_index" translatable="false">Index</string>
+    <string name="prestige_room_information" translatable="false">Prestige room  information</string>
+    <string name="breafast" translatable="false">Breafast</string>
+    <string name="bed_type" translatable="false">Bed Type</string>
+    <string name="max_occupancy" translatable="false">Max.. guests</string>
+    <string name="room_size" translatable="false">Room size</string>
+    <string name="window" translatable="false">window</string>
+    <string name="outdoor_view" translatable="false">with View</string>
+    <string name="some_rooms_have_windows" translatable="false">Some rooms have windows</string>
+    <string name="no_windows" translatable="false">No window</string>
+    <string name="have_windows" translatable="false">Have windows</string>
+    <string name="hotel_room_non_refundable" translatable="false">This booking cannot be canceled once it has been confirmed</string>
+    <string name="location_shanghai" translatable="false">Shanghai</string>
+    <string name="special_deals" translatable="false">Special deals</string>
+    <string name="hotel_no_picture" translatable="false">No picture</string>
+
+    <!---->
+    <string name="hotel_reference_only" translatable="false">Pictures are for reference only.</string>
+    <string name="plane_economy" translatable="false">Economy</string>
+    <string name="plane_including_tax" translatable="false">included taxes &#038; fees</string>
+
+    <string name="plane_adult_ticket" translatable="false">Adult Ticket</string>
+    <string name="plane_child_ticket" translatable="false">Child Ticket</string>
+    <string name="plane_infant_ticket" translatable="false">Infant Ticket</string>
+    <string name="plane_price_des1" translatable="false">/Adult</string>
+    <string name="plane_price_des2" translatable="false">/Child</string>
+    <string name="plane_price_des3" translatable="false">/Infant</string>
+    <string name="plane_text_recent_searches" translatable="false">Current Location / Recent Searches</string>
+    <string name="plane_hot" translatable="false">Hot</string>
+    <string name="plane_multiple_airlines" translatable="false">Multiple airlines</string>
+    <string name="plane_location_not_fount" translatable="false">Location not fount</string>
+    <string name="plane_pay_now" translatable="false">Pay Now</string>
+    <string name="plane_adult_num" translatable="false"> Adults x%s</string>
+    <string name="plane_children_num" translatable="false"> Childs x%s</string>
+    <string name="plane_baby_num" translatable="false"> Infants x%s</string>
+    <string name="plane_price_titel_total" translatable="false"> Total(%s)</string>
+    <string name="plane_stop_in" translatable="false"> %s stop in %s</string>
+    <string name="plane_no_stop_in" translatable="false">NonStop</string>
+
+    <string name="plane_ticket_policy" translatable="false">Ticket policy</string>
+    <string name="plane_ticket_policy_hint" translatable="false">The ticket is non-refundable and non-changeable.</string>
+
+    <string name="plane_adult" translatable="false"> Adult</string>
+    <string name="plane_child" translatable="false"> Child</string>
+    <string name="plane_baby" translatable="false"> Infant</string>
+
+    <!--v1.8.9-->
+    <string name="hotel_order_call_hotel" translatable="false"> Call hotel</string>
+    <string name="hotel_order_map" translatable="false"> Map</string>
+    <string name="hotel_order_meal_type" translatable="false"> Meal type</string>
+    <string name="hotel_order_details" translatable="false"> Details</string>
+    <string name="hotel_order_important_notices" translatable="false">important notices</string>
+    <string name="hotel_order_cancellation_policy" translatable="false">Cancellation policy</string>
+    <string name="hotel_order_guestroom" translatable="false">Guestroom(Round bed)</string>
+    <string name="hotel_order_room_price" translatable="false">Room Price</string>
+    <string name="hotel_order_taxes_and_fees" translatable="false">included taxes and fees</string>
+    <string name="hotel_order_discount" translatable="false">Discount</string>
+    <string name="app_new" translatable="false">New</string>
+    <string name="app_about_ebbly" translatable="false">About ebbly</string>
+    <string name="app_update" translatable="false">Update</string>
+    <string name="app_update_is_latest_version" translatable="false">Your software is the latest version.</string>
+    <string name="app_new_version" translatable="false">New Version: %s</string>
+    <string name="app_version" translatable="false">Version: %s</string>
+    <string name="app_current_version" translatable="false">Current version: %s</string>
+    <string name="hotel_see_all" translatable="false">See all</string>
+    <string name="hotel_see_all_nearby" translatable="false">What\'s nearby</string>
+    <string name="hotel_policies" translatable="false">Hotel Policies</string>
+    <string name="hotel_show_less" translatable="false">Hide</string>
+    <string name="hotel_show_more" translatable="false">Show More</string>
+    <string name="hotel_option" translatable="false">Option</string>
+    <string name="hotel_rate_us" translatable="false">Rate us</string>
+    <string name="hotel_share" translatable="false">Share</string>
+    <string name="hotel_order_info_guests_hint" translatable="false">%s years old</string>
+    <string name="app_is_install_wx" translatable="false">Please install WeChat</string>
+
+    <!--1.9.0-->
+    <string name="hotel_search_locating" translatable="false">Locating</string>
+    <string name="hotel_order_information_guest" translatable="false">Guest %s</string>
+    <string name="hotel_detail_loading" translatable="false">Loading,please wait...</string>
+    <string name="hotel_price_less_than" translatable="false">Less than %s</string>
+    <string name="hotel_price_more_than" translatable="false">More than %s</string>
+    <string name="hotel_things_to_keep_in_mind" translatable="false">Important Notice</string>
+    <string name="home_nightly_prices_range" translatable="false">Nightly Price </string>
+    <string name="hotel_not_early" translatable="false">ROOM ONLY </string>
+
+    <!--1.9.1-->
+    <string name="order_delete_order_hint" translatable="false">Do you want to delete this booking now?</string>
+    <string name="hotel_lowest_price" translatable="false">Lowest Price</string>
+    <string name="hotel_ebbly_recommend" translatable="false">Recommend</string>
+    <string name="hotel_room_total" translatable="false">The total number of room cannot exceed %s</string>
+    <string name="order_post_code" translatable="false">Airlines need your postcode to verify travelers identity or location. Please provide a postcode</string>
+    <string name="hotel_extra_bed_policy" translatable="false">Extra bed policies</string>
+    <string name="hotel_free" translatable="false">FREE</string>
+    <string name="hotel_parking" translatable="false">Parking</string>
+
+    <!--1.9.2-->
+    <string name="hotel_order_nationality" translatable="false">Nationality</string>
+    <string name="hotel_order_nationality_hint" translatable="false">Please enter a country name</string>
+    <string name="hotel_order_sold_out" translatable="false">Sold out Please select another room</string>
+    <string name="hotel_chinese_id" translatable="false">Only for %s ID holder.</string>
+    <string name="user_login_welcome" translatable="false">Welcome</string>
+    <string name="hint_error" translatable="false">Oh,Error!</string>
+    <string name="hint_browse" translatable="false">Browse</string>
+    <string name="hint_not_favourites" translatable="false">You haven\'t added any favourites yet.\nTap the hear on a hotel page.</string>
+    <string name="hint_remind" translatable="false">Remind</string>
+    <string name="share_dialog_success" translatable="false">Share success</string>
+
+    <string name="plane_book_info_select_passenger" translatable="false">Select passenger</string>
+    <string name="home_hotel_detail_email_itinerary" translatable="false">to receive your itinerary</string>
+    <string name="home_to_receive_sms" translatable="false">to receive SMS</string>
+    <string name="home_where_do_you_fly_from" translatable="false">where do you fly from</string>
+    <string name="app_forced_upgrade_hint" translatable="false">Current app version is outdated.To provide you a better experience, please update to the newest version.</string>
+
+    <!--1.9.4-->
+    <string name="user_info_add" translatable="false">Add</string>
+    <string name="user_info_add_mobile" translatable="false">Add Mobile Number</string>
+    <string name="user_info_add_mobile_hint" translatable="false">Enter the mobile number you want to associate with your ebbly account. A verification code will be send to you via SMS.</string>
+    <string name="user_info_add_email" translatable="false">Add Email</string>
+    <string name="user_info_add_email_hint" translatable="false">Enter the email you want to associate with your ebbly account. A verification code will be send to you email.</string>
+
+    <string name="user_account_verify" translatable="false">Verify Your Password</string>
+    <string name="user_account_verify_hint" translatable="false">Enter your current password to continue.</string>
+    <string name="user_notifycation_now" translatable="false">Now</string>
+
+    <string name="user_info_change_mobile" translatable="false">Change Mobile Number</string>
+    <string name="user_info_change_mobile_hint" translatable="false">Enter the new number you want to associate with your ebbly account.</string>
+    <string name="user_info_change_email" translatable="false">Change Email</string>
+    <string name="user_info_change_email_hint" translatable="false">Enter the new email you want to associate with your ebbly account. A verification code will be send to your email.</string>
+    <string name="user_change_profile_updated" translatable="false">Profile updated!\nPlease login again</string>
+    <string name="user_profile_updated" translatable="false">Profile updated!</string>
+    <string name="user_tip_bind_email_success" translatable="false">Email bound successfully</string>
+    <string name="plane_baggage_hint" translatable="false">*P- Piece, K/Kg- Kilograms, SB-Standard Baggage As Per Airline.</string>
+    <string name="app_no_contact" translatable="false">No contact.</string>
+    <string name="notification_service_chat" translatable="false">Service chat</string>
+    <string name="plane_order_waiting_confirm_hint" translatable="false">We are confirming your booking now, please check your email for your booking status later.</string>
+    <string name="notification_schedule_others" translatable="false">Others</string>
+    <string name="user_verify_confirm" translatable="false">Confirm</string>
+
+    <string name="plane_terms_rule1" translatable="false">In the event that your booked itinerary incur changes such as date change or flights requested by yourself directly to the airlines or should the airline has to make any last minute changes to your flight itinerary, they will directly contact you. In the later case, please pay attention to any notification informing you of the change carried out by the airlines send to the email and/or phone number you have provided on your personal information prior to the purchase of the air ticket. In no event shall ebbly and/or its supplier be liable for any direct, indirect change made by the airlines companies.</string>
+    <string name="plane_terms_rule2" translatable="false">It is recommended to check in at the airport 3 hours in advance. When you check in, you must show the valid document you have used to register during your ticket purchase. When you pass the security check, you must show a valid travel document and boarding pass. Before traveling, please check whether you have all necessary documents.</string>
+    <string name="plane_terms_rule3" translatable="false">ebbly will display your flight related information. However flight price and availability may be subject to change.We will notify you regarding any change via email.</string>
+    <string name="plane_terms_rule4" translatable="false">Please contact ebbly customer support immediately if you have any problems. If you make your own arrangements without contacting ebbly customer support, or choose not to take a solution provided by ebbly, you forfeit your rights under ebbly’s Flight Booking Guarantee.</string>
+    <string name="plane_terms_rule5" translatable="false">You may be offered the opportunity to book a reservation for a combination of two one-way tickets instead of a roundtrip ticket. Combined one-way tickets may provide a greater choice of flights and can be combined on the same airline or on different airlines. Unlike roundtrip tickets, each one-way ticket is subject to its own rules, restrictions, and fees. If one of these flights is affected by an airline change (e.g. cancellation or rescheduling) that causes You to make changes to the other flight, You will be responsible for any fees incurred for making changes to the unaffected flight.</string>
+    <string name="plane_terms_rule6" translatable="false">Prices and fees for some low-cost flights originating overseas, or additional baggage fees for certain airlines, may be in another currency (e.g. EUR) which we will provide an estimate for in the default currency of this Website, or selected preferred currency (if applicable). The actual amount charged by the low-cost carrier may slightly differ due to varying exchange rates applied by different card issuers. In addition, your statement may include a conversion or transaction fee (which may be in a foreign currency) charged by your card issuer to process the transaction. ebbly is not associated with these additional fees and will not be held liable for any fees relating to varying exchange rates and card issuer fees.</string>
+    <string name="plane_terms_rule7" translatable="false">We do not charge an amendment fee for changes made by you on any bookings except air bookings, where we do charge an amendment fee. However, the relevant Third Party Supplier may charge a fee in connection with any changes, which will be payable by you (if any). The price of your new arrangements will be based on the prices that apply on the day you ask us to make the change. These prices may not be the same as when you booked the products or services.</string>
+    <string name="user_account_send_code" translatable="false">Send code</string>
+    <string name="plane_terms_conditions" translatable="false">Terms &#38; Conditions</string>
+
+    <!---->
+    <string name="hotel_home_car_hint" translatable="false">First ride 10% Off</string>
+    <string name="hotel_home_vip" translatable="false">VIP Lounge</string>
+    <string name="hotel_home_vip_hint" translatable="false">First ride free</string>
+    <string name="hotel_home_deals_hint" translatable="false">Deals</string>
+    <string name="hotel_home_spercial_offers_hint" translatable="false">Spercial Offers</string>
+    <string name="hotel_home_recommended_hint" translatable="false">Recommended</string>
+
+    <string name="vip_home_policy_title" translatable="false">Refund &#38; Cancellation Policy</string>
+    <string name="vip_home_policy_hint1" translatable="false">Please use the lounge pass within 60 days of validity.</string>
+    <string name="vip_home_policy_hint2" translatable="false">Only VIP Lounge paid can apply for refund. </string>
+    <string name="vip_home_policy_hint3" translatable="false">Refund can be applied within the 60 days validity period. </string>
+    <string name="vip_home_policy_hint4" translatable="false">No refund after 60 days validity period expired.</string>
+    <string name="vip_home_policy_hint5" translatable="false">If you have purchased multiple VIP passes in one time, you can refund by cancelling all the passes.In the event one of the pass has been used and you wish to refund the remaining pass, no refund will be possible.</string>
+    <string name="vip_home_policy_hint6" translatable="false">Information such as name, mobile and email cannot be changed or modified.</string>
+
+    <string name="vip_home_conditions_title" translatable="false">Conditions</string>
+    <string name="vip_home_conditions_hint1" translatable="false">Maximum 3 hours of stay.</string>
+    <string name="vip_home_conditions_hint2" translatable="false">Children under 2 years old are admitted free. All children must be accompanied by an adult.</string>
+    <string name="vip_home_conditions_hint3" translatable="false">Please show your QR code to the staff along with your ID/passport and boarding pass before entering the lounge. </string>
+    <string name="vip_home_conditions_hint4" translatable="false">If the lounge is at full capacity, final decision will be decided according to lounge policy and availability at the time.</string>
+    <string name="vip_home_conditions_hint5" translatable="false">Flight announcement service such as flight information display system, public announcement or staff friendly reminder may differ according to the lounge standard. Please kindly contact the staff for additional information.</string>
+    <string name="vip_home_conditions_hint6" translatable="false">Should you have any further inquiries, please feel free to contact our support.</string>
+
+    <string name="home_invite_title" translatable="false">Invite and earn data</string>
+    <string name="home_invite_hint" translatable="false">Invite your friends to sign up ebbly, both of you can get a Asia 100MB 1-day data.</string>
+    <string name="home_invite_friends" translatable="false">Invite Friends</string>
+
+    <string name="hotel_smoking_title" translatable="false">Smoking</string>
+    <string name="hotel_no_smoking" translatable="false">No smoking</string>
+    <string name="hotel_can_smoking" translatable="false">Can smoking</string>
+    <string name="hotel_unknown" translatable="false">unknown</string>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_plane_grade_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black_484848"
+            android:id="@+id/tv_plane_grade_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_14"
+            android:text="@string/flight_cabin_type_economy"
+            android:textSize="@dimen/sp_16" />
+
+        <CheckBox
+            android:id="@+id/cb_plane_grade_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="15dp"
+            android:button="@mipmap/icon_select"
+            android:checked="true"
+            android:clickable="false"
+            tools:visibility="visible"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_below="@+id/ln_date"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/gray_EEEEEE" />
+
+    <RelativeLayout
+        android:id="@+id/rl_plane_grade_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black_484848"
+
+            android:id="@+id/tv_plane_grade_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_14"
+            android:text="@string/flight_cabin_type_luxury_economy"
+            android:textSize="@dimen/sp_16" />
+
+        <CheckBox
+            android:id="@+id/cb_plane_grade_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="15dp"
+            android:button="@mipmap/icon_select"
+            android:checked="true"
+            android:clickable="false"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_below="@+id/ln_date"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/gray_EEEEEE" />
+
+    <RelativeLayout
+        android:id="@+id/rl_plane_grade_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black_484848"
+            android:id="@+id/tv_plane_grade_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_14"
+            android:text="@string/flight_cabin_type_business"
+            android:textSize="@dimen/sp_16" />
+
+        <CheckBox
+            android:id="@+id/cb_plane_grade_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="15dp"
+            android:button="@mipmap/icon_select"
+            android:checked="true"
+            android:clickable="false"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_below="@+id/ln_date"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/gray_EEEEEE" />
+
+    <RelativeLayout
+        android:id="@+id/rl_plane_grade_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black_484848"
+
+            android:id="@+id/tv_plane_grade_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_14"
+            android:text="@string/flight_cabin_type_first"
+            android:textSize="@dimen/sp_16" />
+
+        <CheckBox
+            android:id="@+id/cb_plane_grade_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="15dp"
+            android:button="@mipmap/icon_select"
+            android:checked="true"
+            android:clickable="false"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

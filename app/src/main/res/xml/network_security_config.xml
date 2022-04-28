@@ -1,0 +1,16 @@
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user added CAs while debuggable only -->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+
+    <!-- http 请求需要添加网站白名单 -->
+    <!--<domain-config cleartextTrafficPermitted="true">-->
+        <!--<domain includeSubdomains="true">ebbly.ifreegroup.net</domain>-->
+    <!--</domain-config>-->
+
+    <base-config cleartextTrafficPermitted="true" />
+
+</network-security-config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:tsquare_state_range_middle="true" android:drawable="@drawable/calendar_bg_middle" />
+
+    <item android:drawable="@drawable/calendar_bg_circle_left" app:tsquare_state_range_first="true" />
+
+    <item android:drawable="@drawable/calendar_bg_circle_right" app:tsquare_state_range_last="true" />
+
+    <item android:drawable="@drawable/calendar_bg_circle_selected" android:state_selected="true" />
+
+    <item app:tsquare_state_today="true" android:drawable="@drawable/calendar_today_tip" />
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+</selector>

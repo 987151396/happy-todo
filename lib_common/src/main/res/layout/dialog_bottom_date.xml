@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a000000">
+
+    <RelativeLayout
+        android:id="@+id/popup_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_top_round10_white"
+        android:clickable="false"
+        android:elevation="@dimen/dp_12"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_16"
+            android:paddingEnd="24dp"
+            android:paddingStart="24dp"
+            android:paddingTop="@dimen/dp_16"
+            android:text="@android:string/cancel"
+            android:textColor="@color/black_484848"
+            android:textSize="@dimen/sp_16"
+            android:fontFamily="@string/font_fontFamily_medium" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingBottom="@dimen/dp_16"
+            android:paddingEnd="24dp"
+            android:paddingStart="24dp"
+            android:paddingTop="@dimen/dp_16"
+            android:text="@android:string/ok"
+            android:textColor="@color/blue_00A9BA"
+            android:textSize="@dimen/sp_16"
+            android:fontFamily="@string/font_fontFamily_medium" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_eeeeee"
+            android:layout_below="@+id/tv_ok"/>
+
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@+id/line"
+            android:layout_marginTop="-16dp"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:calendarViewShown="false"
+            android:minDate="01/01/1900"
+            android:spinnersShown="true"
+            android:theme="@android:style/Theme.Holo.Light" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

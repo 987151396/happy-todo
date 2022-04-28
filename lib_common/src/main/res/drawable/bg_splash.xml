@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--&lt;!&ndash;<item android:drawable="@color/white" />&ndash;&gt;-->
+    <!--&lt;!&ndash;因为使用最长图做适配，所以这里不会有需要填充的地方，所以上面注释掉&ndash;&gt;-->
+    <!--<item>-->
+        <!--<bitmap-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/splash_bg" />-->
+    <!--</item>-->
+
+<!--</layer-list>-->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="clip_horizontal|clip_vertical"
+    android:dither="true"
+    android:src="@drawable/splash_bg"
+    android:tileMode="disabled"/>
+    <!--属性解释-->
+    <!--android:src 图片资源id-->
+    <!--android:antialias是否开启抗锯齿，应该开启-->
+    <!--android:dither是否开启抖动效果，应该开启-->
+    <!--android:filter是否开启过滤效果，应该开启-->
+    <!--android:gravity对图片进行定位-->
+    <!--android:mipMap纹理映射，一般为false-->
+    <!--android:tileMode平铺模式四个值：disabled（默认值即关闭平铺模式）、clamp、repeat、mirror-->

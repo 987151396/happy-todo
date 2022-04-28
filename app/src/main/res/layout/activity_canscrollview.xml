@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="isPlay"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_115f5f5f"/>
+
+    <TextView
+        android:id="@+id/tv1_false"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="false"
+        app:layout_constraintLeft_toRightOf="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+    <TextView
+        android:id="@+id/tv1_true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="true"
+        app:layout_constraintLeft_toRightOf="@+id/tv1_false"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="isLoop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_115f5f5f"/>
+
+
+    <TextView
+        android:id="@+id/tv2_false"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="false"
+        app:layout_constraintLeft_toRightOf="@+id/tv2"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+    <TextView
+        android:id="@+id/tv2_true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="true"
+        app:layout_constraintLeft_toRightOf="@+id/tv2_false"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="view_mode"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_115f5f5f"/>
+
+
+    <TextView
+        android:id="@+id/tv3_mode1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="STANDARD"
+        app:layout_constraintLeft_toRightOf="@+id/tv3"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+    <TextView
+        android:id="@+id/tv3_mode2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="STACK"
+        app:layout_constraintLeft_toRightOf="@+id/tv3_mode1"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+    <TextView
+        android:id="@+id/tv3_mode3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="STACK2"
+        app:layout_constraintLeft_toRightOf="@+id/tv3_mode2"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@drawable/text_color_selector"
+        android:background="@color/gray_115f5f5f"/>
+
+    <com.happy.todo.weight.CanScrollView
+        android:id="@+id/canScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

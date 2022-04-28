@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black_683e3e3e">
+
+    <LinearLayout
+        android:id="@+id/l_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/blue_02909E"
+            android:text="减"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:background="@color/black_683e3e3e"
+            android:textColor="@color/blue_02909E"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/blue_02909E"
+            android:text="加"/>
+
+    </LinearLayout>
+
+
+    <com.happy.todo.weight.CircularProgressBar
+        android:id="@+id/cp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:circular_color1="#445C9D"
+        app:circular_color2="#A8C4FF"
+        app:text_color="@android:color/black"
+        app:text_state1="abcdefgh"
+        app:text_state2="abcdefgh"
+        app:text_str="暂无余额"
+        app:tv_size="13"
+        app:tv_state_size="11"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+
+    <com.happy.todo.weight.Bezier3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+
+</RelativeLayout>

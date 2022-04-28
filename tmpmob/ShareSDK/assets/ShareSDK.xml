@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+<SinaWeibo AppKey="2918487490" AppSecret="1e0c1b19c3df82bbfb19bc2dd1c7d444" RedirectUrl="http://ebbly.com" />
+<TencentWeibo Enable="false" />
+<Douban Enable="false" />
+<QZone AppId="100371282" AppKey="aed9b0303e3ed1e27bae87c33761161d" />
+<Renren Enable="false" />
+<KaiXin Enable="false" />
+<Facebook ConsumerKey="881678452010118" ConsumerSecret="9f739167c6a27dc0f556872a445d6f0f" RedirectUrl="http://ebbly.com" />
+<Twitter ConsumerKey="wN6mwszf4Br7qrgdDGzKfCmVL" ConsumerSecret="CELr1DjSqAuZwIXfS5GXpdB4ADhzAM8ST0JyrDEtYNG7UgIEtq" CallbackUrl="http://ebbly.com" />
+<Evernote Enable="false" />
+<FourSquare Enable="false" />
+<GooglePlus Enable="false" />
+<Instagram Enable="false" />
+<LinkedIn ApiKey="ejo5ibkye3vo" SecretKey="cC7B2jpxITqPLZ5M" RedirectUrl="http://www.sharesdk.cn" />
+<Tumblr Enable="false" />
+<Email Enable="false" />
+<ShortMessage Enable="true" />
+<Wechat AppId="wxbf120c2389cce7a3" AppSecret="945a4295fa19243e955c350512905293" userName="ebbly" path="pages/index/index.html?id=1" WithShareTicket="true" MiniprogramType="2" />
+<WechatMoments AppId="wxbf120c2389cce7a3" AppSecret="945a4295fa19243e955c350512905293" />
+<QQ AppId="1106699078" AppKey="otPrTZ6Iz9uCwHLx" />
+<Instapaper Enable="false" />
+<Pocket Enable="false" />
+<YouDao Enable="false" />
+<Pinterest Enable="false" />
+<Flickr Enable="false" />
+<Dropbox Enable="false" />
+<VKontakte Enable="false" />
+<WechatFavorite AppId="wxbf120c2389cce7a3" AppSecret="945a4295fa19243e955c350512905293" />
+<Yixin Enable="false" />
+<YixinMoments Enable="false" />
+<Mingdao Enable="false" />
+<Line ChannelID="1578418019" ChannelSecret="b3671058b62e90b85c1c3308017a852c" />
+<WhatsApp Enable="true" />
+<KakaoTalk Enable="false" />
+<KakaoStory Enable="false" />
+<FacebookMessenger AppId="107704292745179" />
+<Alipay Enable="false" />
+<AlipayMoments Enable="false" />
+<Dingding Enable="false" />
+<Youtube Enable="false" />
+<Meipai Enable="false" />
+<Telegram Enable="false" />
+<Cmcc Enable="false" />
+<Reddit Enable="false" />
+<Telecom Enable="false" />
+<Accountkit Enable="false" />
+<Douyin AppKey="aw9ivykfjvi4hpwo" AppSecret="42b4caa6bda60bd49f05f06d0a4956e1" />
+<Wework Enable="false" />
+<HWAccount Enable="false" />
+<Oasis Enable="false" />
+<XMAccount Enable="false" />
+<SnapChat Enable="false" />
+<Kuaishou Enable="false" />
+<Littleredbook Enable="false" />
+<Watermelonvideo Enable="false" />
+<Tiktok Enable="false" />
+</DevInfor>

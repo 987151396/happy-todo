@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/popup_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_radius_2_white"
+        android:clickable="false"
+        android:elevation="@dimen/dp_12"
+        android:orientation="vertical">
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/wheelview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_ok"
+            android:layout_marginTop="-16dp" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingBottom="@dimen/dp_16"
+            android:paddingEnd="24dp"
+            android:paddingStart="24dp"
+            android:paddingTop="@dimen/dp_16"
+            android:text="@android:string/ok"
+            android:textColor="@color/black_484848"
+            android:textSize="@dimen/sp_16"
+           android:fontFamily="@string/font_fontFamily_medium" />
+
+    </RelativeLayout>
+

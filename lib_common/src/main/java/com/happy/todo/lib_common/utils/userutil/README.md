@@ -1,0 +1,2 @@
+userUtils 里包含了用户登录相关的操作，主要是保留登录返回的json, 本身也包括了对LoginMange的必要操作
+不会与原先的LoginMange有冲突

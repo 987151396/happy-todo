@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rl_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dp_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_black_cir_bg">
+        <TextView
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:id="@+id/tv_loading_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:text="@string/home_pay_visa_failure"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_loading_error"
+            android:textSize="16sp"
+            android:layout_below="@+id/tv_loading_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/home_pay_visa_failure"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

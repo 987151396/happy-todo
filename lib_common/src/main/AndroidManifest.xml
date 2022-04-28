@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.happy.todo.lib_common">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!--<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" tools:ignore="MockLocation" />-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <!--<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.READ_LOGS" />-->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <application>
+        <!--disable telemetry service events-->
+        <meta-data android:name="com.mapbox.EnableEvents" android:value="false" />
+
+        <!--高德定位  提取到 app-->
+        <!--<meta-data-->
+            <!--android:name="com.amap.api.v2.apikey"-->
+            <!--android:value="${key_amap}" />-->
+        <!--高德定位服务-->
+        <!--<service android:name="com.amap.api.location.APSService" />-->
+        <!--<service android:name=".service.LeakCanaryService" />-->
+
+
+        <!--<activity-->
+            <!--android:name="com.umeng.socialize.media.WBShareCallBackActivity"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:exported="false"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"/>-->
+
+        <!--<activity-->
+            <!--android:name="com.sina.weibo.sdk.share.WbShareTransActivity"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+
+        <!--</activity>-->
+
+        <!--<activity-->
+            <!--android:name="com.tencent.tauth.AuthActivity"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:noHistory="true">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+
+                <!--<data android:scheme="tencent1106614207" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.tencent.connect.common.AssistActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+
+        <!--<activity-->
+            <!--android:name="com.umeng.socialize.editorpage.ShareActivity"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:theme="@android:style/Theme.NoTitleBar" />-->
+
+
+        <!--<activity-->
+            <!--android:name="com.umeng.facebook.FacebookActivity"-->
+            <!--android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+
+        <!--<activity-->
+            <!--android:name="com.umeng.socialize.handler.TwitterWebActivity"-->
+            <!--android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+
+        <activity
+            android:name="com.happy.todo.lib_common.ui.webview.WebActivity"
+            android:screenOrientation="portrait" >
+            <!--  ifreegroup://ebbly_main?go=pending -->
+            <intent-filter>
+                <!--协议部分，随便设置-->
+                <!--<data android:scheme="scheme" android:host="ebbly" android:path="/main"  />-->
+                <data
+                    android:host="ebbly_web"
+
+                    android:scheme="ifreegroup" />
+                <!--下面这几行也必须得设置-->
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.happy.todo.lib_common.router.SchameFilterActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <!-- Schame -->
+            <intent-filter>
+                <data
+                    android:host="m.ebbly.com"
+                    android:scheme="ebbly" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+
+        <receiver android:name="com.happy.todo.lib_common.broadcast.NetworkConnectChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.happy.todo.lib_common.broadcast.ScreenBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!--友盟分享twitter-->
+        <!--<receiver-->
+            <!--android:name=".umeng.TwitterShareReceiver"-->
+            <!--android:exported="false">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.twitter.sdk.android.tweetcomposer.UPLOAD_SUCCESS"/>-->
+                <!--<action android:name="com.twitter.sdk.android.tweetcomposer.UPLOAD_FAILURE"/>-->
+                <!--<action android:name="com.twitter.sdk.android.tweetcomposer.TWEET_COMPOSE_CANCEL"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!-- 填写您从Mob开发者后台中得到的Appkey和AppSecret -->
+       <!-- <meta-data
+            android:name="Mob-AppKey"
+            android:value="23e46d9708ed7" />
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="ebd3a016bb5cb3b5ee7bfbf36dd667e3" />-->
+    </application>
+
+</manifest>

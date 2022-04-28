@@ -1,0 +1,322 @@
+<resources>
+    <string name="app_name" translatable="false">ebbly</string>
+    <string name="loading_text" translatable="false">Loading…</string>
+    <string name="please_input" translatable="false">Please enter %1$s</string>
+
+    <!--日历相关-->
+    <string name="day_name_format" translatable="false">EEE</string>
+    <string name="invalid_date" translatable="false">Date must be between %1$s and %2$s.</string>
+    <string name="month_only_name_format" translatable="false">MMMM</string>
+    <string name="year_only_format" translatable="false">yyyy</string>
+    <string name="month_title1" translatable="false">January</string>
+    <string name="month_title2" translatable="false">February</string>
+    <string name="month_title3" translatable="false">March</string>
+    <string name="month_title4" translatable="false">April</string>
+    <string name="month_title5" translatable="false">May</string>
+    <string name="month_title6" translatable="false">June</string>
+    <string name="month_title7" translatable="false">July</string>
+    <string name="month_title8" translatable="false">August</string>
+    <string name="month_title9" translatable="false">September</string>
+    <string name="month_title10" translatable="false">October</string>
+    <string name="month_title11" translatable="false">November</string>
+    <string name="month_title12" translatable="false">December</string>
+
+    <string name="week_title1" translatable="false">Sunday</string>
+    <string name="week_title2" translatable="false">Monday</string>
+    <string name="week_title3" translatable="false">Tuesday</string>
+    <string name="week_title4" translatable="false">Wednesday</string>
+    <string name="week_title5" translatable="false">Thursday</string>
+    <string name="week_title6" translatable="false">Friday</string>
+    <string name="week_title7" translatable="false">Saturday</string>
+
+    <!-- 信息填写 -->
+    <string name="tar_search" translatable="false">Home</string>
+    <string name="tar_booking" translatable="false">More</string>
+    <!--<string name="home_date_picker">Calendar</string>-->
+    <!--<string name="home_days">%1$s Night(s)</string>-->
+    <!--<string name="home_check_in">Check-in</string>-->
+    <!--<string name="home_check_out">Check-out</string>-->
+    <!--<string name="home_more_than_money">From </string>-->
+    <string name="home_pick_up">Close</string>
+    <string name="home_hotel_detail_more">More...</string>
+    <!--<string name="home_hotel_detail_phone_not_port">Tel</string>-->
+    <!--<string name="home_hotel_detail_fax_not_port">Fax</string>-->
+    <string name="home_refundable_policy">Refund Policy</string>
+    <!--<string name="home_share">Share</string>-->
+    <string name="home_share_cancle">No</string>
+    <!--根据中英文显示位置不一样-->
+    <!--<string name="personal_come_from">Country</string>-->
+    <string name="personal_sex_woman">Female</string>
+    <string name="personal_sex_man">Male</string>
+    <string name="personal_sex_other">Others</string>
+    <!--<string name="personal_choose_sure">Yes</string>-->
+    <string name="personal_email">Email</string>
+    <!--<string name="pesonal_icon_taking">Take photo</string>-->
+    <!--<string name="personal_choose_photo">Choose from Album</string>-->
+    <!--<string name="personal_retaking_photo">Retake</string>-->
+    <!--<string name="personal_used_photo">Apply</string>-->
+    <string name="personal_collection_look">Start a new search</string>
+    <string name="registration_policy">Registration policy</string>
+    <string name="personal_quit_sure">Yes</string>
+    <!--<string name="personal_feedback_upload_photos_limit">Select a maximum of 4 photos</string>-->
+    <string name="network_null">Sorry. Something went wrong. Please check your network connection and try again.</string>
+    <string name="network_null_reload">OK</string>
+    <string name="user_account_register_phone">Mobile</string>
+    <!--<string name="user_account_register_code">Verification Code</string>-->
+    <string name="user_account_register_send_code">Send</string>
+    <!--<string name="user_account_register_password">Password</string>-->
+    <!--<string name="user_account_register_input_code_err">Incorrect code</string>-->
+    <!--<string name="user_account_register_password_notnull">Password required</string>-->
+    <!--<string name="user_account_register_password_length_err">Password should be at least 6 digits</string>-->
+    <!--<string name="user_account_login_in">Login</string>-->
+    <!--<string name="user_account_forget_input_notnull">Mobile or Email required</string>-->
+    <!--<string name="user_account_password_sure_reset">Yes</string>-->
+    <!--<string name="detail_room_btn_navigation">GO</string>-->
+    <!--<string name="home_coupons_used">Save %1$s</string>-->
+    <!--<string name="user_text_second_again">Please try again in %1$s seconds.</string>-->
+    <!--<string name="user_bing_third_cancle">Are you sure to unbind %1$s#?</string>-->
+    <string name="user_text_password">Password</string>
+    <!--<string name="home_hotel_detail_num_photo">More</string>-->
+    <!--<string name="home_clear_history">Clear Search History</string>-->
+    <!--<string name="home_clear_history_sure">Are you sure you want to clear history?</string>-->
+    <!--<string name="order_datail_cancle_policy">You\'re charged a cancellation fee of %3$s of the schedule service ordered from %1$s to %2$s.</string>-->
+    <string name="home_pay_visa_failure">Payment failed</string>
+    <!--第二次翻译-->
+    <string name="flight_cabin_type_economy">Economy</string>
+    <string name="flight_cabin_type_luxury_economy">Premium Economy</string>
+    <string name="flight_cabin_type_business">Business class</string>
+    <string name="flight_cabin_type_first">First class</string>
+    <!-- <string name="flight_sorting_time_ascending">Departure time (Early flights first)</string>
+     <string name="flight_sorting_time_descending">Departure time (Late flights first)</string>-->
+    <!--<string name="flight_order_flight_policy">Ticket policy and Flight information</string>-->
+    <!--<string name="flight_person_check_info">Passenger details</string>-->
+    <!--<string name="flight_contact_emergency">Urgent contact</string>-->
+    <!--<string name="flight_order_pay_btn">Check out</string>-->
+    <!--<string name="flight_appellation_Mr">Mr</string>-->
+    <!--<string name="flight_appellation_Miss">Ms</string>-->
+    <!--<string name="order_flight_back_policy">Return Policy</string>-->
+    <!--<string name="flight_back_to_sign_apply_for">Ticket refund submited.</string>-->
+
+    <string name="user_account_login_err">Your account logged in somewhere else</string>
+    <string name="user_regist_hint">
+        ebbly welcomes you (the “Customer” or “you”) to its website. The terms "ebbly" “ebbly.com” or "we" refer to ebbly ( operated by iFREE GROUP (HK) Limited ).
+References to the website are deemed to include derivatives thereof, including but not necessarily limited to websites and applications, whether accessed by mobile phone, tablet or other device. The Terms of Use –as defined below- apply to our services, directly or indirectly made available to you through whatever means, including online reservations, customer service requests or otherwise. By accessing, browsing and using the website and/or by making a reservation through ebbly, you acknowledge and agree having read, understood and agreed to the Terms of Use. Our different policies and guidelines, which can be found throughout the website, including but not limited to, the Privacy Policy, , Reservation Guarantee, Cancellation Policy, Refund Policy, FAQs, etc. (collectively the “Policies”), should be read in conjunction with and are an integral part of these terms and conditions and are hereby included by reference. BY USING ebbly, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE IT.\n
+ebbly reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the ebbly following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, ebbly grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the Site.\n\n
+
+Scope of our Services\n\n
+1. Accommodations Reservation\n
+Through the website, ebbly provides an online platform through which you can browse different types of accommodations. By making a booking through the ebbly, you make an offer to book a reservation at the price listed for such reservation and such other terms and conditions stated on the website. This shall become a binding contract formed in Hong Kong pursuant to the Terms of Use when accepted by ebbly. You will receive proof of the confirm e-mail. When your request has been received and is complete for final processing, no further action is required by you. We reserve the right to reject bookings as set out below.\n
+When rendering our services, the information that we disclose about accommodations is based on the information provided to us by our suppliers or providers. Changes in market conditions or circumstances may occur on short notice which may make information displayed on the website inaccurate or outdated. Please note that ebbly is one of many channels accommodations use to make their inventory available for reservation. When a search result indicates that a particular accommodations has no more rooms available, that means the room type is not available for reservation through ebbly.\n
+The website does not constitute and should not be regarded as a recommendation or endorsement of (the quality, service level or rating of) any accommodations listed on the website. We hereby expressly disclaim any representation, warranty or undertaking in relation to the quality, status or adequacy of any accommodations listed on the website.
+The default ranking is based on an automated algorithm which may be updated or amended from time to time, and which takes into account different factors including but not necessarily limited to availability, promotions and rates, historical popularity, margin and revenue, conversion (the ratio of reservations made to website visits), sales of room nights, cancellations, quality of content, guest review scores, star ratings etc.\n
+We reserve the right not to accept customers or bookings (or in exceptional cases to cancel confirmed ones) at our discretion and for whatever (legal) reason without the need to justify such refusal. Typical reasons for rejecting a customer or booking include, but are not limited to: accommodations request(s), reselling of accommodations booked through the website on an individual or mass basis without our prior written approval (“Reselling”), breach of the Terms of Use, force majeure events, trade or economic sanctions, embargoes, legal restrictions, (suspicions of) fraud or theft, suspected criminal activity, suspicious bookings, submission by customer of misleading or erroneous information, credit card problems, inappropriate behavior, threats, insults, violence, refusal to supply information, practical obstacles, communication problems, obvious errors (see below), history, blacklisting by governments or international organizations, etc. In case a booking is rejected or cancelled by ebbly and a payment has already been made, you will receive a refund of the total booking value, except in the case of unauthorized Reselling or in any other appropriate case that we determine in our sole and absolute discretion where we reserve the right not to refund the total booking value or any part thereof. Refunds will not be issued in the event of unauthorized Reselling due to many negative factors including the disadvantage such practice imposes on our authorized and contracted affiliate partners, accommodations who provide ebbly with inventory on a contracted and trusted basis and the loss and negative brand impact caused to ebbly due to unauthorized Resellers attempting to undercut ebbly’s business which may include placing the resold inventory on websites run by competitors of ebbly without our knowledge. We also reserve the right to bar (“blacklist”) users from the website, on a permanent or temporary basis, at our discretion. Any such blacklisted user must not attempt to use the website under any other name or through any other user. See also below for our fraud prevention mechanisms.\n
+Please note that suspected group bookings can also be rejected or cancelled by ebbly or the accommodations as most accommodations have specific procedures for group bookings. Contact our customer service team for more information: ask@ebbly.com.\n\n
+
+2.Flight Reservation\n
+All flight availability and using rules are provided to us by the relevant suppliers. We have no control over seat availability or using rules and has no authority to waive any airline conditions or relevant rules. In the event of an error by these suppliers we reserve the right to amend your booking as required and any additional fare charges may need to be paid by you so as to comply with the relevant airline regulations. If you do not understand any fare rule or need assistance, please feel free to contact our customer service team before purchasing your tickets.\n\n
+3.Other Ancillary Services\n
+ebbly provides an online platform through which you can browse other services, including but not necessarily limited to rental cars and global insurance, (“Ancillary Services”) and make reservations for such Ancillary Services. Although the ebbly provides the platform for which you can browse and make reservations for these Ancillary Services, the Ancillary Services are provided by ebbly associated companies or partners (“Partners”), which have been carefully selected by ebbly. \n
+By making a booking through the ebbly for the Ancillary Services, you make an offer to book a reservation at the price listed for such reservation on the Site, and on such other terms and conditions notified to you by the Partner from time to time, which shall become a binding contract when your reservation is accepted by the Partner. \n\n
+
+Use of the website\n\n
+
+You must comply with relevant laws and regulations of applicable laws when using ebbly services and shall agree not to use the services for any illegal or improper activities, including but not limited to the following: \n
+1. information that’s restricted or prohibited by laws, rules, regulations, ordinances and any other specifications with legal force；\n
+2. information that spreads obscenity, pornography, gambling, violence, murder, terrorism or abets crimes;\n
+3. information that insults or defames others and infringes the legal rights of others;
+4. Information that contains false, harmful, coercive, privacy-infringing, harrasing, aggressive, slanderous, vulgar, obscene content or other morally objectionable content;\n\n
+
+Using the Internet service system for any unlawful purpose. Using ebbly’s Internet services for the following activities:\n
+1. accessing the computer information network or using the computer information network resources without permission; deleting, modifying or adding functions of the computer information network without permission; deleting, modifying or adding without permission the data and applications that are stored, processed or transmitted in the computer information network; intentional production, dissemination of computer viruses and other destructive procedures; other behaviors that endanger security of the computer information network. \n
+2. Commercial use of any data on ebbly, including but not limited to the use of resources displayed on ebbly in any way such as duplication or distribution without the prior written consent of ebbly.\n
+3. Interfering or attempting to interfere with the normal operation of ebbly or any transaction, activity that is conducted on ebbly, or taking any action that would result in unreasonable huge data load on ebbly’s network equipment by using any devices, software, routine program or other measures. \n
+4. Acts of unfair competition in violation of the principle of good faith, or maliciously placing orders or engaging in fictitious transactions and other malicious acts that disrupt ebbly’s transaction order. \n
+5. Other activities not related to online transactions.\n\n
+
+Liability Disclaimer \n
+Nothing in this agreement shall, nor shall be deemed, to limit or exclude our liability for our fraud nor for personal injury or death caused by our negligence.\n
+The information, software, products, and services published on this website may include inaccuracies or typographical errors. In particular, ebbly do not guarantee the accuracy of, and disclaim liability for inaccuracies relating to hotel and other supplier photographs, hotel property, cruise, automobile and other product descriptions and lists of hotel amenities and other product descriptions displayed on this website, much of which information is provided by the respective suppliers. Hotel ratings displayed on this website are intended as only general guidelines, and ebbly and its affiliates do not guarantee the accuracy of the ratings. Changes are periodically added to the information herein. We may make improvements and/or changes on this website at any time.\n
+Ebbly make no representations about the suitability of the information, software, products, and services contained on this website for any purpose, and the inclusion or offering for sale of any products or services on this website does not constitute any endorsement or recommendation of such products or services by ebbly. All such information, software, products, and services are provided "as is" without any warranty. Ebbly hereby disclaim all warranties, and conditions with regard to this information, software, products, and services, including all implied warranties and conditions of promotion, fitness for a particular purpose, title, and noninfringement.\n
+The carriers, hotels and other supliers providing travel or other services for ebbly are independent contractors and not agents or employees of ebbly or its affiliates. Ebbly will not be liable for the acts, errors, omissions, representations, warranties, breaches or negligence of any such suppliers or for any personal injuries, death, property damage, or other damages or expenses resulting therefrom. Ebbly has no liability and will make no refund in the event of any delay, cancellation, overbooking, strike, force majeure or other causes beyond their direct control, and has no responsibility for any additional expense, omissions, delays, re-routing or acts of any government or authority.\n
+In no event shall ebbly be liable for any direct, indirect, punitive, incidental, special, or consequential damages arising out of, or in any way connected with, the use of this website or with the delay or inability to use this website, or for any information, software, products, and services obtained through this website, or otherwise arising out of the use of this website, whether based on contract, tort, strict liability, or otherwise, even if ebbly has been advised of the possibility of damages. Because some areas do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.\n\n
+
+General Terms of Use\n
+1.Reservation and cancellation\n\n
+
+By making a reservation, you accept and agree to the relevant reservation, cancellation and no-show policy of that service provider, and to any additional (delivery) terms and conditions of the service provider that may apply to your trip, including for services rendered and/or products offered by the service provider. The relevant (delivery/purchase/use/carrier) terms and conditions of a suppliers can be obtained with the relevant service provider. The general reservation, cancellation and no-show policy of each service provider is made available on ebbly on the service provider information pages, during the reservation procedure and in the confirmation email. \n\n
+Please note that certain rates, fees or special offers are not eligible for cancellation, refund or change. Applicable fees may still be charged by the service provider in the event of a no-show or charged cancellation. Please check the (reservation) details of your product or service of choice thoroughly prior to making your reservation. \n\n
+Please note that your reservation which requires down payment or (wholly or partly) prepayment may be cancelled (without a prior notice of default or warning) insofar the relevant (remaining) amount(s) cannot be collected in full on the relevant due or payment date in accordance with the relevant pay policy of the service provider and the reservation. Cancellation and prepayment policies may vary per segment, product or service of each Trip. Please carefully read the fine print (which are marked on the page) and important information in your reservation confirmation for additional policies as may be applied by the service provider (e.g. in respect of age requirement, security deposit, non-cancellation/additional supplements for group bookings, extra beds/no free breakfast, pets/cards accepted). Late payment, wrong bank, debit or credit card details, invalid credit/debit cards or insufficient funds are for your own risk and account and you shall not be entitled to any refund of any (non-refundable) prepaid amount unless the suppliers agrees or allows otherwise under its (pre)payment and cancellation policy.\n\n
+If you wish to review, adjust or cancel your reservation, please revert to the confirmation email and follow the instructions therein or by the website. You may be charged for your cancellation in accordance with the service provider\'s cancellation, (pre)payment and no-show policy. We recommend that you read the cancellation, (pre)payment and no-show policy of the service provider carefully prior to making your reservation and remember to make further payments on time as may be required for the relevant reservation.\n\n
+If you have a late or delayed arrival on the check-in date or only arrive the next day, make sure to timely/promptly communicate this with the service provider so they know when to expect you to avoid cancellation of your Trip (Reservation) or charge of the no-show fee. In addition, please make sure the information of your reservation you have provided are true and correct. Ebbly not accept any liability or responsibility for the consequences of your delayed arrival, any cancellation, incorrect personal information charged no-show fee or refusal by the service provider.\n\n
+2.Tax\n\n
+The tax charge on ebbly is a recovery of all applicable transaction taxes (e.g. sales and use, occupancy, room tax, excise tax, value added tax, etc.) that ebbly pays to the suppliers in connection with your travel arrangements.Taxability and the appropriate tax rate vary greatly by location. In relation to Ancillary Services, calculation of applicable taxes and fees will be set out in suppliers’ terms and conditions.\n\n
+
+3.Star Ratings\n\n
+The accommodation star or other denoted ratings (“star ratings”) are provided for your information only. The star ratings are based on information we have received from our suppliers, including the accommodations, and may take into account the accommodation’s facilities, rates, reviews, and services. Star ratings may be unrelated to any other ratings assigned by government tourism authorities. We do not independently verify star ratings. A star rating is only indicative of the level of comfort you can expect to find in a particular accommodation. For more detailed information, please check the detailed description on the website. Please be aware that star ratings can vary greatly on the basis of location, available alternatives, local market conditions, practices or other circumstances. Thus, it is possible that a star rating in one particular country or city is not comparable to the same star rating in another country or city due to such circumstances. Star ratings do not necessarily reflect all the amenities or services that might be available at an accommodation, and some amenities and features may not be available in every room or at every property with a particular star rating. If there are particular amenities or features that are important to you, please contact relevant suppliers and inquire as to the availability of such amenities or features.\n\n
+4. Credit Card or Bank Transfer\n\n
+If applicable and available, certain suppliers offer the opportunity for reservation to be paid (wholly or partly and as required under the payment policy of the suppliers) to the suppliers during the reservation process by means of secure online payment (all to the extent offered and supported by your bank). For certain products and services, ebbly facilitates (through third party payment processors) the payment of the relevant product or service (i.e. the payment facilitation service) for and on behalf of the suppliers (ebbly never acts nor operates as the merchant of record). Payment is safely processed from your credit/debit card or bank account to the bank account of the accommodation provider through a third party payment processor. Any payment facilitated by us for and on behalf of, and transferred to the suppliers will in each case constitute a payment of (part of) the booking price by you of the relevant product or service in final settlement of such (partial) due and payable price and you cannot reclaim such paid monies.\n
+For certain (non-refundable) rates or special offers, please note that suppliers may require that payment is made upfront by wire transfer (if available) or by credit card, and therefore your credit card may be pre-authorised or charged (sometimes without any option for refund) upon making the Trip Reservation. Please check the (reservation) details of your product or service of choice thoroughly for any such conditions prior to making your Trip Reservation. You will not hold ebbly liable or responsible for any (authorized, (allegedly) unauthorized or wrong) charge by the suppliers and not (re)claim any amount for any valid or authorized charge by the suppliers (including for pre-paid rates, no-show and chargeable cancellation) of your credit card.\n
+In the event of credit card fraud or unauthorised use of your credit card by third parties, most banks and credit card companies bear the risk and cover all the charges resulting from such fraud or misuse, which may sometimes be subject to a deductible. In the event that your credit card company or bank charges the deductible from you because of unauthorised transactions resulting from a reservation made on our Platform, we will pay you this deductible, up to an aggregate amount of EUR 50 (or the equivalent in your local currency). In order to indemnify you, please make sure that you report this fraud to your credit card provider (in accordance with its reporting rules and procedures) and contact us immediately by email (ask@ebbly.com). Please state ‘credit card fraud’ in the subject line of your email and provide us with evidence of the charged deductible (e.g. policy of the credit card company). This indemnification only applies to credit card reservations made using ebbly’s secure server and the unauthorised use of your credit card resulted through our default or negligence and through no fault of your own while using the secure server.\n\n
+Intellectual Property Rights\n\n
+Copyright Statement\n
+All contents on this Website are copyrighted by ebbly unless otherwise stated. Without prior written consent of ebbly or other parties, any content on the Website shall not be reproduced, distributed, photocopied, played, linked or transmitted with super-links,stored in information retrieval system, or otherwise used for any commercial purpose by any person by any means, unless otherwise downloaded or reproduced for private and non-commercial purposes (provided however, that such use shall not include any revision to the content and the copyright notices and other proprietary notices shall be retained in the same form and manner as on the original).\n\n
+
+Trademark\n
+All trademarks and logos displayed, mentioned or otherwise used in this Website are property of ebbly or other third parties as stated if applicable. You are not permitted to use any of these trademarks or logos in any way without explicit prior written permission of ebbly or such third party as applicable.\n\n
+
+Contact Us\n
+If you have any questions about the ebbly terms of use, please feel free to contact our customer service team vie e-mail: ask@ebbly.com\n\n
+    </string>
+
+    <string name="user_regist_not_agress">No</string>
+    <string name="user_regist_agress">I agree</string>
+
+    <!-- 授权登录相关 -->
+
+    <!-- todo 以上为与ios统一key的语言包 -->
+
+    <!--酒店-->
+    <!--引导页-->
+    <string name="splash_title1">Do you want to turn on location services now?</string>
+    <string name="splash_content1">Allowing ebbly access to your location will make searching for things nearby much easier.</string>
+
+    <!--用户模块-->
+
+    <string name="loading_emptey_hint_default">No match found</string>
+
+    <!--机票-->
+
+
+    <string name="plane_search_pause_hour">&#160;h&#160;</string>
+    <string name="plane_search_pause_minute">&#160;m&#160;</string>
+
+    <string name="plane_time_out_hint">Please refresh your search to see the latest price.</string>
+
+
+    <string name="plane_cancel">No</string>
+    <string name="save_as_default_passenger">Save as a Frequent Traveler</string>
+
+
+    <string name="personal_order_child_all">All</string>
+
+    <!--整理后添加-->
+    <string name="request_timed_out">Session time out</string>
+    <string name="user_feedback_enter">My profile</string>
+
+    <!--自定义http提示-->
+    <string name="http_error_hint1">Parsing error</string>
+    <string name="http_error_hint2">Type conversion error</string>
+    <string name="http_error_hint3">Connection failed</string>
+    <string name="http_error_hint4">ssl verification failed</string>
+    <string name="http_error_hint5">domain name error</string>
+    <string name="main_tip_new_version">Update Available</string>
+    <string name="main_tip_update2">New version detected. Please update.</string>
+    <string name="main_tip_update_content">Whats new?</string>
+    <string name="main_tip_ignore">Ignore</string>
+    <string name="main_tip_update">Update Now</string>
+
+    <string name="refresh_no_more_data">No More Data</string>
+
+
+    <!--TODO 2.0语言包-->
+    <!--整理完成-->
+    <!--分割线-->
+
+    <string name="user_coupon_dialog_mogos_no">I don’t have a MOGO S</string>
+    <string name="user_coupon_dialog_mogos_yes">I have MOGO S</string>
+    <!--逗号-->
+    <!--通知模块-->
+
+    <!--TODO 1.4语言包-->
+    <string name="register_verification_code">Verification code</string>
+    <string name="home_discover">Discover</string>
+
+    <!--TODO 1.5语言包-->
+
+    <!--TODO 1.6.0语言包-->
+
+    <!--时间格式-->
+    <string name="date_type_hotel" translatable="false">dd MMM</string>
+    <string name="date_type_hotel1" translatable="false">dd MMM yyyy</string>
+    <string name="date_type_hotel3" translatable="false">HH:mm E , dd MMM</string>
+    <string name="date_type_hotel4" translatable="false">E , dd MMM</string>
+    <string name="date_type_plane2" translatable="false">E,dd MMM</string>
+    <!--medium字体-->
+    <string name="font_fontFamily_medium" translatable="false">sans-serif-medium</string>
+    <!--重复/弃用布局-->
+
+    <string name="i_permission_cancel" translatable="false">Decline</string>
+    <string name="i_permission_rejected_hint" translatable="false">We are unable to serve you without authorization. Please grant the access permissions.</string>
+    <string name="i_permission_go_setting" translatable="false">Go to Settings</string>
+
+    <!--TODO 1.7语言包-->
+    <string name="splash_btn_content1" translatable="false">Turn on</string>
+    <string name="splash_btn_content2" translatable="false">Not now</string>
+    <string name="splash_bottom_text" translatable="false">ebbly takes the protection of your personal data very seriously.</string>
+
+    <!--<string name="share_order_detail_content" translatable="false">Sign up for ebbly with a link to get member-only prices &amp; benefits</string>-->
+
+    <!--TODO 1.8语言包-->
+
+    <string name="home_pending_list_enter" translatable="false"> （Remain %s）</string>
+
+    <!--TODO 1.8.2语言包-->
+    <!--<string name="hotel_room_price_tax" translatable="false">Taxes and fees</string>-->
+
+    <!--TODO 1.9.0语言包-->
+    <!--V1.8.2.2-->
+
+    <!--<string name="home_bottom_hint" translatable="false"> Quick answer</string>
+    <string name="home_bottom_hint1" translatable="false"> Our team of experts available round the clock to encure convenience</string>
+    <string name="home_bottom_hint2" translatable="false"> 100% Secure</string>
+    <string name="home_bottom_hint3" translatable="false"> Guest reviews and secure payment ensure you hava a great time</string>
+    <string name="home_bottom_hint4" translatable="false"> Curated Deals</string>
+    <string name="home_bottom_hint5" translatable="false"> 300,000 global hotels and flights resource</string>
+    <string name="home_bottom_hint6" translatable="false"> FREE global data</string>
+    <string name="home_bottom_hint7" translatable="false"> Travel service with global data sim card</string>-->
+
+    <string name="hotel_hotel" translatable="false"> Hotel</string>
+
+    <!--V1.8.3-->
+
+    <!--v1.8.5-->
+
+    <!--v1.8.6-->
+
+    <!--v1.8.7-->
+
+    <!---->
+
+    <!--v1.8.9-->
+    <string name="app_new" translatable="false">New</string>
+
+    <!--1.9.0-->
+
+    <!--1.9.1-->
+
+    <!--1.9.2-->
+    <string name="hint_error" translatable="false">Oh,Error!</string>
+
+    <string name="app_forced_upgrade_hint" translatable="false">Current app version is outdated.To provide you a better experience, please update to the newest version.</string>
+
+    <!--1.9.4-->
+
+    <!---->
+
+    <!--2.0.0-->
+
+    <!--2.1.0-->
+
+    <!---->
+    <string name="home_sale" translatable="false">Presale</string>
+
+    <!--2.2.5-->
+
+    <!---->
+    <string name="order_local_fun" translatable="false">Things to Do</string>
+
+    <!---->
+
+    <!---->
+
+</resources>

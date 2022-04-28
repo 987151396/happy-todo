@@ -1,0 +1,227 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+
+//apply plugin: 'classremover' //必须放在其他插件之前
+
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'walle'
+
+apply plugin: 'bugly'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        preDexLibraries = false // lib不进行分包处理
+        javaMaxHeapSize "4g"
+        jumboMode = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('GXJSZX.keystore')
+            keyAlias 'gxjszx'
+            keyPassword '123321'
+            storePassword '123456'
+        }
+        debug {
+            storeFile file('GXJSZX.keystore')
+            keyAlias 'gxjszx'
+            keyPassword '123321'
+            storePassword '123456'
+        }
+
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.android.JavaVersion
+        targetCompatibility rootProject.ext.android.JavaVersion
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            zipAlignEnabled false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    //自动生成指定名称的release发布版的 apk文件
+    android.applicationVariants.all { variant ->
+        def appName
+        if (project.hasProperty("applicationName")) {
+            appName = applicationName
+        } else {
+            appName = parent.name
+        }
+        variant.outputs.all { output ->
+            outputFileName = "${appName}-${defaultConfig.versionCode}-${defaultConfig.versionName}-${releaseTime()}.apk"
+//            outputFileName = "${appName}-${defaultConfig.versionName}.apk"
+        }
+    }
+
+    walle {
+        // 指定渠道包的输出路径
+        apkOutputFolder = new File("${project.buildDir}/outputs/channels")
+        // 定制渠道包的APK的文件名称
+        apkFileNameFormat = '${appName}-${packageName}-${channel}-${buildType}-v${versionName}-${versionCode}-${buildTime}.apk'
+        // 渠道配置文件
+        channelFile = new File("${project.getProjectDir()}/channel")
+    }
+
+    flavorDimensions "default"
+    productFlavors { // 根据环境区分包名
+        pro { // 线上版本
+            dimension "default"
+            applicationId rootProject.ext.android.applicationId
+            manifestPlaceholders.put("key_amap",rootProject.ext.key.amap)
+            manifestPlaceholders.put("app_name", "oppo")
+            buildConfigField("boolean", "isDevMode", "false")
+        }
+        dev { // 开发版本
+//            dimension "default"
+//            applicationId rootProject.ext.android.applicationId + "_dev"
+//            manifestPlaceholders.put("key_amap",rootProject.ext.key.amap_dev)
+//            manifestPlaceholders.put("app_name","ebbly dev")
+//            manifestPlaceholders.put("app_name","ebbly dev")
+//            buildConfigField("boolean", "isDevMode", "true")
+            dimension "default"
+            applicationId rootProject.ext.android.applicationId
+            manifestPlaceholders.put("key_amap",rootProject.ext.key.amap)
+            manifestPlaceholders.put("app_name", "oppo")
+            buildConfigField("boolean", "isDevMode", "false")
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    sourceSets { main { jniLibs.srcDirs = ['libs'] } }
+
+    defaultConfig {
+        ndk {
+            // X86 方便虚拟机调试
+            abiFilters 'armeabi-v7a','arm64-v8a'
+            if(rootProject.ext.android.isDebug){
+                abiFilters "x86"
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    /*buildFeatures {
+        dataBinding true
+    }*/
+
+    dataBinding {
+        enabled = true
+    }
+
+    kapt {
+        generateStubs = true
+    }
+
+}
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHHmm", TimeZone.getDefault())
+}
+
+//bugly上传混淆的mapping文件
+bugly {
+    appId = "39bba8207c"
+    appKey = "1011f179-60d1-4acd-adaf-e906ac84616a"
+    debug = false //开启插件调试模式之后，将打印更详细日志，并在Debug编译打包的时候自动执行符号表文件上传任务。
+}
+
+repositories {
+    flatDir { dirs project(':lib_common').file('libs') }
+}
+
+kapt {
+    arguments {
+        arg("AROUTER_MODULE_NAME", project.getName())
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    if (rootProject.ext.module.isModule) {
+        api project(':lib_common')
+    } else {
+        if (!rootProject.ext.module.mainIsApp) {
+            api project(':module_main')
+        }
+
+        if (!rootProject.ext.module.orderIsApp) {
+            //api project(':module_order')
+        }
+        
+        if (!rootProject.ext.module.userIsApp) {
+            api project(':module_user')
+        }
+
+         if (!rootProject.ext.module.faqIsApp) {
+            //api project(':module_faq')
+        }
+
+        if (!rootProject.ext.module.payIsApp) {
+            //api project(':module_pay')
+        }
+    }
+    kapt deps.arouter.compiler
+    kapt deps.butterknife.compiler
+
+    // test
+    testImplementation deps.junit
+
+    testImplementation deps.atsl.runner
+    androidTestImplementation deps.espresso.core
+    androidTestImplementation deps.espresso.intents
+    androidTestImplementation(deps.espresso.contrib) {
+        exclude group: 'com.android.support', module: 'appcompat'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude module: 'recyclerview-v7'
+    }
+
+    testImplementation 'org.mockito:mockito-core:2.13.0'
+    androidTestImplementation "org.mockito:mockito-android:2.13.0"
+    // Optional -- UI testing with UI Automator
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
+}

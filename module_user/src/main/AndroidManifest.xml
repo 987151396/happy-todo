@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.happy.todo.module_user">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application>
+        <activity android:name="com.ifreegroup.app.com.mexico.oppo.module_user.TestActivity" />
+
+        <activity
+            android:name="com.ifreegroup.app.com.mexico.oppo.module_user.ui.login.LoginMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.ifreegroup.app.com.mexico.oppo.module_user.ui.login.LoginManualActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.ifreegroup.app.com.mexico.oppo.module_user.ui.register.UserRegisterStep1Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ifreegroup.app.com.mexico.oppo.module_user.ui.register.RegisterStep2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ifreegroup.app.com.mexico.oppo.module_user.ui.password.ForgetPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ifreegroup.app.com.mexico.oppo.module_user.ui.password.ResetPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+
+
+        <activity
+            android:name=".ui.login.LoginIAppActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+
+    </application>
+
+</manifest>

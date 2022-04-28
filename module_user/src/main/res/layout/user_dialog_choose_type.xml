@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D000000">
+
+    <LinearLayout
+        android:id="@+id/popup_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_bottom_white_radius_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/sp_16"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/personal_order_child_all" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_EEEEEE"/>
+
+        <TextView
+            android:id="@+id/tv_hotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/sp_16"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/hotel_hotel"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/tv_discover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/sp_16"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/home_discover"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/tv_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/sp_16"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/order_local_fun"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/tv_sale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/sp_16"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/home_sale"/>
+
+    </LinearLayout>
+</RelativeLayout>

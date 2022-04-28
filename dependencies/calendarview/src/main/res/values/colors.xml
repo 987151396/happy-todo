@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--日历相关-->
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ff484848</color>
+    <color name="calendar_text_active">#ff484848</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#00ff0101</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 用于替换boxing中的样式 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/boxing_corner_radius" />
+            <solid android:color="@color/theme_color" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/theme_color" />
+            <corners android:radius="@dimen/boxing_corner_radius" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/boxing_gray" />
+            <corners android:radius="@dimen/boxing_corner_radius" />
+        </shape>
+    </item>
+</selector>

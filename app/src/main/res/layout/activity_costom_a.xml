@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!--<com.happy.todo.weight.MatrixCoustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.happy.todo.weight.StatisticsView
+            android:id="@+id/sv1"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            app:sv_display_mode="right"
+            app:rect_color="#43B353"
+            app:tv_color1="@android:color/black"
+            app:tv_color2="#43B353"
+            app:tv_text1="20"
+            app:tv_text2="10"
+            app:tv_text_size="14"/>
+
+        <com.happy.todo.weight.StatisticsView
+            android:id="@+id/sv2"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            app:sv_display_mode="left"
+            app:rect_color="#ED647D"
+            app:tv_color1="@android:color/black"
+            app:tv_color2="#ED647D"
+            app:tv_text1="2021"
+            app:tv_text2="30"
+            app:tv_text_size="14"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.happy.todo.weight.StatisticsView
+            android:id="@+id/sv3"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            app:sv_display_mode="right"
+            app:rect_color="#43B353"
+            app:tv_color1="@android:color/black"
+            app:tv_color2="#43B353"
+            app:tv_text1="20"
+            app:tv_text2="50"
+            app:tv_text_size="14"/>
+
+        <com.happy.todo.weight.StatisticsView
+            android:id="@+id/sv4"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            app:sv_display_mode="left"
+            app:rect_color="#ED647D"
+            app:tv_color1="@android:color/black"
+            app:tv_color2="#ED647D"
+            app:tv_text1="2021"
+            app:tv_text2="90"
+            app:tv_text_size="14"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.happy.todo.weight.StatisticsView
+            android:id="@+id/sv5"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            app:sv_display_mode="right"
+            app:rect_color="#43B353"
+            app:tv_color1="@android:color/black"
+            app:tv_color2="#43B353"
+            app:tv_text1="20"
+            app:tv_text2="100"
+            app:tv_text_size="14"/>
+
+        <com.happy.todo.weight.StatisticsView
+            android:id="@+id/sv6"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            app:sv_display_mode="left"
+            app:rect_color="#ED647D"
+            app:tv_color1="@android:color/black"
+            app:tv_color2="#ED647D"
+            app:tv_text1="2021"
+            app:tv_text2="60"
+            app:tv_text_size="14"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/animationActivity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="AnimationActivity"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/blue_00A9BA"/>
+
+    <TextView
+        android:id="@+id/canScrollView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="CanScrollViewActivity"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/blue_00A9BA"
+        app:layout_constraintLeft_toRightOf="@+id/animationActivity"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/mainActivity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="MainActivity"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/blue_00A9BA"
+        app:layout_constraintLeft_toRightOf="@+id/canScrollView"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/progressBarActivity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="progressBarActivity"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/blue_00A9BA"
+        app:layout_constraintTop_toBottomOf="@+id/animationActivity"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

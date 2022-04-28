@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.happy.todo.module_main">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application>
+        <activity
+            android:name="com.happy.todo.module_main.ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActTheme"
+            android:launchMode="singleTask">
+
+            <intent-filter>
+                <!--协议部分，随便设置-->
+                <!--<data android:scheme="scheme" android:host="ebbly" android:path="/main"  />-->
+                <data
+                    android:host="ebbly_main"
+                    android:scheme="ifreegroup" />
+                <!--下面这几行也必须得设置-->
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.happy.todo.module_main.ui.version.UpdateServer" />
+
+        <activity android:name="com.happy.todo.module_main.ui.guide.GuideActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.happy.todo.module_main.ui.version.UpdateAppActivity"
+            android:theme="@style/main_dialog_default_style" />
+    </application>
+
+</manifest>

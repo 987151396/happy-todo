@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a000000">
+
+    <RelativeLayout
+        android:id="@+id/popup_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="@dimen/dp_12"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/home_refundable_policy"
+            android:id="@+id/tv_share_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:layout_marginTop="@dimen/dp_4"
+            android:gravity="center"
+            android:textColor="@color/black_484848"
+            android:textSize="@dimen/sp_16"
+           android:fontFamily="@string/font_fontFamily_medium" />
+
+        <ImageView
+            android:id="@+id/btn_clear"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/tv_share_title"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="@dimen/dp_12"
+            android:src="@mipmap/ic_clear" />
+
+        <TextView
+           android:fontFamily="@string/font_fontFamily_medium"
+            android:textSize="@dimen/sp_14"
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_share_title"
+            android:layout_margin="@dimen/dp_20"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/tv_content"
+            android:background="@color/gray_EEEEEE" />
+    </RelativeLayout>
+
+</RelativeLayout>

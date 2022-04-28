@@ -1,0 +1,119 @@
+if (rootProject.ext.module.mainIsApp) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+
+        if (rootProject.ext.module.mainIsApp) {
+            applicationId rootProject.ext.android.applicationId + ".module_main"
+        }
+
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.android.JavaVersion
+        targetCompatibility rootProject.ext.android.JavaVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            if (rootProject.ext.module.mainIsApp) {
+                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+            } else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                //集成开发模式下排除debug文件夹中的所有Java文件
+                java {
+                    exclude 'debug/**'
+                }
+            }
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false // lib不进行分包处理
+        javaMaxHeapSize "4g"
+        jumboMode = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+
+    defaultConfig {
+        ndk {
+            // X86 方便虚拟机调试
+            abiFilters 'armeabi-v7a','arm64-v8a'
+            //abiFilters "armeabi-v7a","arm64-v8a","x86","x86_64"
+        }
+    }
+
+    resourcePrefix 'main_'
+
+   /* buildFeatures {
+        dataBinding true
+    }*/
+
+    dataBinding {
+        enabled = true
+    }
+
+    kapt {
+        generateStubs = true
+    }
+}
+repositories {
+    flatDir { dirs project(':lib_common').file('libs') }
+}
+
+kapt {
+    arguments {
+        arg("AROUTER_MODULE_NAME", project.getName())
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':lib_common')
+    kapt deps.butterknife.compiler
+    kapt deps.arouter.compiler
+
+    // test
+    testImplementation deps.junit
+    implementation deps.atsl.runner
+    implementation deps.espresso.core
+    implementation deps.espresso.intents
+    implementation(deps.espresso.contrib) {
+        exclude group: 'com.android.support', module: 'appcompat'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude module: 'recyclerview-v7'
+    }
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0'
+    testImplementation 'org.jetbrains:annotations:15.0'
+}

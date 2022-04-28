@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_traveler_parent"
+        android:background="@drawable/plane_round_gray_solid"
+        android:padding="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_traveler_title"
+        android:textColor="@color/gray_767676"
+        android:textSize="12sp"
+        android:text="Country or Region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_traveler_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textColorHint="@color/gray_c5c5c5"
+        android:background="@color/transparent"
+        android:layout_below="@+id/tv_traveler_title"
+        android:textColor="@color/gray_767676"
+        android:text="Country or Region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_traveler_content"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:background="@color/transparent"
+        android:layout_below="@+id/tv_traveler_title"
+        android:textColor="@color/gray_c5c5c5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_traveler_chose"
+        android:padding="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/gray_c5c5c5"
+        android:src="@mipmap/hotel_ic_gray_down_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_traveler_chose1"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/gray_c5c5c5"
+        android:src="@mipmap/icon_pessenger"
+        android:padding="3dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red_E05857"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/sp_12"
+        tools:text="abc"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+</LinearLayout>

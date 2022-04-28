@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverScrollView">
+        <attr name="overscrollEnabled" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalOverScrollView">
+        <attr name="overscrollEnabled" />
+    </declare-styleable>
+
+    <attr name="overscrollEnabled" format="boolean" />
+</resources>

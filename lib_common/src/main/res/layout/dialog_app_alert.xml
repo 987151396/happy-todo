@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_bg_white_radius_8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="1"
+       android:fontFamily="@string/font_fontFamily_medium"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:fadeScrollbars="false"
+        android:gravity="center"
+        android:maxHeight="300dp"
+        android:minHeight="100dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        tools:text="居中了么？？？。。。居中了么？？？这是一条弹窗的消息提示。。。居中了么？？？" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="110dp"
+            android:layout_height="@dimen/button_height_dp_40"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:background="@drawable/shape_bg_0_radius_8_border_blue"
+            android:maxWidth="120dp"
+            android:textColor="@color/theme_color"
+            android:visibility="gone"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="110dp"
+            android:layout_height="@dimen/button_height_dp_40"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:background="@drawable/shape_corner_blue"
+            android:maxWidth="120dp"
+            android:textColor="@color/white"
+            android:text="@android:string/ok" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

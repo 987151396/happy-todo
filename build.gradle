@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    apply from: 'config.gradle'
+    repositories {
+        addRepos(repositories)
+        google()
+        jcenter()
+        maven { url uri("./dependencies/classremover/repo") }
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.6.2"
+        classpath deps.butterknife.gradle
+
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$rootProject.ext.android.kotlin_version"
+
+        // 美团多渠道打包
+        classpath 'com.meituan.android.walle:plugin:1.1.6'
+
+        // bugly 上传 制表符
+        classpath 'com.tencent.bugly:symtabfileuploader:latest.release'
+
+
+    }
+}
+
+allprojects {
+    repositories {
+        addRepos(repositories)
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

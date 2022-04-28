@@ -1,0 +1,303 @@
+<resources>
+    <string name="app_name">ebbly</string>
+    <string name="loading_text">加载中…</string>
+    <string name="please_input">请输入%1$s</string>
+
+    <!--日历相关-->
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">日期必须介于％1$s和％2$s之间</string>
+    <string name="month_only_name_format">MMMM</string>
+    <string name="year_only_format">yyyy</string>
+    <string name="month_title1">一月</string>
+    <string name="month_title2">二月</string>
+    <string name="month_title3">三月</string>
+    <string name="month_title4">四月</string>
+    <string name="month_title5">五月</string>
+    <string name="month_title6">六月</string>
+    <string name="month_title7">七月</string>
+    <string name="month_title8">八月</string>
+    <string name="month_title9">九月</string>
+    <string name="month_title10">十月</string>
+    <string name="month_title11">十一月</string>
+    <string name="month_title12">十二月</string>
+
+    <string name="week_title1">周日</string>
+    <string name="week_title2">周一</string>
+    <string name="week_title3">周二</string>
+    <string name="week_title4">周三</string>
+    <string name="week_title5">周四</string>
+    <string name="week_title6">周五</string>
+    <string name="week_title7">周六</string>
+
+    <!-- todo 以下为与ios统一key的语言包 -->
+    <string name="tar_search">首页</string>
+    <string name="tar_booking">更多</string>
+
+    <string name="home_share_cancle">取消</string>
+    <string name="personal_quit_sure">确定</string>
+
+    <!-- 信息填写 -->
+
+    <string name="personal_sex_man">男</string>
+    <string name="personal_sex_woman">女</string>
+    <string name="personal_sex_other">其他</string>
+
+    <!-- 提示语 -->
+    <string name="network_null">啊哦～网络好像不太好～</string>
+    <string name="personal_collection_look">去逛逛</string>
+    <string name="network_null_reload">重新加载</string>
+
+    <string name="personal_email">邮箱</string>
+
+    <string name="user_account_register_phone">手机号码</string>
+
+    <string name="user_text_password">密码</string>
+
+    <!-- 格式校验 -->
+
+    <string name="user_account_register_send_code">发送验证码</string>
+    <string name="registration_policy">注册条款</string>
+
+    <!--<string name="personal_order_detail_business_hours">营业时间</string>-->
+
+    <!--酒店详情-->
+    <string name="home_hotel_detail_more">更多</string>
+    <string name="home_pick_up">收起</string>
+
+
+    <!--选择客房-->
+    <string name="home_refundable_policy">退订政策</string>
+
+    <!--语言包第二版-->
+    <string name="home_pay_visa_failure">支付失败</string>
+    <!--第三版语言包整理 连同飞机票-->
+
+    <string name="flight_cabin_type_economy">经济舱</string>
+    <string name="flight_cabin_type_luxury_economy">豪华经济舱</string>
+    <string name="flight_cabin_type_business">商务舱</string>
+    <string name="flight_cabin_type_first">头等舱</string>
+
+    <string name="user_account_login_err">您的账号在其他地方登录了</string>
+
+    <!-- 授权登录相关 -->
+
+
+    <!-- todo 以上为与ios统一key的语言包 -->
+
+    <!--酒店-->
+
+    <!--引导页-->
+    <string name="splash_title1">开启定位服务？</string>
+    <string name="splash_content1">ebbly 将根据您的定位来提供周边的旅行商品</string>
+
+    <!--用户模块-->
+
+    <!--提示语-->
+    <string name="loading_emptey_hint_default">暂无数据</string>
+    <string name="user_regist_hint">一、定义\n
+二、服务范围\n
+三、网站使用规则\n
+四、免责声明\n
+五、一般使用条款 \n
+六、知识版权\n
+七、服务帮助\n\n
+
+定义\n
+欢迎您（“顾客”或“用户”）访问ebbly。“ebbly”、“ebbly.com” “我们”指的是ebbly（ 由爱讯集团（香港）有限公司运营）。\n\n
+
+本网站有一系列衍生产品，包括但不限于手机网站和应用程序，也不限于通过手机、平板电脑或其他设备进入访问。服务条款适用于我们通过任何渠道直接或者间接提供的服务中，一经访问、浏览和使用该网站及/或通过ebbly进行预订，即视为您已阅读、了解并同意服务条款。您可从网站查看我们不同的政策及指引，包括但不限于ebbly隐私政策、预订取消规定、退款政策、常见问题解答等等（统称“政策”），这些政策及指引为本条款的重要组成部分，您在阅读本条款过程中应同时了解这些政策及指引，我们在此对其进行规范供您参考。下文的条款与前述政策统称为“服务条款”。使用本网站，即表示你同意本使用条款；如果你不同意，请勿使用本网站。\n
+ebbly有权随时自行决定更改、修改、添加或删除本使用条款的部分内容。你有责任定期检查本使用条款，以了解是否发生了更改。如果你在更改发布后继续使用本网站，即表示你接受并同意这些更改。只要你遵守本使用条款，ebbly即授予你个人、非排他性、不可转让、有限的权利进入和使用本网站。\n\n
+服务范围\n\n
+1.酒店预订\n
+ebbly通过网站为您提供一个平台，您可藉由该平台浏览不同类型的酒店房间，并进行预订。您通过网站进行预订，代表您同意按照所列预订价格预订，并愿意遵守网站规定的其他条件。如果ebbly接受了预订，则代表在中国香港成立对双方都有约束力的合同，亦代表酒店确认了您的预订。酒店接受了您的预订后，您将会收到确认的电子邮件。同时您也可以在网站查看订单状态。当我们已经收到预订申请且预订流程已完成，您将不需采取更多操作。我们保留下文所述之拒绝预订的权利。\n
+我们根据供应商提供给我们的信息向您发布酒店的相关信息，从而提供服务。市场行情或环境的突然变化可能会导致网站上发布的信息不够准确或者已过期。如遇问题，我们的客户服务会作出商业层面上合理的协助，并充当您与酒店的中间人。请注意，ebbly是酒店提供预订服务的平台渠道之一，当搜索结果显示某一酒店没有空房可供预订时，表明该房型在ebbly上无法提供预订。\n
+ebbly列出酒店名称，其并不意味着也不应该被视作推荐该酒店或为该酒店（质量、服务水平或评级）承证。我们在此申明我们不代表、保证或承诺网站所列酒店的质量、状况或适宜性。\n
+默认排名根据自动运算法得出且该运算法则不时更新或修订，参与运算的因素包括但不一定限于房量、促销、房价、过往人气、利润及收入、转化率（网站访问量和预订量的比例）、间夜销售量、取消量、内容品质、住客评分和星级等。\n
+我们保留以任何（合法）理由自由决定拒绝接受客户或预订（或在特殊情况取消已经确认的预订）的权利，并无需对其加以证明。通常拒绝客户或预订的理由包括但不限于：酒店的要求、未经我们事先书面批准的单家或大量转售酒店预订（“转售”）、违反服务条款、不可抗力事件、贸易或经济制裁、禁令、法律限制、（涉嫌）诈骗或偷窃、刑事案件嫌疑犯、可疑预订、客户提交误导或错误信息、信用卡问题、行为不当、威胁、侮辱、暴力、拒绝提供信息、实际障碍、沟通问题、明显错误、历史记录、列入政府或国际组织的黑名单中等。如果ebbly（拒绝或者取消预订，而您已支付了费用，我们将退还所有的预订费用给您。除非有任何未经授权的转售或其他我们认可的适用情况，我们保留不退还全部或部分预订费用的权利。如您在未经授权的情况下转售ebbly酒店，所造成的一切后果需由您自行负责。因为此行为将对我们的合作伙伴造成损失，且此行为还可对ebbly的商业模式和品牌带来负面影响，如在ebbly不知情的情况下将ebbly网站上的酒店放置于ebbly竞争对手的网站上出售。我们也保留自由决定暂时或永久禁止用户访问网站（“将其列入黑名单”）的权利。任何列入黑名单的用户不得尝试以其他名称或通过其他用户访问网站。\n
+请注意ebbly或酒店可拒绝可疑的团体预订，因为大多数酒店对团体预订有特殊程序。欲知更多信息，请联系我们的客户服务团队，联系邮箱：ask@ebbly.com\n\n
+2.机票预订\n
+ebbly上有关航空公司的所有航班情况和使用规则都是由相关供应商提供。ebbly对所有座位情况和规则都没有控制权。我们无权更改任何航空公司的票价条件或规则。如果因供应商提供了不正确的信息而产生的错误，为了遵守相关航空公司的规定，我们有权修改您的预订。在您购票前，如果不明白任何票价和规则或需要帮助，请联系我们的客户服务团队，联系邮箱：ask@ebbly.com\n\n
+3.其他附带服务\n
+ebbly提供的在线平台可以让您查看不同类型的服务，包括但不限于租车和全球保险等（统称“附带服务”），并对相关附带服务进行预订。虽然您可以通过ebbly网站提供的平台查看并预订相关的附带服务，但服务的提供者为ebbly谨慎挑选的合作公司或合作伙伴。
+通过网站预订附带服务，代表您同意按照所列预订价格预订，并愿意遵守网站规定及伙伴说明的其他条款。\n
+
+网站使用规则\n
+您在使用ebbly网服务时，必须遵守相关法律法规的规定，您应同意将不会利用该服务进行任何违法或不正当的活动，包括但不限于下列行为：\n
+1.上载、展示、张贴、传播或以其它方式传送含有下列内容之一的信息：\n
+(1)违反相关法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的；\n
+(2)散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\n
+(3)侮辱或者诽谤他人，侵害他人合法权利的；\n
+(4)含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它令人产生不适的内容；\n
+2.为任何非法目的而使用网络服务系统。如利用ebbly网络服务从事以下活动：\n
+(1)未经允许，进入计算机信息网络或者使用计算机信息网络资源的；未经允许，对计算机信息网络功能进行删除、修改或者增加的；未经允许，对进入计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加的；故意制作、传播计算机病毒等破坏性程序的；其他危害计算机信息网络安全的行为。\n
+(2)对ebbly网站上的任何数据作商业性利用，包括但不限于在未经ebbly事先书面同意的情况下，以复制、传播等任何方式使用ebbly网站上展示的资料。\n
+(3)使用任何装置、软件或例行程序等其他方式干预或试图干预ebbly的正常运作或正在ebbly网站上进行的任何交易、活动，或采取任何将导致不合理的庞大数据负载加诸ebbly网络设备的行动。\n
+(4)违反诚实信用原则的不正当竞争行为，或恶意下订单或虚假交易等其他恶意扰乱ebbly交易秩序的行为。\n
+(5)与网上交易无关的其他行为。\n
+如条款适用于您居住国的要求，您可能需要同时履行缴纳税费等所有相关义务。\n\n
+
+免责声明\n\n
+
+本条款任何内容不得限制或免除我们因我们的欺诈行为所产生的责任或我们因我们的疏忽行为所造成的人身伤亡责任，亦不得被视为限制或免除我们因此等情况所产生或造成的责任。\n
+
+本网站所登载的资料、软件、产品和服务可能有不准确或书写错误的情况。尤其是，ebbly不对与本网站展示的酒店和供应商的照片，有关酒店、汽车和其他产品的描述，酒店设施清单有关的准确性做出保证，也不对上述不准确情况承担任何责任（该等照片、描述、清单等资料大多由各自的供应商提供）。本网站展示的酒店评级仅作一般指引之用，ebbly一律不对此等评级的准确性做出保证。有关资料会不定期予以更改。\n
+
+ebbly不为任何目的对本网站所包含的资料、软件、产品和服务的适用性做出任何声明，而本网站登载或要约出售任何产品或服务并不构成ebbly对该等产品或服务的认可或推荐。所有该等资料、软件、产品和服务均在没有任何种类保证的情况下按其“现状”提供，ebbly特此声明未针对该等资料、软件、产品和服务作出任何保证和提出任何条件，包括有关对适销性、适用于某一特定用途、所有权和不侵权的所有默示保证和条件。\n\n
+
+为ebbly提供旅游服务或其他服务的交通运输机构、酒店和其他供应商均是独立承包人，而并非ebbly或其关联机构的代理人或雇员。ebbly一律不对任何该等交通运输机构、酒店和供应商的作为、错误、不作为、声明、保证、违约或疏忽或由此产生的任何人身伤亡、财产损毁、其他损害赔偿或费用承担任何责任。如发生ebbly不能直接控制的任何延误、取消、超额预订、罢工、不可抗力或其他原因，ebbly无须承担任何责任，亦无须做出任何退款。ebbly亦一律不对任何额外费用、不作为、延误、变更行程或任何政府或部门的行为承担任何责任。\n\n
+
+在任何情况下，ebbly均不对因使用本网站、延误或不能使用本网站，或通过本网站取得的任何资料、软件、产品和服务所引起的、或在任何方面与之有关的，或因以其他方式使用本网站（无论上述各项有否合同、侵权、严格责任、或者其他方面的依据）所引起的任何直接、间接、惩罚性、附带、特殊或相应而生的损害赔偿负责。由于部分区域不容许就附带或间接损害赔偿免除责任或订定责任限制，因此上述责任免除或限制可能不适用于您。\n\n
+
+一般使用条款\n\n
+
+1.关于预订及取消预订\n
+
+您向服务提供方预订旅行产品即意味着您接受了相关供应商的相关条款，包括供应商向客人提供的各种服务和/或产品（请向相关服务提供方索取交付/购买/使用/承载条款和条件）。
+各供应商的基本预订、取消政策和相关入住条款我们网站上供应商的信息页面、在预订过程中以及预订确认邮件里均有列明。\n
+对于未如期入住或不予免费取消的订单，供应商可能收取适用的手续费。请注意，部分房价、相关税费手续费、特惠客房或者机票不允许客人在预订后取消、退还或更改。请您在落实预订前详细查阅产品或服务细则中的（预订）相关条款。 \n
+如果您的预订需要首付或（全部或部分）预付款，但您未能按照相关付款政策和预订要求在约定到期时间内或规定付款日期付清相关（尚未支付的）款项，您的旅行订单可能会（在没有得到事先通知的情况下）被取消。取消及预付政策可能会根据每个旅行产品或服务不同而有所不同。请仔细阅读重要信息（均在页面有所标注），以及订单邮件中所列明的供应商要求的其他政策（如住客年龄要求、保证金、不可退款/团体预订额外费用、加床/不提供免费早餐、宠物/接受的银行卡种类）。如发生逾期付款，银行信息、借记卡或信用卡信息错误，信用卡/借记卡无效，或账户余额不足等情况，您需要全权负责由此带来的后果。根据供应商的（预）付款政策和取消政策，在未经供应商同意或允许的情况下，您所预付的款项不得返还。\n
+如果您希望查看、更改或取消您的旅行预订，请参阅确认邮件并依照邮件里的说明进行操作。供应商可能会依照取消、（预）付款以及未到店的条款向您收取相关取消费用。我们建议您在确认预订前仔细阅读供应商的取消、（预）付款以及未到店的相关条款，并按时支付所规定的款项。\n
+如果您需要在入住当天的晚些时候或第二天抵店，敬请及时将情况告知服务提供方，以便了解您的预计到店时间，以免取消您的旅行（订单）或向您收取未如期入住的费用。此外，您需要保证预订时所填信息的真实性，对于您延迟到达或个人信息虚假而产生的订单取消或供应商向您收取未如期入住费用的情况，ebbly不负任何责任和义务。\n\n
+2.关于税款\n
+
+垫付的税款指的是您就ebbly网站预订酒店和机票等交易所缴纳的税费。包括就您的行程安排而向服务提供方缴付的所有适用交易税（销售和使用税、住宿税、房间税、消费税、增值税等）。是否需要纳税和相关的税率因地而异。如涉及附带服务，相关的税费及其他费用将按照伙伴的条款和条件计算。\n\n
+
+3.关于星级评定\n
+住宿星级或其他星级评定仅供您参考。星级评定是基于包括酒店在内的供应商提供的信息所作出，可作为衡量住宿设施、房价、点评和服务的指标。星级评定可能与其它由政府旅游部门评定的结果并无关联。我们并不独立地对星级评定进行验证。星级评定仅表明您在某个酒店可获得的舒适度。欲知更多具体信息，请查看网站的具体内容。请注意，地点、可提供的选择、当地市场行情、实践或者其他情况，都能大大影响星级评定。因此，相同的星级评定于不同的国家或城市，会有不同的实际感受。星级评定并不必然反映一家酒店可提供的所有设施或服务，并不是有着同样星级评定的房间都有相同的设施或特征。如果您很重视特定的设施或者特征，请联系相关供应商询问是否具备这些设施或特征。\n
+4.关于信用卡或银行转账\n
+在适用且可用的情况下，某些服务提供方（根据住宿提供方的付款政策要求）允许客人在旅行预订过程中通过安全的在线支付方式（由客人的银行提供并支持）向服务提供方支付（全额或部分）旅行订单费用。对于一些特定的产品和服务，ebbly由服务提供方选择（通过第三方支付处理机构）处理相关产品或服务的付款事宜（例如代收款服务）（ebbly决不会以商户记录的形式收款）。客人所支付的款项将通过第三方支付处理机构由客人的信用卡/借记卡或银行账户向服务提供方的银行账户安全转账。任何以这种方式为服务提供方操作的每一笔款项均构成一笔支付，您所预订的相关产品或服务的（部分）预订价格即为您在最终结算中所应支付的（部分）价格，您不可要求收回这笔款项。\n
+当预订某些（不予退款）价格或特别优惠时，服务提供方可能要求立即付款（通过电汇或信用卡），因而在旅行预订时对您的信用卡行使预授权或者是直接收费（有时不能退还款项）。因此，请您在预订旅行订单时详细查阅产品或服务细则中的（预订）相关条款。您无法要求ebbly为服务提供方任何（（声称）授权的、未授权的或错误的）收费承担任何责任，也无法为服务提供方向您的信用卡进行的任何有效的或授权的收费（重新）索要任意金额（包括预付房费、未如期入住及取消费用）。\n
+在出现伪造信用卡或信用卡被盗用的情况时，大部分银行以及信用卡公司将会承担风险并负责填补由此带来的所有损失，但是有时会收取一定的手续费。如果因在本平台预订而发生信用卡被盗用，而信用卡公司或银行向您收取此类手续费时，我们将负责替您偿还此手续费，总额不超过 50欧元（或其它货币的等值数额）。为了保障您的利益，在出现类似情况时，请根据有关通报程序及规则马上向您的信用卡公司进行通报，并立即通过邮件与我们联系： ask@ebbly.com. 请在邮件主题栏中注明“信用卡盗用”字样。以上仅适用于在ebbly的安全服务器上进行的信用卡预订交易，并且需确保此类非授权信用卡划账并非是因您在网站上的操作失误所造成的。\n\n
+知识产权\n
+1.著作权说明\n
+本网站所载的所有材料或内容受版权法的保护，所有版权由ebbly拥有，但注明引用其他方的内容除外。未经ebbly或其他方事先书面许可，任何人不得将本网站上的任何内容以任何方式进行复制、经销、翻印、播放、以超级链接连接或传送、存储于信息检索系统或者其他任何商业目的的使用，但对于非商业目的、个人使用的下载或打印（条件不得修改，且须保留该材料中的版权说明或其他所有权的说明）除外。\n
+2.商标\n
+本网站上使用和显示的所有商标、标志皆属ebbly所有，但注明属于其他方拥有的商标、标志、商号除外。本网站所载的任何内容不应被视作未经ebbly或其它方书面许可，以暗示、不反对或其它形式授予使用前述任何商标、标志的许可或权利。未经事先书面许可，任何人不得以任何方式使用ebbly名称及ebbly的商标、标记。\n\n
+
+服务帮助\n
+对ebbly服务条款有任何疑问请联系我们的客服帮助，邮件地址：ask@ebbly.com\n\n
+    </string>
+
+    <string name="user_regist_not_agress">取消</string>
+    <string name="user_regist_agress">我同意</string>
+
+    <!--机票-->
+
+    <!--<string name="main_plane_from">返程</string>-->
+
+
+    <!--<string name="room_checkin_certificates_title">护照或身份证</string>-->
+
+    <!--TODO 2018-08-24 新版语言包整理-->
+    <string name="plane_time_out_hint">你在此页面停留时间太长，请重新搜寻。</string>
+    <string name="plane_search_pause_hour">小时</string>
+    <string name="plane_search_pause_minute">分</string>
+    <string name="personal_order_child_all">全部</string>
+
+    <string name="main_tip_new_version">新版本更新提示</string>
+    <string name="main_tip_update2">检测到有新版本，请尽快升级。</string>
+    <string name="main_tip_update_content">更新内容：</string>
+    <string name="main_tip_ignore">忽略</string>
+    <string name="main_tip_update">升级</string>
+
+    <string name="request_timed_out">请求超时</string>
+    <string name="user_feedback_enter">返回</string>
+    <string name="plane_cancel">取消</string>
+    <string name="save_as_default_passenger">保存为常用旅客</string>
+
+    <!--自定义http提示-->
+    <string name="http_error_hint1">解析错误</string>
+    <string name="http_error_hint2">类型转换错误</string>
+    <string name="http_error_hint3">连接失败</string>
+    <string name="http_error_hint4">证书验证失败</string>
+    <string name="http_error_hint5">无法解析该域名</string>
+
+    <string name="refresh_no_more_data">没有更多数据了</string>
+
+    <!--TODO 2.0语言包-->
+
+    <string name="user_coupon_dialog_mogos_no">未有卡</string>
+    <string name="user_coupon_dialog_mogos_yes">已有卡</string>
+
+    <!--TODO 1.4语言包-->
+    <string name="register_verification_code">验证码</string><![CDATA[
+
+
+
+
+
+
+
+    >
+    ]]>
+    <string name="home_discover">发现</string>
+
+    <!--TODO 1.5语言包-->
+
+    <!--TODO 1.6语言包-->
+    <!--时间格式-->
+    <string name="date_type_hotel">MM月dd日</string>
+    <string name="date_type_hotel1">yyyy年MM月dd日</string>
+    <string name="date_type_hotel3">MM月dd日 , E HH:mm</string>
+    <string name="date_type_hotel4">MM月dd日 , E</string>
+    <string name="date_type_plane2" translatable="false">MM月dd日 , E</string>
+
+    <!--通知模块-->
+
+    <string name="i_permission_cancel">残忍拒绝</string>
+    <string name="i_permission_rejected_hint">您已拒绝过权限，没有权限无法服务，请授予权限吧</string>
+    <string name="i_permission_go_setting">好，去设置</string>
+
+    <!--TODO 1.7语言包-->
+    <string name="splash_btn_content1" translatable="false">好的</string>
+    <string name="splash_btn_content2" translatable="false">暂时不需要</string>
+    <string name="splash_bottom_text" translatable="false">ebbly将会保护您的个人隐私</string>
+
+    <!--TODO 1.8语言包-->
+
+    <string name="home_pending_list_enter" translatable="false">（还剩 %s）</string>
+
+    <!--2.0语言包-->
+
+    <string name="hotel_hotel" translatable="false"> 酒店</string>
+
+    <!--V1.8.3-->
+
+    <!---->
+
+    <!--v1.8.6-->
+
+    <!--v1.8.7-->
+
+    <!--V1.8.8-->
+
+    <!--v1.8.9-->
+    <string name="app_new" translatable="false">New</string>
+
+    <!--1.9.0-->
+
+    <!--1.9.1-->
+
+    <!--1.9.2-->
+    <string name="hint_error" translatable="false">啊呀，出错了！</string>
+
+    <string name="app_forced_upgrade_hint" translatable="false">当前app版本过低，为了给您提供更好的服务体验，请更新到最新版。</string>
+    <!--1.9.4-->
+
+
+    <!--1.9.7-->
+
+    <!---->
+
+    <string name="home_sale" translatable="false">预售</string>
+
+    <!---->
+
+    <!---->
+    <string name="order_local_fun" translatable="false">当地玩乐</string>
+
+    <!---->
+
+    <!---->
+
+</resources>

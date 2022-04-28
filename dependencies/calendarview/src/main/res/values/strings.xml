@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">calendarview</string>
+
+    <!--日历相关-->
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+    <string name="month_only_name_format">MMMM</string>
+    <string name="year_only_format">yyyy</string>
+    <string name="month_title1">January</string>
+    <string name="month_title2">February</string>
+    <string name="month_title3">March</string>
+    <string name="month_title4">April</string>
+    <string name="month_title5">May</string>
+    <string name="month_title6">June</string>
+    <string name="month_title7">July</string>
+    <string name="month_title8">August</string>
+    <string name="month_title9">September</string>
+    <string name="month_title10">October</string>
+    <string name="month_title11">November</string>
+    <string name="month_title12">December</string>
+
+    <string name="week_title1">Sunday</string>
+    <string name="week_title2">Monday</string>
+    <string name="week_title3">Tuesday</string>
+    <string name="week_title4">Wednesday</string>
+    <string name="week_title5">Thursday</string>
+    <string name="week_title6">Friday</string>
+    <string name="week_title7">Saturday</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.happy.todo.module_user" >
+
+    <application
+        android:name="debug.UserApplication"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity android:name=".TestActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.profile.ProfileEditActivity" />
+
+        <activity android:name=".ui.password.ModifyPasswordActivity" />
+        <activity android:name=".ui.profile.UserProfileActivity" />
+        <activity android:name=".ui.setting.UserSettingActivity" />
+        <activity android:name=".ui.coupons.UserCouponsManageActivity" />
+        <activity android:name=".ui.setting.UserCurrencySettingActivity" />
+        <activity android:name=".ui.collections.CollectionActivity" />
+        <activity android:name=".ui.login.LoginMainActivity"/>
+        <activity android:name=".ui.login.LoginManualActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.register.UserRegisterStep1Activity" />
+        <activity android:name=".ui.register.RegisterStep2Activity" />
+        <activity android:name=".ui.password.ForgetPasswordActivity" />
+        <activity android:name=".ui.password.ResetPasswordActivity" />
+        <activity android:name=".ui.setting.UserAreaCodeSelectActivity" />
+        <activity android:name=".ui.profile.BindEmailOrMobileActivity" />
+    </application>
+</manifest>

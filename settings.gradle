@@ -1,0 +1,23 @@
+include ':app',
+        //':module_pay',
+        ':lib_common',
+        ':module_main',
+        ':module_user'
+        //':module_order',
+        //':module_faq'
+
+
+
+
+include  ':lib_http'
+project(':lib_http').projectDir = new File("./dependencies/lib_http")
+
+include  ':calendarview'
+project(':calendarview').projectDir = new File("./dependencies/calendarview")
+
+include  ':overscroll'
+project(':overscroll').projectDir = new File("./dependencies/overscroll")
+
+include  ':groupedadapter'
+project(':groupedadapter').projectDir = new File("./dependencies/groupedadapter")
+

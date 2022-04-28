@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowLayout">
+        <!--阴影的圆角大小-->
+        <attr name="yc_cornerRadius" format="dimension" />
+        <!--阴影的扩散范围(也可以理解为扩散程度)-->
+        <attr name="yc_shadowLimit" format="dimension" />
+        <!--阴影颜色-->
+        <attr name="yc_shadowColor" format="color" />
+        <!--x轴的偏移量-->
+        <attr name="yc_dx" format="dimension" />
+        <!--y轴的偏移量-->
+        <attr name="yc_dy" format="dimension" />
+        <!--左边是否显示阴影-->
+        <attr name="yc_leftShow" format="boolean" />
+        <!--右边是否显示阴影-->
+        <attr name="yc_rightShow" format="boolean" />
+        <!--上边是否显示阴影-->
+        <attr name="yc_topShow" format="boolean" />
+        <!--下面是否显示阴影-->
+        <attr name="yc_bottomShow" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="StatisticsView">
+        <!--阴影的圆角大小-->
+        <attr name="sv_display_mode" format="enum">
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+        </attr>
+
+        <attr name="rect_color" format="color|reference" />
+        <attr name="tv_color1" format="color|reference" />
+        <attr name="tv_color2" format="color|reference" />
+        <attr name="tv_text1" format="integer" />
+        <attr name="tv_text2" format="integer" />
+        <attr name="tv_text_size" format="integer" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularProgressBar">
+
+        <attr name="circular_color1" format="color|reference" />
+        <attr name="circular_color2" format="color|reference" />
+        <attr name="text_color" format="color|reference" />
+
+        <attr name="tv_size" format="integer" />
+        <attr name="tv_state_size" format="integer" />
+
+        <attr name="text_state1" format="string" />
+        <attr name="text_state2" format="string" />
+        <attr name="text_str" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="DraggableFlagView">
+        <attr name="color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="LevelCircularProgressBar">
+        <attr name="text_hint" format="string" />
+    </declare-styleable>
+
+</resources>

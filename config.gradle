@@ -1,0 +1,159 @@
+def android = [:]
+android.applicationId = "com.mexico.oppo"
+android.compileSdkVersion = 29
+android.buildToolsVersion = "29.0.2"
+android.minSdkVersion = 21
+android.targetSdkVersion = 29
+android.versionCode = 56
+android.versionName = "2.2.10"
+android.JavaVersion = JavaVersion.VERSION_1_8
+android.kotlin_version = '1.3.50'
+android.isDebug = "true" // 是否 debug 状态
+android.isGoogle = true
+ext.android = android
+
+def module = [:]
+module.isModule = false// 整体组件化的开关
+module.mainIsApp = false // 单独组件的开关
+module.userIsApp = false // 单独组件的开关
+module.orderIsApp = false// 单独组件的开关
+module.faqIsApp = false // 单独组件的开关
+module.payIsApp = false // 单独组件的开关
+ext.module = module
+
+def key = [:]
+key.amap = "f7959422ae93a94b381684dd9171092e"
+key.amap_dev = "04ac8ad78fbf6ff645b2087c1c8571b5"
+ext.key = key
+
+static def addRepos(RepositoryHandler handler) {
+    handler.google()
+    handler.jcenter()
+    handler.mavenCentral()
+    handler.maven { url "https://jitpack.io" }
+    handler.maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    handler.maven { url "http://maven.aliyun.com/nexus/content/repositories/releases"}
+    handler.maven { url "http://mvn.mob.com/android"}
+
+}
+
+ext.addRepos = this.&addRepos
+
+def versions = [:]
+versions.arch = "1.0.0"
+versions.support = "28.0.0"
+versions.junit = "4.12"
+versions.constraint_layout = "1.1.2"
+versions.glide = "4.10.0"
+versions.android_gradle_plugin = "3.4.2"
+versions.rxjava2 = "2.2.0"
+versions.rx_android = "2.0.2"
+versions.atsl_runner = "1.0.1"
+versions.atsl_rules = "1.0.1"
+versions.espresso = "3.0.1"
+versions.eventbus = "3.1.1"
+versions.arouter = "1.5.2"
+versions.arouter_compiler = "1.5.2"
+versions.multidex = "1.0.3"
+versions.retrofit = "2.4.0"
+versions.okhttp = "4.0.1"
+versions.butterknife = "10.2.3"
+versions.leakcanary = "1.5.1"
+versions.robust = "0.4.82"
+ext.versions = versions
+
+def deps = [:]
+
+def support = [:]
+support.annotations = 'androidx.annotation:annotation:1.0.0'
+support.app_compat = 'androidx.appcompat:appcompat:1.0.0'
+support.recyclerview = 'androidx.recyclerview:recyclerview:1.0.0'
+support.cardview = 'androidx.cardview:cardview:1.0.0'
+support.design = 'com.google.android.material:material:1.0.0'
+support.v4 = 'androidx.legacy:legacy-support-v4:1.0.0'
+support.core_utils = "com.android.support:support-core-utils:$versions.support"
+deps.support = support
+
+def espresso = [:]
+espresso.core = 'androidx.test.espresso:espresso-core:3.1.0'
+espresso.contrib = 'androidx.test.espresso:espresso-contrib:3.1.0'
+espresso.intents = 'androidx.test.espresso:espresso-intents:3.1.0'
+deps.espresso = espresso
+
+def arouter = [:]
+arouter.runtime = "com.alibaba:arouter-api:$versions.arouter"
+arouter.compiler = "com.alibaba:arouter-compiler:$versions.arouter_compiler"
+deps.arouter = arouter
+
+def atsl = [:]
+atsl.runner = 'androidx.test.ext:junit:1.1.1'
+atsl.rules = "com.android.support.test:rules:$versions.atsl_runner"
+deps.atsl = atsl
+
+// 数据库
+def room = [:]
+room.runtime = 'androidx.room:room-runtime:2.0.0'
+room.compiler = 'androidx.room:room-compiler:2.0.0'
+room.rxjava2 = 'androidx.room:room-rxjava2:2.0.0'
+room.testing = "android.arch.persistence.room:testing:$versions.arch"
+deps.room = room
+
+// 没用到
+def lifecycle = [:]
+lifecycle.runtime = "android.arch.lifecycle:runtime:$versions.arch"
+lifecycle.extensions = "android.arch.lifecycle:extensions:$versions.arch"
+lifecycle.java8 = "android.arch.lifecycle:common-java8:$versions.arch"
+lifecycle.compiler = "android.arch.lifecycle:compiler:$versions.arch"
+deps.lifecycle = lifecycle
+
+def arch_core = [:]
+arch_core.testing = "android.arch.core:core-testing:$versions.arch"
+deps.arch_core = arch_core
+
+def retrofit = [:]
+retrofit.runtime = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+retrofit.gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+retrofit.adapter = "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit"
+deps.retrofit = retrofit
+
+def okhttp = [:]
+okhttp.runtime = "com.squareup.okhttp3:okhttp:$versions.okhttp"
+okhttp.logging = "com.squareup.okhttp3:logging-interceptor:$versions.okhttp"
+deps.okhttp = okhttp
+
+def glide = [:]
+glide.runtime = "com.github.bumptech.glide:glide:$versions.glide"
+glide.compiler = "com.github.bumptech.glide:compiler:$versions.glide"
+glide.okhttp = "com.github.bumptech.glide:okhttp3-integration:$versions.glide"
+deps.glide = glide
+
+def butterknife = [:]
+butterknife.runtime = "com.jakewharton:butterknife:$versions.butterknife"
+butterknife.compiler = "com.jakewharton:butterknife-compiler:$versions.butterknife"
+butterknife.gradle = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
+deps.butterknife = butterknife
+
+
+def leakcanary = [:]
+leakcanary.debug = "com.squareup.leakcanary:leakcanary-android:$versions.leakcanary"
+leakcanary.release = "com.squareup.leakcanary:leakcanary-android-no-op:$versions.leakcanary"
+deps.leakcanary = leakcanary
+
+deps.multidex = 'androidx.multidex:multidex:2.0.0'
+deps.constraint_layout = 'androidx.constraintlayout:constraintlayout:1.1.3'
+deps.rxjava2 = "io.reactivex.rxjava2:rxjava:$versions.rxjava2"
+deps.rx_android = "io.reactivex.rxjava2:rxandroid:$versions.rx_android"
+deps.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
+deps.eventbus = "org.greenrobot:eventbus:$versions.eventbus"
+deps.junit = "junit:junit:$versions.junit"
+
+deps.robust = "com.meituan.robust:robust:$versions.robust"
+
+ext.deps = deps
+
+
+
+
+
+
+

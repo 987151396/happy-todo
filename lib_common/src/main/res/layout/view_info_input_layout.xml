@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+        android:id="@+id/tv_name_upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="提示"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/theme_color"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_12"
+        />
+
+    <LinearLayout
+        android:id="@+id/lly_input_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="@drawable/select_background_white2grey"
+        >
+
+        <TextView
+            android:id="@+id/tv_input_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="@color/black"
+            android:minWidth="64dp"
+            android:textSize="@dimen/sp_16"
+            tools:text="提示" />
+
+
+        <TextView
+            android:id="@+id/tv_input_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:lines="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            tools:text="输入结果水士大夫石帆胜丰对方是否"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/black_484848"
+            />
+
+    </LinearLayout>
+
+    <com.happy.todo.lib_common.widget.input.AutoClearContentEditText
+        android:id="@+id/et_input_area1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        tools:hint="输入内容"
+        android:textSize="@dimen/sp_16"
+        android:textColorHint="@color/hint_text_color"
+        android:textColor="#767676"
+        tools:text="xiaolizi"
+        android:drawableEnd="@mipmap/icon_close_black"
+        />
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#EEEEEE"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        />
+
+</LinearLayout>

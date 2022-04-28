@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题色-->
+    <color name="theme_color">#00A9BA</color>
+    <color name="theme_color1">#52D6CE</color>
+    <color name="theme_color2">#49BEB7</color>
+    <color name="white_FFFEF7">#FFFEF7</color>
+    <color name="green_FFFEF7">#D6FFDC</color>
+
+    <!-- 页面背景色-->
+    <!-- 分割线颜色-->
+    <color name="divider_color">#EEEEEE</color>
+    <!-- EditText hint颜色-->
+    <!-- 主题按扭文字颜色-->
+    <!-- 正标题颜色-->
+    <color name="main_title_color">#000000</color>
+    <!-- 次标题颜色-->
+    <!-- 注释、补充内容颜色-->
+    <color name="note_color">#999999</color>
+    <!--广告背景色-->
+    <!--浅白色背景-->
+    <!--土司背景颜色-->
+    <color name="bg_color_toast">#4b4c4c</color>
+
+    <!-- 闪光前景色 -->
+    <color name="shimmer_color">#a8ffffff</color>
+
+    <!--常用色 -->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#ffffff</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">@color/theme_color</color>
+
+    <color name="blue_00A9BA">#00A9BA</color>
+    <color name="black">#000000</color>
+    <color name="black_2D2D2D">#2D2D2D</color>
+
+
+    <color name="gray_e6e6e6">#e6e6e6</color>
+    <color name="gray_949494">#949494</color>
+    <color name="gray_eeeeee">#EEEEEE</color>
+    <color name="gray_eff27f">#EFF2F7</color>
+    <color name="gray_e1e1e1">#E1E1E1</color>
+    <color name="gray_c5c5c5">#C5C5C5</color>
+
+
+    <color name="hint_text_color">#dddddd</color>
+
+    <!--特殊颜色穷举-->
+
+
+    <color name="black_484848">#484848</color>
+    <color name="red_E05857">#E05857</color>
+    <color name="gray_767676">#767676</color>
+    <color name="gray_EEEEEE">#EEEEEE</color>
+    <color name="green_00A9BA">#00A9BA</color>
+    <color name="gray_F6F6F6">#F6F6F6</color>
+    <color name="white_F2F2F2">#F2F2F2</color>
+    <color name="white_E7ECEF">#E7ECEF</color>
+    <color name="white_D2DEE5">#D2DEE5</color>
+
+    <!--前景色-->
+    //3e4145 前景主色，如字体颜色、icon颜色
+    //前景偏暗色，如不可用状态的字体颜色
+    //578fff 前景突出色，如发送按钮的背景色，选中状态的颜色
+
+    <!--背景色-->
+    //f9f9f9 背景色，如每个activity的背景色，相册的图片间隔线颜色
+
+    <!--操作栏颜色-->
+    //ffffff 操作栏主色，如相册页顶部和底部操作栏
+    //f9f9f9 操作栏偏暗色，操作栏间隔线颜色，如相册页返回按钮右边的竖线
+
+    //b4ffffff 操作栏带透明的色值，如预览页的底部操作栏颜色，相册页的相机按钮背景颜色。
+
+    <!--discover渐变色-->
+
+</resources>

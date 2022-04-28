@@ -1,0 +1,73 @@
+apply plugin: 'com.mob.sdk'
+
+MobSDK {
+    appKey "23e46d9708ed7"
+    appSecret "ebd3a016bb5cb3b5ee7bfbf36dd667e3"
+    ShareSDK {
+        loopShare true
+        devInfo {
+
+            SinaWeibo {
+                appKey "2918487490"
+                appSecret "1e0c1b19c3df82bbfb19bc2dd1c7d444"
+                callbackUri "http://ebbly.com"
+            }
+            Wechat {
+                appId "wxbf120c2389cce7a3"
+                appSecret "945a4295fa19243e955c350512905293"
+                userName "ebbly"
+                path "pages/index/index.html?id=1"
+                withShareTicket true
+                miniprogramType 2
+            }
+            QQ {
+                appId "1106699078"
+                appKey "otPrTZ6Iz9uCwHLx"
+            }
+            Facebook {
+                appKey "881678452010118"
+                appSecret "9f739167c6a27dc0f556872a445d6f0f"
+                callbackUri "http://ebbly.com"
+            }
+            Twitter {
+                appKey "wN6mwszf4Br7qrgdDGzKfCmVL"
+                appSecret "CELr1DjSqAuZwIXfS5GXpdB4ADhzAM8ST0JyrDEtYNG7UgIEtq"
+                callbackUri "http://ebbly.com"
+            }
+            ShortMessage {
+                enable true
+            }
+            LinkedIn {
+                appKey "ejo5ibkye3vo"
+                appSecret "cC7B2jpxITqPLZ5M"
+                callbackUri "http://www.sharesdk.cn"
+            }
+            Douyin {
+                appKey "aw9ivykfjvi4hpwo"
+                appSecret "42b4caa6bda60bd49f05f06d0a4956e1"
+            }
+            FacebookMessenger {
+                appId "107704292745179"
+            }
+            WhatsApp {
+                enable true
+            }
+            Line {
+                appId "1578418019"
+                appSecret "b3671058b62e90b85c1c3308017a852c"
+            }
+            WechatMoments {
+                appId "wxbf120c2389cce7a3"
+                appSecret "945a4295fa19243e955c350512905293"
+            }
+            WechatFavorite {
+                appId "wxbf120c2389cce7a3"
+                appSecret "945a4295fa19243e955c350512905293"
+            }
+            QZone {
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+            }
+        }
+    }
+}
